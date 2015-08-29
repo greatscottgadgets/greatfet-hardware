@@ -1,0 +1,210 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:gsg-symbols
+LIBS:azalea-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AP7333 U?
+U 1 1 55E0B3C4
+P 3850 3800
+F 0 "U?" H 3850 4000 60  0000 C CNN
+F 1 "AP7333" H 3850 3600 60  0000 C CNN
+F 2 "" H 3850 3800 60  0000 C CNN
+F 3 "" H 3850 3800 60  0000 C CNN
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GSG-IP4220CZ6 U?
+U 1 1 55E0B467
+P 4400 5550
+F 0 "U?" H 4400 5800 60  0000 C CNN
+F 1 "GSG-IP4220CZ6" H 4400 5300 60  0000 C CNN
+F 2 "" H 4400 5550 60  0000 C CNN
+F 3 "" H 4400 5550 60  0000 C CNN
+	1    4400 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GSG-USB-MICRO-B-SHIELDED J?
+U 1 1 55E0B4CC
+P 2750 5650
+F 0 "J?" H 2900 5950 60  0000 C CNN
+F 1 "GSG-USB-MICRO-B-SHIELDED" V 3150 5650 60  0000 C CNN
+F 2 "" H 2750 5650 60  0000 C CNN
+F 3 "" H 2750 5650 60  0000 C CNN
+	1    2750 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GSG-XTAL4PIN X?
+U 1 1 55E0B53D
+P 4750 4450
+F 0 "X?" H 4750 4600 60  0000 C CNN
+F 1 "GSG-XTAL4PIN" H 4750 4300 60  0000 C CNN
+F 2 "" H 4750 4450 60  0000 C CNN
+F 3 "" H 4750 4450 60  0000 C CNN
+	1    4750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LPC43XXFBD144 U?
+U 1 1 55E0B59C
+P 8550 5350
+F 0 "U?" H 8550 5500 60  0000 C CNN
+F 1 "LPC43XXFBD144" H 8550 5200 60  0000 C CNN
+F 2 "" H 8550 5350 60  0000 C CNN
+F 3 "" H 8550 5350 60  0000 C CNN
+	1    8550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L W25Q80BV U?
+U 1 1 55E0B700
+P 11950 2950
+F 0 "U?" H 11950 2700 60  0000 C CNN
+F 1 "W25Q80BV" H 11950 3200 60  0000 C CNN
+F 2 "" H 11950 2950 60  0000 C CNN
+F 3 "" H 11950 2950 60  0000 C CNN
+	1    11950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GSG-USB-MICRO-B-SHIELDED J?
+U 1 1 55E0B7DB
+P 12150 5400
+F 0 "J?" H 12300 5700 60  0000 C CNN
+F 1 "GSG-USB-MICRO-B-SHIELDED" V 12550 5400 60  0000 C CNN
+F 2 "" H 12150 5400 60  0000 C CNN
+F 3 "" H 12150 5400 60  0000 C CNN
+	1    12150 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5850 3700
+NoConn ~ 5850 3800
+NoConn ~ 5850 4100
+NoConn ~ 7000 8050
+NoConn ~ 7700 8050
+NoConn ~ 8100 8050
+NoConn ~ 8500 8050
+NoConn ~ 8800 8050
+NoConn ~ 8900 8050
+NoConn ~ 9400 8050
+NoConn ~ 9600 8050
+NoConn ~ 11250 7000
+NoConn ~ 11250 7100
+NoConn ~ 11250 6600
+NoConn ~ 11250 6400
+NoConn ~ 11250 6200
+NoConn ~ 11250 4800
+NoConn ~ 11250 4700
+NoConn ~ 11250 4500
+NoConn ~ 11250 4400
+NoConn ~ 11250 4300
+NoConn ~ 11250 4200
+NoConn ~ 11250 4100
+NoConn ~ 11250 4000
+NoConn ~ 11250 3900
+NoConn ~ 11250 3800
+NoConn ~ 11250 3600
+NoConn ~ 9500 2650
+NoConn ~ 9200 2650
+NoConn ~ 8700 2650
+NoConn ~ 8600 2650
+NoConn ~ 8500 2650
+NoConn ~ 8300 2650
+NoConn ~ 8000 2650
+NoConn ~ 7900 2650
+NoConn ~ 7800 2650
+NoConn ~ 7600 2650
+NoConn ~ 7400 2650
+NoConn ~ 7300 2650
+NoConn ~ 7000 2650
+NoConn ~ 6900 2650
+NoConn ~ 6800 2650
+Wire Wire Line
+	7500 8400 7500 8050
+Wire Wire Line
+	7800 8400 7800 8050
+Text Label 7500 8400 1    40   ~ 0
+MISO
+Text Label 7800 8400 1    40   ~ 0
+MOSI
+Wire Wire Line
+	10100 8400 10100 8050
+Text Label 10100 8400 1    40   ~ 0
+SSEL
+Wire Wire Line
+	9900 8400 9900 8050
+Text Label 9900 8400 1    40   ~ 0
+SCK
+Wire Wire Line
+	6800 8400 6800 8050
+Text Label 6800 8400 1    40   ~ 0
+!DSR
+Wire Wire Line
+	8700 8400 8700 8050
+Text Label 8700 8400 1    40   ~ 0
+!DCD
+Wire Wire Line
+	8200 8400 8200 8050
+Text Label 8200 8400 1    40   ~ 0
+!DTR
+Wire Wire Line
+	8300 8400 8300 8050
+Wire Wire Line
+	8600 8400 8600 8050
+Text Label 8300 8400 1    40   ~ 0
+!RTS
+Text Label 8600 8400 1    40   ~ 0
+!CTS
+Wire Wire Line
+	9100 8400 9100 8050
+Wire Wire Line
+	9200 8400 9200 8050
+Text Label 9100 8400 1    40   ~ 0
+TXD
+Text Label 9200 8400 1    40   ~ 0
+RXD
+$EndSCHEMATC
