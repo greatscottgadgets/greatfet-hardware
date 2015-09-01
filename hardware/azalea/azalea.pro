@@ -1,4 +1,4 @@
-update=Sat 29 Aug 2015 11:05:03 AM MDT
+update=Tue 01 Sep 2015 12:40:19 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../gsg-kicad-lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,3 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols
