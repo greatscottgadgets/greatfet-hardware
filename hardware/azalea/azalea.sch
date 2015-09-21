@@ -1690,9 +1690,9 @@ F 3 "" H 1300 9550 60  0000 C CNN
 	1    1300 9550
 	0    1    1    0   
 $EndComp
-Text Label 2250 8550 2    40   ~ 0
-RTCX2
 Text Label 1250 8550 0    40   ~ 0
+RTCX2
+Text Label 2250 8550 2    40   ~ 0
 RTCX1
 Text Label 8300 2300 3    40   ~ 0
 RTC_ALARM
@@ -3580,4 +3580,8 @@ Text Notes 2700 2500 0    60   ~ 0
 Default boot configuration is SPIFI.\nPress SW1 during reset to switch to\nUSB0 (DFU) mode.
 Text Notes 3450 9450 0    40   ~ 0
 Cortex Debug Connector\n(10 pin 50 mil)
+Text Label 4050 8000 0    40   ~ 0
+DBGEN
+Text Label 4050 8250 0    40   ~ 0
+TRST
 $EndSCHEMATC
