@@ -35,11 +35,11 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "GreatFET Azalea"
+Date "2015-09-21"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Copyright 2015 Michael Ossmann"
+Comment1 "License: GPL v2"
 Comment2 ""
 Comment3 ""
 Comment4 ""
