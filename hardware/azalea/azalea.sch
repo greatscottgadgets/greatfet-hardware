@@ -2524,8 +2524,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 5500 5000 5200
 Wire Wire Line
-	5000 5200 2800 5200
-Wire Wire Line
 	5750 5800 5850 5800
 Wire Wire Line
 	5850 5400 5750 5400
@@ -2544,16 +2542,6 @@ Wire Wire Line
 	5750 7100 5850 7100
 Wire Wire Line
 	5750 6000 5850 6000
-Wire Wire Line
-	3250 6000 3050 6000
-Wire Wire Line
-	3050 6000 3050 5100
-Connection ~ 3050 5100
-Wire Wire Line
-	3250 6200 2950 6200
-Wire Wire Line
-	2950 6200 2950 5200
-Connection ~ 2950 5200
 Wire Wire Line
 	2800 5300 3500 5300
 Wire Wire Line
@@ -2627,13 +2615,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6000 4500 6000
 Wire Wire Line
-	4500 6000 4500 5100
-Connection ~ 4500 5100
-Wire Wire Line
 	4350 6200 4700 6200
-Wire Wire Line
-	4700 6200 4700 5200
-Connection ~ 4700 5200
 Wire Wire Line
 	4350 6100 4450 6100
 Wire Wire Line
@@ -3639,4 +3621,18 @@ Text Label 11750 5400 0    40   ~ 0
 USB1_D-
 Text Label 11750 5500 0    40   ~ 0
 USB1_D+
+Wire Wire Line
+	5000 5200 2800 5200
+Connection ~ 3050 5200
+Wire Wire Line
+	4700 6200 4700 5100
+Connection ~ 4700 5100
+Wire Wire Line
+	4500 6000 4500 5000
+Connection ~ 4500 5000
+Wire Wire Line
+	3250 6200 3050 6200
+Wire Wire Line
+	3050 6200 3050 5200
+NoConn ~ 3250 6000
 $EndSCHEMATC
