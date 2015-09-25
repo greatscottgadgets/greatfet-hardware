@@ -4,6 +4,7 @@
 *.bck
 $savepcb.*
 *.kicad_pcb-bak
+_autosave*
 
 # gerber and drill files
 *.gbl
