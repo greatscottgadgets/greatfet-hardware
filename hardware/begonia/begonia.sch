@@ -1,0 +1,416 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:gsg-symbols
+LIBS:begonia-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "GreatFET Begonia, a GIMME Neighbor for GreatFET"
+Date "2015-09-24"
+Rev ""
+Comp "Copyright 2015 Michael Ossmann"
+Comment1 "License: GPL v2"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 J2
+U 1 1 55EAB4B7
+P 9150 2650
+F 0 "J2" H 9150 3700 50  0000 C CNN
+F 1 "NEIGHBOR2" V 9150 2650 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 9150 1700 60  0001 C CNN
+F 3 "" H 9150 1700 60  0000 C CNN
+	1    9150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 55EAECD0
+P 8700 4300
+F 0 "#PWR01" H 8700 4050 50  0001 C CNN
+F 1 "GND" H 8700 4150 50  0000 C CNN
+F 2 "" H 8700 4300 60  0000 C CNN
+F 3 "" H 8700 4300 60  0000 C CNN
+	1    8700 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 55EAF03E
+P 9600 4300
+F 0 "#PWR02" H 9600 4150 50  0001 C CNN
+F 1 "VCC" H 9600 4450 50  0000 C CNN
+F 2 "" H 9600 4300 60  0000 C CNN
+F 3 "" H 9600 4300 60  0000 C CNN
+	1    9600 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_02X20 J1
+U 1 1 55FB1D52
+P 9150 5250
+F 0 "J1" H 9150 6300 50  0000 C CNN
+F 1 "NEIGHBOR1" V 9150 5250 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 9150 4300 60  0001 C CNN
+F 3 "" H 9150 4300 60  0000 C CNN
+	1    9150 5250
+	1    0    0    -1  
+$EndComp
+Text Label 8600 6200 0    40   ~ 0
+DD
+Text Label 9700 6100 2    40   ~ 0
+DC
+Text Label 8600 6100 0    40   ~ 0
+RESET_N
+Text Notes 8550 6200 2    40   ~ 0
+MOSI/P1_4
+Text Notes 9750 6100 0    40   ~ 0
+SCK/P1_19
+Text Notes 8550 6100 2    40   ~ 0
+SSEL/P1_20
+Wire Wire Line
+	8700 4300 8900 4300
+Wire Wire Line
+	9400 4300 9600 4300
+Wire Wire Line
+	8600 6100 8900 6100
+Wire Wire Line
+	8900 6200 8600 6200
+Wire Wire Line
+	9700 6100 9400 6100
+$Comp
+L CONN_01X01 MH3
+U 1 1 5600EED5
+P 7050 850
+F 0 "MH3" H 7000 950 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 7150 850 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 7050 850 60  0001 C CNN
+F 3 "" H 7050 850 60  0000 C CNN
+F 4 "DNP" H 7050 850 60  0001 C CNN "Note"
+	1    7050 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 MH4
+U 1 1 560100F3
+P 7550 1000
+F 0 "MH4" H 7500 1100 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 7650 1000 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 7550 1000 60  0001 C CNN
+F 3 "" H 7550 1000 60  0000 C CNN
+F 4 "DNP" H 7550 1000 60  0001 C CNN "Note"
+	1    7550 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 MH1
+U 1 1 56010ADB
+P 6050 850
+F 0 "MH1" H 6000 950 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 6150 850 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 6050 850 60  0001 C CNN
+F 3 "" H 6050 850 60  0000 C CNN
+F 4 "DNP" H 6050 850 60  0001 C CNN "Note"
+	1    6050 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 MH2
+U 1 1 56010AE9
+P 6550 1000
+F 0 "MH2" H 6500 1100 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 6650 1000 50  0000 C CNN
+F 2 "gsg-modules:HOLE126MIL-COPPER" H 6550 1000 60  0001 C CNN
+F 3 "" H 6550 1000 60  0000 C CNN
+F 4 "DNP" H 6550 1000 60  0001 C CNN "Note"
+	1    6550 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5604FE87
+P 3050 2550
+F 0 "D1" H 3050 2650 50  0000 C CNN
+F 1 "LED" H 3050 2450 50  0000 C CNN
+F 2 "gsg-modules:0603D" H 3050 2550 60  0001 C CNN
+F 3 "" H 3050 2550 60  0000 C CNN
+F 4 "Kingbright" H 3050 2550 60  0001 C CNN "Manufacturer"
+F 5 "APT1608SGC" H 3050 2550 60  0001 C CNN "Part Number"
+F 6 "LED 1.6X0.8MM 568NM GRN CLR SMD" H 3050 2550 60  0001 C CNN "Description"
+	1    3050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5604FEE3
+P 3050 3000
+F 0 "R1" V 3130 3000 50  0000 C CNN
+F 1 "330" V 3050 3000 50  0000 C CNN
+F 2 "gsg-modules:0603" V 2980 3000 30  0001 C CNN
+F 3 "" H 3050 3000 30  0000 C CNN
+F 4 "Stackpole" H 3050 3000 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603JT330R" H 3050 3000 60  0001 C CNN "Part Number"
+F 6 "RES 330 OHM 1/10W 5% 0603 SMD" H 3050 3000 60  0001 C CNN "Description"
+	1    3050 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 2250 4650 0    60   ~ 0
+LED indicates power on the target board.\n\nIf power is supplied by the GreatFET through SW1 (recommended),\nLED illuminates at all times GreatFET is connected.  If power is not\nsupplied by the GreatFET, LED only illuminates when contact is made with target.\n\nDo not attempt to program target if LED does not indicate target power.\n\nDo not supply power from GreatFET through SW1 if target is\npowered from another source.
+Wire Wire Line
+	4750 2550 5000 2550
+Wire Wire Line
+	4750 2650 5000 2650
+Wire Wire Line
+	4750 2750 5000 2750
+Wire Wire Line
+	4750 2850 5000 2850
+Wire Wire Line
+	4900 2950 5000 2950
+Text Label 4750 2550 0    40   ~ 0
+RESET_N
+Text Label 4750 2650 0    40   ~ 0
+DD
+Text Label 4750 2750 0    40   ~ 0
+DC
+$Comp
+L CONN_01X05 P1
+U 1 1 560503A6
+P 5200 2750
+F 0 "P1" H 5200 3050 50  0000 C CNN
+F 1 "POGOPINS" V 5300 2750 50  0000 C CNN
+F 2 "gsg-modules:POGOPIN-5-IMME" H 5200 2750 60  0001 C CNN
+F 3 "" H 5200 2750 60  0000 C CNN
+F 4 "SparkFun" H 5200 2750 60  0001 C CNN "Manufacturer"
+F 5 "PRT-09174" H 5200 2750 60  0001 C CNN "Part Number"
+F 6 "Pogo Pins w/ Pointed Tip" H 5200 2750 60  0001 C CNN "Description"
+F 7 "quantity 5" H 5200 2750 60  0001 C CNN "Note"
+	1    5200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR03
+U 1 1 5605043F
+P 4750 2850
+F 0 "#PWR03" H 4750 2700 50  0001 C CNN
+F 1 "+3V3" H 4750 2990 50  0000 C CNN
+F 2 "" H 4750 2850 60  0000 C CNN
+F 3 "" H 4750 2850 60  0000 C CNN
+	1    4750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 56050471
+P 4900 2950
+F 0 "#PWR04" H 4900 2700 50  0001 C CNN
+F 1 "GND" H 4900 2800 50  0000 C CNN
+F 2 "" H 4900 2950 60  0000 C CNN
+F 3 "" H 4900 2950 60  0000 C CNN
+	1    4900 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 56050EAD
+P 3050 3250
+F 0 "#PWR05" H 3050 3000 50  0001 C CNN
+F 1 "GND" H 3050 3100 50  0000 C CNN
+F 2 "" H 3050 3250 60  0000 C CNN
+F 3 "" H 3050 3250 60  0000 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR06
+U 1 1 56050F23
+P 3050 2150
+F 0 "#PWR06" H 3050 2000 50  0001 C CNN
+F 1 "+3V3" H 3050 2290 50  0000 C CNN
+F 2 "" H 3050 2150 60  0000 C CNN
+F 3 "" H 3050 2150 60  0000 C CNN
+	1    3050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2150 3050 2350
+Wire Wire Line
+	3050 2750 3050 2850
+Wire Wire Line
+	3050 3150 3050 3250
+$Comp
+L SPST SW1
+U 1 1 560511D0
+P 2450 2250
+F 0 "SW1" H 2450 2350 50  0000 C CNN
+F 1 "SPST" H 2450 2150 50  0000 C CNN
+F 2 "gsg-modules:SSSS810701" H 2450 2250 60  0001 C CNN
+F 3 "" H 2450 2250 60  0000 C CNN
+F 4 "ALPS" H 2450 2250 60  0001 C CNN "Manufacturer"
+F 5 "SSSS810701" H 2450 2250 60  0001 C CNN "Part Number"
+F 6 "Slide Switches Horiz 1 Pole 2 Pos 1.1 Knob 1.5 Travel" H 2450 2250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.sparkfun.com/products/10860" H 2450 2250 60  0001 C CNN "Note"
+	1    2450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2250 3050 2250
+Connection ~ 3050 2250
+$Comp
+L VCC #PWR07
+U 1 1 5605133F
+P 1850 2150
+F 0 "#PWR07" H 1850 2000 50  0001 C CNN
+F 1 "VCC" H 1850 2300 50  0000 C CNN
+F 2 "" H 1850 2150 60  0000 C CNN
+F 3 "" H 1850 2150 60  0000 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2150 1850 2250
+Wire Wire Line
+	1850 2250 1950 2250
+$Comp
+L CONN_01X20 J7
+U 1 1 56053A44
+P 4000 7000
+F 0 "J7" H 4000 8050 50  0000 C CNN
+F 1 "BONUS_ROW" V 4100 7000 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20" H 4000 7000 60  0001 C CNN
+F 3 "" H 4000 7000 60  0000 C CNN
+F 4 "DNP" V 4250 7000 60  0000 C CNN "Note"
+	1    4000 7000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3050 7200
+NoConn ~ 3150 7200
+NoConn ~ 3250 7200
+NoConn ~ 3350 7200
+NoConn ~ 3450 7200
+NoConn ~ 3550 7200
+NoConn ~ 3650 7200
+NoConn ~ 3750 7200
+NoConn ~ 3850 7200
+NoConn ~ 3950 7200
+NoConn ~ 4050 7200
+NoConn ~ 4150 7200
+NoConn ~ 4250 7200
+NoConn ~ 4350 7200
+NoConn ~ 4450 7200
+NoConn ~ 4550 7200
+NoConn ~ 4650 7200
+NoConn ~ 4750 7200
+NoConn ~ 4850 7200
+NoConn ~ 4950 7200
+NoConn ~ 6050 1050
+NoConn ~ 6550 1200
+NoConn ~ 7050 1050
+NoConn ~ 7550 1200
+NoConn ~ 8900 1700
+NoConn ~ 8900 1800
+NoConn ~ 8900 1900
+NoConn ~ 8900 2000
+NoConn ~ 8900 2100
+NoConn ~ 8900 2200
+NoConn ~ 8900 2300
+NoConn ~ 8900 2400
+NoConn ~ 8900 2500
+NoConn ~ 8900 2600
+NoConn ~ 8900 2700
+NoConn ~ 8900 2800
+NoConn ~ 8900 2900
+NoConn ~ 8900 3000
+NoConn ~ 8900 3100
+NoConn ~ 8900 3200
+NoConn ~ 8900 3300
+NoConn ~ 8900 3400
+NoConn ~ 8900 3500
+NoConn ~ 8900 3600
+NoConn ~ 9400 3600
+NoConn ~ 9400 3500
+NoConn ~ 9400 3400
+NoConn ~ 9400 3300
+NoConn ~ 9400 3200
+NoConn ~ 9400 3100
+NoConn ~ 9400 3000
+NoConn ~ 9400 2900
+NoConn ~ 9400 2800
+NoConn ~ 9400 2700
+NoConn ~ 9400 2600
+NoConn ~ 9400 2500
+NoConn ~ 9400 2400
+NoConn ~ 9400 2300
+NoConn ~ 9400 2200
+NoConn ~ 9400 2100
+NoConn ~ 9400 2000
+NoConn ~ 9400 1900
+NoConn ~ 9400 1800
+NoConn ~ 9400 1700
+NoConn ~ 8900 4400
+NoConn ~ 8900 4500
+NoConn ~ 8900 4600
+NoConn ~ 8900 4700
+NoConn ~ 8900 4800
+NoConn ~ 8900 4900
+NoConn ~ 8900 5000
+NoConn ~ 8900 5100
+NoConn ~ 8900 5200
+NoConn ~ 8900 5300
+NoConn ~ 9400 4400
+NoConn ~ 9400 4500
+NoConn ~ 9400 4600
+NoConn ~ 9400 4700
+NoConn ~ 9400 4800
+NoConn ~ 9400 4900
+NoConn ~ 9400 5000
+NoConn ~ 9400 5100
+NoConn ~ 9400 5200
+NoConn ~ 9400 5300
+NoConn ~ 8900 5400
+NoConn ~ 8900 5500
+NoConn ~ 8900 5600
+NoConn ~ 8900 5700
+NoConn ~ 8900 5800
+NoConn ~ 8900 5900
+NoConn ~ 8900 6000
+NoConn ~ 9400 6200
+NoConn ~ 9400 6000
+NoConn ~ 9400 5900
+NoConn ~ 9400 5800
+NoConn ~ 9400 5700
+NoConn ~ 9400 5600
+NoConn ~ 9400 5500
+NoConn ~ 9400 5400
+$EndSCHEMATC
