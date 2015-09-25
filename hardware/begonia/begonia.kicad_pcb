@@ -851,7 +851,7 @@
   (gr_line (start 174.0408 96.5454) (end 174.0408 97.663) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 174.0916 94.8944) (end 174.0408 96.5454) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 174.1424 93.0402) (end 174.0916 94.8944) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "24 September 2015" (at 149.6314 116.9416) (layer F.SilkS) (tstamp 560474D3)
+  (gr_text "25 September 2015" (at 149.6314 116.9416) (layer F.SilkS) (tstamp 560474D3)
     (effects (font (size 1.016 0.762) (thickness 0.1524)))
   )
   (gr_text http://greatscottgadgets.com/ (at 118.5418 85.8774) (layer F.SilkS) (tstamp 5604731D)
