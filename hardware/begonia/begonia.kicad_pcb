@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 105.277558 71.018399 275.715801 199.465001)
     (thickness 1.6)
-    (drawings 147)
+    (drawings 148)
     (tracks 61)
     (zones 0)
     (modules 11)
@@ -784,6 +784,9 @@
       (die_length 0.08128) (clearance -0.01016))
   )
 
+  (gr_text "So cool!  So connected!" (at 140.9192 81.8642) (layer F.SilkS)
+    (effects (font (size 1.524 1.016) (thickness 0.2032)))
+  )
   (gr_text "5: GND" (at 156.21 107.188) (layer F.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify left))
   )
