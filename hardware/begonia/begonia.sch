@@ -56,10 +56,10 @@ F 3 "" H 9150 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR6
 U 1 1 55EAECD0
 P 8700 4300
-F 0 "#PWR01" H 8700 4050 50  0001 C CNN
+F 0 "#PWR6" H 8700 4050 50  0001 C CNN
 F 1 "GND" H 8700 4150 50  0000 C CNN
 F 2 "" H 8700 4300 60  0000 C CNN
 F 3 "" H 8700 4300 60  0000 C CNN
@@ -67,10 +67,10 @@ F 3 "" H 8700 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR02
+L VCC #PWR7
 U 1 1 55EAF03E
 P 9600 4300
-F 0 "#PWR02" H 9600 4150 50  0001 C CNN
+F 0 "#PWR7" H 9600 4150 50  0001 C CNN
 F 1 "VCC" H 9600 4450 50  0000 C CNN
 F 2 "" H 9600 4300 60  0000 C CNN
 F 3 "" H 9600 4300 60  0000 C CNN
@@ -189,7 +189,7 @@ $EndComp
 Text Notes 2250 4650 0    60   ~ 0
 LED indicates power on the target board.\n\nIf power is supplied by the GreatFET through SW1 (recommended),\nLED illuminates at all times GreatFET is connected.  If power is not\nsupplied by the GreatFET, LED only illuminates when contact is made with target.\n\nDo not attempt to program target if LED does not indicate target power.\n\nDo not supply power from GreatFET through SW1 if target is\npowered from another source.
 Wire Wire Line
-	4750 2550 5000 2550
+	4150 2550 5000 2550
 Wire Wire Line
 	4750 2650 5000 2650
 Wire Wire Line
@@ -220,10 +220,10 @@ F 7 "quantity 5" H 5200 2750 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR03
+L +3V3 #PWR3
 U 1 1 5605043F
 P 4750 2850
-F 0 "#PWR03" H 4750 2700 50  0001 C CNN
+F 0 "#PWR3" H 4750 2700 50  0001 C CNN
 F 1 "+3V3" H 4750 2990 50  0000 C CNN
 F 2 "" H 4750 2850 60  0000 C CNN
 F 3 "" H 4750 2850 60  0000 C CNN
@@ -231,10 +231,10 @@ F 3 "" H 4750 2850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR4
 U 1 1 56050471
 P 4900 2950
-F 0 "#PWR04" H 4900 2700 50  0001 C CNN
+F 0 "#PWR4" H 4900 2700 50  0001 C CNN
 F 1 "GND" H 4900 2800 50  0000 C CNN
 F 2 "" H 4900 2950 60  0000 C CNN
 F 3 "" H 4900 2950 60  0000 C CNN
@@ -242,10 +242,10 @@ F 3 "" H 4900 2950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR5
 U 1 1 56050EAD
 P 3050 3250
-F 0 "#PWR05" H 3050 3000 50  0001 C CNN
+F 0 "#PWR5" H 3050 3000 50  0001 C CNN
 F 1 "GND" H 3050 3100 50  0000 C CNN
 F 2 "" H 3050 3250 60  0000 C CNN
 F 3 "" H 3050 3250 60  0000 C CNN
@@ -253,10 +253,10 @@ F 3 "" H 3050 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR06
+L +3V3 #PWR2
 U 1 1 56050F23
 P 3050 2150
-F 0 "#PWR06" H 3050 2000 50  0001 C CNN
+F 0 "#PWR2" H 3050 2000 50  0001 C CNN
 F 1 "+3V3" H 3050 2290 50  0000 C CNN
 F 2 "" H 3050 2150 60  0000 C CNN
 F 3 "" H 3050 2150 60  0000 C CNN
@@ -288,10 +288,10 @@ Wire Wire Line
 	2950 2250 3050 2250
 Connection ~ 3050 2250
 $Comp
-L VCC #PWR07
+L VCC #PWR1
 U 1 1 5605133F
 P 1850 2150
-F 0 "#PWR07" H 1850 2000 50  0001 C CNN
+F 0 "#PWR1" H 1850 2000 50  0001 C CNN
 F 1 "VCC" H 1850 2300 50  0000 C CNN
 F 2 "" H 1850 2150 60  0000 C CNN
 F 3 "" H 1850 2150 60  0000 C CNN
@@ -400,17 +400,61 @@ NoConn ~ 9400 5200
 NoConn ~ 9400 5300
 NoConn ~ 8900 5400
 NoConn ~ 8900 5500
-NoConn ~ 8900 5600
-NoConn ~ 8900 5700
 NoConn ~ 8900 5800
 NoConn ~ 8900 5900
 NoConn ~ 8900 6000
 NoConn ~ 9400 6200
-NoConn ~ 9400 6000
 NoConn ~ 9400 5900
 NoConn ~ 9400 5800
 NoConn ~ 9400 5700
 NoConn ~ 9400 5600
 NoConn ~ 9400 5500
 NoConn ~ 9400 5400
+Text Notes 8400 5700 2    40   ~ 0
+P5_7
+Text Notes 9900 6000 0    40   ~ 0
+P6_0
+Wire Wire Line
+	8450 5700 8900 5700
+Text Label 8450 5700 0    40   ~ 0
+RESET_N_ALT1
+Text Label 9850 6000 2    40   ~ 0
+RESET_N_ALT2
+Wire Wire Line
+	9850 6000 9400 6000
+$Comp
+L TEST W2
+U 1 1 56086936
+P 4450 2250
+F 0 "W2" H 4450 2310 40  0000 C CNN
+F 1 "TEST" H 4450 2180 40  0000 C CNN
+F 2 "gsg-modules:0603-JUMPER" H 4450 2250 60  0001 C CNN
+F 3 "" H 4450 2250 60  0000 C CNN
+	1    4450 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST W1
+U 1 1 56086AFD
+P 4150 2250
+F 0 "W1" H 4150 2310 40  0000 C CNN
+F 1 "TEST" H 4150 2180 40  0000 C CNN
+F 2 "gsg-modules:0603-JUMPER" H 4150 2250 60  0001 C CNN
+F 3 "" H 4150 2250 60  0000 C CNN
+	1    4150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2450 4150 2550
+Wire Wire Line
+	4450 2450 4450 2550
+Connection ~ 4450 2550
+Wire Wire Line
+	4450 1600 4450 2050
+Wire Wire Line
+	4150 1600 4150 2050
+Text Label 4150 1600 3    40   ~ 0
+RESET_N_ALT1
+Text Label 4450 1600 3    40   ~ 0
+RESET_N_ALT2
 $EndSCHEMATC
