@@ -3639,4 +3639,6 @@ Text Label 2300 4550 0    40   ~ 0
 USB0_SHIELD
 Text Label 14050 6350 1    40   ~ 0
 USB1_SHIELD
+Text Notes 2000 7250 0    60   ~ 0
+Maximum current: 300 mA
 $EndSCHEMATC
