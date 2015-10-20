@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.508)
     (trace_clearance 0.1524)
