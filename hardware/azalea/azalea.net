@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/azalea/azalea.sch)
-    (date "Thu 24 Sep 2015 10:33:28 AM MDT")
+    (date "Tue 20 Oct 2015 04:32:27 PM MDT")
     (tool "Eeschema (2015-08-18 BZR 6102)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -83,7 +83,7 @@
       (tstamp 55E39F2F))
     (comp (ref FB1)
       (value FILTER)
-      (footprint gsg-modules:0603)
+      (footprint gsg-modules:0805)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") BLM21PG221SN1D)
@@ -123,7 +123,7 @@
       (tstamp 55E3F681))
     (comp (ref C4)
       (value 10uF)
-      (footprint gsg-modules:0603)
+      (footprint gsg-modules:0805)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM21BR61A106KE19L)
@@ -640,7 +640,7 @@
       (tstamp 56009D0E))
     (comp (ref C11)
       (value 10uF)
-      (footprint gsg-modules:0603)
+      (footprint gsg-modules:0805)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM21BR61A106KE19L)
@@ -768,7 +768,7 @@
       (tstamp 56093645))
     (comp (ref FB2)
       (value FILTER)
-      (footprint gsg-modules:0603)
+      (footprint gsg-modules:0805)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") BLM21PG221SN1D)
@@ -779,7 +779,7 @@
       (tstamp 560950C5))
     (comp (ref FB3)
       (value FILTER)
-      (footprint gsg-modules:0603)
+      (footprint gsg-modules:0805)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") BLM21PG221SN1D)
@@ -837,6 +837,30 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56010AE9)))
   (libparts
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part Crystal)
+      (description "Two pin crystal")
+      (footprints
+        (fp Crystal_*))
+      (fields
+        (field (name Reference) Y)
+        (field (name Value) Crystal))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib device) (part FILTER)
       (description "Filtre EMI")
       (fields
@@ -860,30 +884,6 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part Crystal)
-      (description "Two pin crystal")
-      (footprints
-        (fp Crystal_*))
-      (fields
-        (field (name Reference) Y)
-        (field (name Value) Crystal))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part R)
       (description Resistor)
       (footprints
@@ -895,6 +895,25 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SW_PUSH)
+      (description Button)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
     (libpart (lib conn) (part CONN_01X20)
       (footprints
         (fp Pin_Header_Straight_1X20)
@@ -925,17 +944,26 @@
         (pin (num 18) (name P18) (type passive))
         (pin (num 19) (name P19) (type passive))
         (pin (num 20) (name P20) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
+    (libpart (lib conn) (part CONN_02X05)
       (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
+        (fp Pin_Header_Straight_2X05)
+        (fp Pin_Header_Angled_2X05)
+        (fp Socket_Strip_Straight_2X05)
+        (fp Socket_Strip_Angled_2X05))
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_01X01))
+        (field (name Value) CONN_02X05))
       (pins
-        (pin (num 1) (name P1) (type passive))))
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))))
     (libpart (lib conn) (part CONN_02X20)
       (footprints
         (fp Pin_Header_Straight_2X20)
@@ -986,6 +1014,14 @@
         (pin (num 38) (name P38) (type passive))
         (pin (num 39) (name P39) (type passive))
         (pin (num 40) (name P40) (type passive))))
+    (libpart (lib gsg-symbols) (part AP7333)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AP7333))
+      (pins
+        (pin (num 1) (name IN) (type power_in))
+        (pin (num 2) (name OUT) (type power_out))
+        (pin (num 3) (name GND) (type power_in))))
     (libpart (lib gsg-symbols) (part IP4220CZ6)
       (fields
         (field (name Reference) U)
@@ -997,17 +1033,6 @@
         (pin (num 4) (name ESD3) (type input))
         (pin (num 5) (name VP) (type power_in))
         (pin (num 6) (name ESD4) (type input))))
-    (libpart (lib gsg-symbols) (part NX5P2553GV)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) NX5P2553GV))
-      (pins
-        (pin (num 1) (name VIN) (type power_in))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name EN) (type input))
-        (pin (num 4) (name FAULT) (type output))
-        (pin (num 5) (name ILIM) (type input))
-        (pin (num 6) (name VOUT) (type power_out))))
     (libpart (lib gsg-symbols) (part LPC43XXFBD144)
       (fields
         (field (name Reference) U)
@@ -1157,14 +1182,17 @@
         (pin (num 142) (name ADC0_6/ADC1_6) (type input))
         (pin (num 143) (name ADC0_2/ADC1_2) (type input))
         (pin (num 144) (name ADC0_5/ADC1_5) (type input))))
-    (libpart (lib gsg-symbols) (part AP7333)
+    (libpart (lib gsg-symbols) (part NX5P2553GV)
       (fields
         (field (name Reference) U)
-        (field (name Value) AP7333))
+        (field (name Value) NX5P2553GV))
       (pins
-        (pin (num 1) (name IN) (type power_in))
-        (pin (num 2) (name OUT) (type power_out))
-        (pin (num 3) (name GND) (type power_in))))
+        (pin (num 1) (name VIN) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name EN) (type input))
+        (pin (num 4) (name FAULT) (type output))
+        (pin (num 5) (name ILIM) (type input))
+        (pin (num 6) (name VOUT) (type power_out))))
     (libpart (lib gsg-symbols) (part USB-MICRO-B-SHIELDED)
       (fields
         (field (name Reference) J)
@@ -1176,35 +1204,6 @@
         (pin (num 3) (name D+) (type BiDi))
         (pin (num 4) (name ID) (type input))
         (pin (num 5) (name GND) (type power_out))))
-    (libpart (lib gsg-symbols) (part XTAL4PIN)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) XTAL4PIN))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))))
-    (libpart (lib conn) (part CONN_02X05)
-      (footprints
-        (fp Pin_Header_Straight_2X05)
-        (fp Pin_Header_Angled_2X05)
-        (fp Socket_Strip_Straight_2X05)
-        (fp Socket_Strip_Angled_2X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_02X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))
-        (pin (num 7) (name P7) (type passive))
-        (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))
-        (pin (num 10) (name P10) (type passive))))
     (libpart (lib gsg-symbols) (part W25Q80BV)
       (fields
         (field (name Reference) U)
@@ -1218,14 +1217,15 @@
         (pin (num 6) (name CLK) (type input))
         (pin (num 7) (name HOLD) (type BiDi))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib device) (part SW_PUSH)
-      (description Button)
+    (libpart (lib gsg-symbols) (part XTAL4PIN)
       (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH))
+        (field (name Reference) X)
+        (field (name Value) XTAL4PIN))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive)))))
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
