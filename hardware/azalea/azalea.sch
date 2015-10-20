@@ -1609,7 +1609,6 @@ F 3 "" H 2000 8900 60  0000 C CNN
 F 4 "Murata" H 2000 8900 60  0001 C CNN "Manufacturer"
 F 5 "GRM1885C1H180JA01D" H 2000 8900 60  0001 C CNN "Part Number"
 F 6 "CAP CER 18PF 50V 5% NP0 0603" H 2000 8900 60  0001 C CNN "Description"
-F 7 "DNP" H 1900 8800 60  0000 C CNN "Note"
 	1    2000 8900
 	1    0    0    -1  
 $EndComp
@@ -1646,7 +1645,6 @@ F 3 "" H 1500 8900 60  0000 C CNN
 F 4 "Murata" H 1500 8900 60  0001 C CNN "Manufacturer"
 F 5 "GRM1885C1H180JA01D" H 1500 8900 60  0001 C CNN "Part Number"
 F 6 "CAP CER 18PF 50V 5% NP0 0603" H 1500 8900 60  0001 C CNN "Description"
-F 7 "DNP" H 1400 8800 60  0000 C CNN "Note"
 	1    1500 8900
 	1    0    0    -1  
 $EndComp
@@ -1661,7 +1659,6 @@ F 3 "" H 1750 8550 60  0000 C CNN
 F 4 "Abracon" H 1750 8550 60  0001 C CNN "Manufacturer"
 F 5 "AB26TRQ-32.768KHZ-T" H 1750 8550 60  0001 C CNN "Part Number"
 F 6 "CRYSTAL 32.768KHZ 12.5PF SMD" H 1750 8550 60  0001 C CNN "Description"
-F 7 "DNP" H 1750 8300 60  0000 C CNN "Note"
 	1    1750 8550
 	1    0    0    -1  
 $EndComp
@@ -2446,8 +2443,8 @@ F 3 "" H 16150 7400 60  0000 C CNN
 $EndComp
 Text Notes 14750 7750 1    40   ~ 0
 BOOT
-Text Notes 14150 6800 0    60   ~ 0
-bonus row may not make it onto final layout
+Text Notes 14300 6800 0    60   ~ 0
+bonus row is optional for neighbors
 Wire Wire Line
 	7500 8250 7500 8050
 Wire Wire Line
@@ -3462,8 +3459,6 @@ Wire Wire Line
 	6800 2400 6800 2650
 Text Notes 3250 1000 0    60   ~ 0
 boot selection
-Text Notes 1250 8250 0    60   ~ 0
-optional RTC section
 Text Notes 8350 8900 0    60   ~ 0
 test points
 Text Notes 2700 2500 0    60   ~ 0
