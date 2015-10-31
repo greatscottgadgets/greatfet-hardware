@@ -1,4 +1,4 @@
-update=Tue 01 Sep 2015 12:40:19 PM MDT
+update=Sat 31 Oct 2015 05:53:17 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols
+LibName30=gsg-symbols
