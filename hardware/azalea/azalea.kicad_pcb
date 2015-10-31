@@ -3,7 +3,7 @@
   (general
     (links 352)
     (no_connects 0)
-    (area 93.271704 68.58 275.715801 199.465001)
+    (area 105.842999 71.044999 176.605001 124.535001)
     (thickness 1.6)
     (drawings 146)
     (tracks 1431)
@@ -1000,7 +1000,7 @@
     (fp_text reference C8 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
-    (fp_text value 47pF (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 18pF (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
     (fp_line (start 1.3716 -0.6096) (end -1.3716 -0.6096) (layer F.SilkS) (width 0.2032))
@@ -1020,7 +1020,7 @@
     (fp_text reference C9 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
-    (fp_text value 47pF (at 0 0 270) (layer F.SilkS) hide
+    (fp_text value 18pF (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
     (fp_line (start 1.3716 -0.6096) (end -1.3716 -0.6096) (layer F.SilkS) (width 0.2032))
