@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/azalea/azalea.sch)
-    (date "Sat 31 Oct 2015 05:54:40 PM MDT")
+    (date "Sat 31 Oct 2015 09:44:54 PM MDT")
     (tool "Eeschema (2015-08-18 BZR 6102)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -582,12 +582,20 @@
     (comp (ref J2)
       (value NEIGHBOR2)
       (footprint gsg-modules:HEADER-2x20)
+      (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") SSW-120-21-L-D)
+        (field (name Description) "CONN RCPT .100\" 40POS DUAL-ROW GOLD"))
       (libsource (lib conn) (part CONN_02X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 55EAB4B7))
     (comp (ref J1)
       (value NEIGHBOR1)
       (footprint gsg-modules:HEADER-2x20)
+      (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") SSW-120-21-L-D)
+        (field (name Description) "CONN RCPT .100\" 40POS DUAL-ROW GOLD"))
       (libsource (lib conn) (part CONN_02X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 55FB1D52))
@@ -804,6 +812,10 @@
     (comp (ref J7)
       (value BONUS_ROW)
       (footprint gsg-modules:HEADER-1x20)
+      (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") TSW-120-07-L-S)
+        (field (name Description) "CONN HEADER 20POS .100\" SINGLE-ROW GOLD"))
       (libsource (lib conn) (part CONN_01X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 560E713A))
