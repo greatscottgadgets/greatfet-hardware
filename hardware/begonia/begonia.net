@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/begonia/begonia.sch)
-    (date "Sun 27 Sep 2015 11:30:32 AM MDT")
+    (date "Sat 31 Oct 2015 11:03:07 PM MDT")
     (tool "Eeschema (2015-08-18 BZR 6102)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,12 +18,20 @@
     (comp (ref J2)
       (value NEIGHBOR2)
       (footprint gsg-modules:HEADER-2x20)
+      (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") SSQ-120-23-G-D)
+        (field (name Description) "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD"))
       (libsource (lib conn) (part CONN_02X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 55EAB4B7))
     (comp (ref J1)
       (value NEIGHBOR1)
       (footprint gsg-modules:HEADER-2x20)
+      (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") SSQ-120-23-G-D)
+        (field (name Description) "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD"))
       (libsource (lib conn) (part CONN_02X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 55FB1D52))
@@ -105,6 +113,9 @@
       (value BONUS_ROW)
       (footprint gsg-modules:HEADER-1x20)
       (fields
+        (field (name Manufacturer) Samtec)
+        (field (name "Part Number") SSQ-120-23-G-S)
+        (field (name Description) "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD")
         (field (name Note) DNP))
       (libsource (lib conn) (part CONN_01X20))
       (sheetpath (names /) (tstamps /))
@@ -122,21 +133,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 56086AFD)))
   (libparts
-    (libpart (lib conn) (part CONN_01X05)
-      (footprints
-        (fp Pin_Header_Straight_1X05)
-        (fp Pin_Header_Angled_1X05)
-        (fp Socket_Strip_Straight_1X05)
-        (fp Socket_Strip_Angled_1X05))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X05))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))))
     (libpart (lib device) (part SPST)
       (description "Interrupteur simple")
       (fields
@@ -145,17 +141,32 @@
       (pins
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type input))))
-    (libpart (lib conn) (part CONN_01X01)
+    (libpart (lib device) (part R)
+      (description Resistor)
       (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
+        (fp R_*)
+        (fp Resistor_*))
       (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
+        (field (name Reference) R)
+        (field (name Value) R))
       (pins
-        (pin (num 1) (name P1) (type passive))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
     (libpart (lib conn) (part CONN_02X20)
       (footprints
         (fp Pin_Header_Straight_2X20)
@@ -206,21 +217,6 @@
         (pin (num 38) (name P38) (type passive))
         (pin (num 39) (name P39) (type passive))
         (pin (num 40) (name P40) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
     (libpart (lib conn) (part TEST)
       (description point)
       (fields
@@ -229,6 +225,32 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib conn) (part CONN_01X05)
+      (footprints
+        (fp Pin_Header_Straight_1X05)
+        (fp Pin_Header_Angled_1X05)
+        (fp Socket_Strip_Straight_1X05)
+        (fp Socket_Strip_Angled_1X05))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X05))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))))
     (libpart (lib conn) (part CONN_01X20)
       (footprints
         (fp Pin_Header_Straight_1X20)
@@ -258,18 +280,7 @@
         (pin (num 17) (name P17) (type passive))
         (pin (num 18) (name P18) (type passive))
         (pin (num 19) (name P19) (type passive))
-        (pin (num 20) (name P20) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 20) (name P20) (type passive)))))
   (libraries
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))

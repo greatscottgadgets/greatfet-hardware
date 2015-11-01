@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/azalea/azalea.sch)
-    (date "Sat 31 Oct 2015 09:44:54 PM MDT")
+    (date "Sat 31 Oct 2015 09:52:51 PM MDT")
     (tool "Eeschema (2015-08-18 BZR 6102)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -46,7 +46,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B4CC))
     (comp (ref X1)
-      (value XTAL4PIN)
+      (value MCU_XTAL)
       (footprint gsg-modules:XTAL3.2x2.5mm-EXT)
       (fields
         (field (name Manufacturer) TXC)
