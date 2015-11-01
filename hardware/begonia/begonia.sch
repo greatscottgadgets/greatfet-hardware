@@ -55,6 +55,7 @@ F 3 "" H 9150 1700 60  0000 C CNN
 F 4 "Samtec" H 9150 2650 60  0001 C CNN "Manufacturer"
 F 5 "SSQ-120-23-G-D" H 9150 2650 60  0001 C CNN "Part Number"
 F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 9150 2650 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 9150 2650 60  0001 C CNN "Note"
 	1    9150 2650
 	1    0    0    -1  
 $EndComp
@@ -91,6 +92,7 @@ F 3 "" H 9150 4300 60  0000 C CNN
 F 4 "Samtec" H 9150 5250 60  0001 C CNN "Manufacturer"
 F 5 "SSQ-120-23-G-D" H 9150 5250 60  0001 C CNN "Part Number"
 F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 9150 5250 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 9150 5250 60  0001 C CNN "Note"
 	1    9150 5250
 	1    0    0    -1  
 $EndComp
