@@ -236,6 +236,8 @@ F 0 "P1" H 8410 4170 50  0000 C CNN
 F 1 "RP-SMA" V 8510 3990 50  0000 C CNN
 F 2 "gsg-modules:SMA-EDGE" H 8400 4050 60  0001 C CNN
 F 3 "" H 8400 4050 60  0000 C CNN
+F 4 "Linx Technologies" H 8400 4050 60  0001 C CNN "Manufacturer"
+F 5 "CONREVSMA003.031" H 8400 4050 60  0001 C CNN "Part Number"
 	1    8400 4050
 	1    0    0    -1  
 $EndComp
