@@ -29,13 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:gsg-symbols
-LIBS:azalea-cache
+LIBS:greatfet-one-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "GreatFET Azalea"
+Title "GreatFET One"
 Date "2015-09-21"
 Rev ""
 Comp "Copyright 2015 Michael Ossmann"

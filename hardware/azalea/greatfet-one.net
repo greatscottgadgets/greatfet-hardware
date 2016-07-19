@@ -1,15 +1,15 @@
 (export (version D)
   (design
-    (source /home/mossmann/src/greatfet/hardware/azalea/azalea.sch)
+    (source /home/mossmann/src/greatfet/hardware/greatfet-one/greatfet-one.sch)
     (date "Sat 31 Oct 2015 09:52:51 PM MDT")
     (tool "Eeschema (2015-08-18 BZR 6102)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title "GreatFET Azalea")
+        (title "GreatFET One")
         (company "Copyright 2015 Michael Ossmann")
         (rev)
         (date 2015-09-21)
-        (source azalea.sch)
+        (source greatfet-one.sch)
         (comment (number 1) (value "License: GPL v2"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
