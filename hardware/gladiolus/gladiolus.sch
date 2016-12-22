@@ -784,7 +784,7 @@ F 5 "3306F-1-103" H 7900 1950 60  0001 C CNN "Part Number"
 F 6 "10k Ohm 0.2W, 1/5W PC Pins Through Hole Trimmer Potentiometer Cermet 1 Turn Top Adjustment" H 7900 1950 60  0001 C CNN "Description"
 F 7 "DNP" H 7900 1800 60  0000 C CNN "Note"
 	1    7900 1950
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L VCC #PWR026
@@ -1487,7 +1487,7 @@ F 4 "Bourns" H 6600 1950 60  0001 C CNN "Manufacturer"
 F 5 "3306F-1-103" H 6600 1950 60  0001 C CNN "Part Number"
 F 6 "10k Ohm 0.2W, 1/5W PC Pins Through Hole Trimmer Potentiometer Cermet 1 Turn Top Adjustment" H 6600 1950 60  0001 C CNN "Description"
 	1    6600 1950
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R39
@@ -2862,7 +2862,7 @@ F 5 "3306F-1-103" H 1950 5850 60  0001 C CNN "Part Number"
 F 6 "10k Ohm 0.2W, 1/5W PC Pins Through Hole Trimmer Potentiometer Cermet 1 Turn Top Adjustment" H 1950 5850 60  0001 C CNN "Description"
 F 7 "DNP" H 1950 5700 60  0000 C CNN "Note"
 	1    1950 5850
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Text Label 13800 3100 2    40   ~ 0
 P0_0
