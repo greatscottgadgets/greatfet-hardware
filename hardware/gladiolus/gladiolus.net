@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/gladiolus/gladiolus.sch)
-    (date "Thu 22 Dec 2016 10:21:19 AM MST")
+    (date "Thu 22 Dec 2016 04:27:29 PM MST")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1187,12 +1187,12 @@
         (pin (num 15) (name VS-) (type power_in))
         (pin (num 16) (name VS-) (type power_in)))))
   (libraries
+    (library (logical gsg-symbols)
+      (uri /home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical gsg-symbols)
-      (uri /home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(R19-Pad2)")
       (node (ref U2) (pin 2))
