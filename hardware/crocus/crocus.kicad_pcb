@@ -3,7 +3,7 @@
   (general
     (links 209)
     (no_connects 2)
-    (area 109.525999 68.504999 180.415001 121.995001)
+    (area 107.95 66.04 279.525801 124.460001)
     (thickness 1.6)
     (drawings 144)
     (tracks 344)
@@ -1882,7 +1882,7 @@
   (gr_line (start 177.8508 94.0054) (end 177.8508 95.123) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.9016 92.3544) (end 177.8508 94.0054) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.9524 90.5002) (end 177.9016 92.3544) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "29 October 2015" (at 153.4414 114.4016) (layer F.SilkS) (tstamp 560474D3)
+  (gr_text "20 November 2016" (at 153.4414 114.4016) (layer F.SilkS) (tstamp 560474D3)
     (effects (font (size 1.016 0.762) (thickness 0.1524)))
   )
   (gr_text 4 (at 177.8508 110.5916 98.9) (layer C4B.Cu)
