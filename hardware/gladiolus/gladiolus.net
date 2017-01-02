@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet/hardware/gladiolus/gladiolus.sch)
-    (date "Thu 22 Dec 2016 05:47:43 PM MST")
+    (date "Mon 02 Jan 2017 01:55:11 PM MST")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -135,7 +135,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 584368E7))
@@ -402,7 +402,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -413,7 +413,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5847FDC8))
@@ -423,7 +423,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 584803F5))
@@ -433,7 +433,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5848061F))
@@ -443,7 +443,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58480742))
@@ -452,8 +452,8 @@
       (footprint gsg-modules:0402)
       (fields
         (field (name Manufacturer) Yageo)
-        (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name "Part Number") RC0402JR-070RL)
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/16W 0402"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58480B3E))
@@ -462,8 +462,8 @@
       (footprint gsg-modules:0402)
       (fields
         (field (name Manufacturer) Yageo)
-        (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name "Part Number") RC0402JR-070RL)
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/16W 0402"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58480C3F))
@@ -473,7 +473,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58480D31))
@@ -493,7 +493,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -504,7 +504,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -515,7 +515,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -666,7 +666,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -677,7 +677,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -821,8 +821,8 @@
       (footprint gsg-modules:0402)
       (fields
         (field (name Manufacturer) Yageo)
-        (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name "Part Number") RC0402JR-070RL)
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/16W 0402"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 585C8E08))
@@ -831,8 +831,8 @@
       (footprint gsg-modules:0402)
       (fields
         (field (name Manufacturer) Yageo)
-        (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name "Part Number") RC0402JR-070RL)
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/16W 0402"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 585C8E11))
@@ -901,7 +901,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -912,7 +912,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603"))
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 585F2638))
@@ -922,7 +922,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name "Part Number") RC0603JR-070RL)
-        (field (name Description) "ES SMD 0.0OHM JUMPER 1/10W 0603")
+        (field (name Description) "RES SMD 0.0OHM JUMPER 1/10W 0603")
         (field (name Note) DNP))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -1213,10 +1213,10 @@
         (pin (num 15) (name VS-) (type power_in))
         (pin (num 16) (name VS-) (type power_in)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical gsg-symbols)
       (uri /home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib)))
   (nets
