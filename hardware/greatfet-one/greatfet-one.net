@@ -60,7 +60,7 @@
       (footprint gsg-modules:SOIC8-208)
       (fields
         (field (name Manufacturer) Winbond)
-        (field (name "Part Number") W25Q16DVSSIG)
+        (field (name "Part Number") W25Q16JVSSIQ)
         (field (name Description) "IC FLASH 16MBIT 104MHZ 8SOIC"))
       (libsource (lib gsg-symbols) (part W25Q80BV))
       (sheetpath (names /) (tstamps /))
