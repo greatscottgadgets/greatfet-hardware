@@ -3402,7 +3402,7 @@
     (fp_text reference R71 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
-    (fp_text value 1000 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 953 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
     (fp_line (start 1.3716 -0.6096) (end -1.3716 -0.6096) (layer F.SilkS) (width 0.2032))
@@ -3478,7 +3478,7 @@
     (fp_text reference R70 (at 0 0 90) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
-    (fp_text value 953 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text value 1.80k (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
     (fp_line (start 1.3716 -0.6096) (end -1.3716 -0.6096) (layer F.SilkS) (width 0.2032))
