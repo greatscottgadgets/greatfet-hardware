@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+dfsg1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 338)
@@ -3000,7 +3000,7 @@
     (fp_text reference R57 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
-    (fp_text value 2k (at 0 0 270) (layer F.SilkS) hide
+    (fp_text value 20k (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.6096 0.6096) (thickness 0.1524)))
     )
     (fp_line (start 1.3716 -0.6096) (end -1.3716 -0.6096) (layer F.SilkS) (width 0.2032))

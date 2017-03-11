@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/taylor/GF/greatfet/hardware/gladiolus/gladiolus.sch)
-    (date "Mon 20 Feb 2017 12:34:15 PM MST")
-    (tool "Eeschema 4.0.4+dfsg1-stable")
+    (source /home/mossmann/src/greatfet/hardware/gladiolus/gladiolus.sch)
+    (date "Sat 11 Mar 2017 02:41:52 PM MST")
+    (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "GreatFET Gladiolus")
@@ -1027,12 +1027,12 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 586C3911))
     (comp (ref R57)
-      (value 2k)
+      (value 20k)
       (footprint gsg-modules:0603)
       (fields
         (field (name Manufacturer) Yageo)
-        (field (name "Part Number") 311-2.0KGR)
-        (field (name Description) "RES SMD 2K OHM 5% 1/10W 0603"))
+        (field (name "Part Number") RC0603JR-0720KL)
+        (field (name Description) "RES SMD 20K OHM 5% 1/10W 0603"))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 586C57DB))
@@ -1644,10 +1644,10 @@
         (pin (num 15) (name VS-) (type power_in))
         (pin (num 16) (name VS-) (type power_in)))))
   (libraries
-    (library (logical gsg-symbols)
-      (uri /home/taylor/GF/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical gsg-symbols)
+      (uri /home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib)))
   (nets
