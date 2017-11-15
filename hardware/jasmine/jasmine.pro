@@ -1,4 +1,4 @@
-update=Sat 04 Nov 2017 05:11:51 PM MDT
+update=Wed 15 Nov 2017 02:40:45 PM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/yhetti/gsg-kicad-lib/gsg-symbols
-LibName31=/home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols
-LibName32=/home/yhetti/GF/greatfet/hardware/begonia/begonia-cache
+LibName30=gsg-symbols

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/yhetti/GF/greatfet/hardware/jasmine/jasmine.sch)
-    (date "Wed 15 Nov 2017 02:19:17 PM MST")
+    (date "Wed 15 Nov 2017 02:43:18 PM MST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -484,12 +484,12 @@
         (pin (num 4) (name ID) (type input))
         (pin (num 5) (name GND) (type power_out)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical gsg-symbols)
-      (uri /home/yhetti/gsg-kicad-lib/gsg-symbols.lib)))
+      (uri /home/yhetti/GF/greatfet/hardware/gsg-kicad-lib/gsg-symbols.lib)))
   (nets
     (net (code 1) (name "Net-(D3-Pad2)")
       (node (ref D3) (pin 2))
