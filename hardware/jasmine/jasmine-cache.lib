@@ -28,14 +28,10 @@ ENDDEF
 DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
+ C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -47,16 +43,16 @@ ENDDEF
 #
 # CONN_01X01
 #
-DEF CONN_01X01 P 0 40 Y N 1 F N
-F0 "P" 0 100 50 H V C CNN
+DEF CONN_01X01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
 F1 "CONN_01X01" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X01
- Pin_Header_Angled_1X01
- Socket_Strip_Straight_1X01
- Socket_Strip_Angled_1X01
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 5 10 -5 0 1 0 N
@@ -67,16 +63,16 @@ ENDDEF
 #
 # CONN_01X02
 #
-DEF CONN_01X02 P 0 40 Y N 1 F N
-F0 "P" 0 150 50 H V C CNN
+DEF CONN_01X02 J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
@@ -89,16 +85,16 @@ ENDDEF
 #
 # CONN_01X20
 #
-DEF CONN_01X20 P 0 40 Y N 1 F N
-F0 "P" 0 1050 50 H V C CNN
+DEF CONN_01X20 J 0 40 Y N 1 F N
+F0 "J" 0 1050 50 H V C CNN
 F1 "CONN_01X20" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X20
- Pin_Header_Angled_1X20
- Socket_Strip_Straight_1X20
- Socket_Strip_Angled_1X20
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
 $ENDFPLIST
 DRAW
 S -50 -1000 50 1000 0 1 0 N
@@ -147,16 +143,17 @@ ENDDEF
 #
 # CONN_02X20
 #
-DEF CONN_02X20 P 0 1 Y N 1 F N
-F0 "P" 0 1050 50 H V C CNN
+DEF CONN_02X20 J 0 1 Y N 1 F N
+F0 "J" 0 1050 50 H V C CNN
 F1 "CONN_02X20" 0 0 50 V V C CNN
-F2 "" 0 -950 50 H V C CNN
-F3 "" 0 -950 50 H V C CNN
+F2 "" 0 -950 50 H I C CNN
+F3 "" 0 -950 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X20
- Pin_Header_Angled_2X20
- Socket_Strip_Straight_2X20
- Socket_Strip_Angled_2X20
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
 $ENDFPLIST
 DRAW
 S -100 -945 -50 -955 0 1 0 N
@@ -248,11 +245,10 @@ ENDDEF
 DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diode_*
- D-*
+ TO-???*
  *SingleDiode
  *_Diode_*
  *SingleDiode*
@@ -272,8 +268,8 @@ ENDDEF
 DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
@@ -285,8 +281,8 @@ ENDDEF
 DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  LED*
 $ENDFPLIST
@@ -323,11 +319,11 @@ ENDDEF
 DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
- Resistor_*
+ R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -338,11 +334,11 @@ ENDDEF
 #
 # TEST_2P
 #
-DEF TEST_2P W 0 30 N N 1 F N
-F0 "W" 0 60 50 H V C CNN
+DEF TEST_2P J 0 30 N N 1 F N
+F0 "J" 0 60 50 H V C CNN
 F1 "TEST_2P" 0 -70 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
 C -70 0 30 0 1 0 N
 C 70 0 30 0 1 0 N
