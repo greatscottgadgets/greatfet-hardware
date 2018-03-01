@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:gsg-symbols
 LIBS:greatfet-one-cache
 EELAYER 25 0
 EELAYER END
@@ -2914,6 +2915,7 @@ F 0 "W1" H 2500 6560 40  0000 C CNN
 F 1 "VBUS_BYPASS" H 2500 6430 40  0000 C CNN
 F 2 "gsg-modules:0603-JUMPER" H 2500 6500 60  0001 C CNN
 F 3 "" H 2500 6500 60  0000 C CNN
+F 4 "DNP" H 2500 6350 60  0000 C CNN "Note"
 	1    2500 6500
 	1    0    0    -1  
 $EndComp
