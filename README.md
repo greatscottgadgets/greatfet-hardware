@@ -1,16 +1,16 @@
 # GreatFET Hardware
-This directory contains hardware designs for GreatFET One and a series of
-neighbours.  These are:
+This repository contains hardware designs for GreatFET One and a series of
+neighbors.  These are:
 
  * GreatFET One - the base GreatFET platform
- * Begonia - a neighbour for writing firmware to the IM-Me
- * Crocus - a Nordic nRF24L01+ neighbour
+ * Begonia - a neighbor for writing firmware to the IM-Me
+ * Crocus - a Nordic nRF24L01+ neighbor
  * Daffodil - a prototyping neighbor
  * Edelweiss - a TI CC1350 neighbor
- * Foxglove - A level shifting neighbour
+ * Foxglove - A level shifting neighbor
 
 
-Most of these neighbours have a required KiCad dependency:
+Most of these designs have a required KiCad dependency:
 
 https://github.com/greatscottgadgets/gsg-kicad-lib
 
