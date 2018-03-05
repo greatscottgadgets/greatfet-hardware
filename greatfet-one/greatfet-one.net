@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mossmann/src/greatfet-hardware/hardware/greatfet-one/greatfet-one.sch)
-    (date "Thu 04 Jan 2018 05:19:20 PM MST")
+    (date "Wed 28 Feb 2018 09:31:39 PM MST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -22,7 +22,7 @@
         (field (name Manufacturer) "Diodes Inc.")
         (field (name "Part Number") AP7333-33SAG-7)
         (field (name Description) "IC REG LDO 3.3V .3A SOT23"))
-      (libsource (lib greatfet-one-cache) (part AP7333))
+      (libsource (lib gsg-symbols) (part AP7333))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B3C4))
     (comp (ref U4)
@@ -32,7 +32,7 @@
         (field (name Manufacturer) NXP)
         (field (name "Part Number") IP4220CZ6,125)
         (field (name Description) "IC USB DUAL ESD PROTECT 6TSOP"))
-      (libsource (lib greatfet-one-cache) (part IP4220CZ6))
+      (libsource (lib gsg-symbols) (part IP4220CZ6))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B467))
     (comp (ref J3)
@@ -42,7 +42,7 @@
         (field (name Manufacturer) FCI)
         (field (name "Part Number") 10103592-0001LF)
         (field (name Description) "CONN RCPT REV MICRO USB TYPE B"))
-      (libsource (lib greatfet-one-cache) (part USB-MICRO-B-SHIELDED))
+      (libsource (lib gsg-symbols) (part USB-MICRO-B-SHIELDED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B4CC))
     (comp (ref X1)
@@ -52,7 +52,7 @@
         (field (name Manufacturer) TXC)
         (field (name "Part Number") 7V-12.000MAAE-T)
         (field (name Description) "CRYSTAL 12.000 MHZ 12PF SMD"))
-      (libsource (lib greatfet-one-cache) (part XTAL4PIN))
+      (libsource (lib gsg-symbols) (part XTAL4PIN))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B53D))
     (comp (ref U2)
@@ -62,7 +62,7 @@
         (field (name Manufacturer) Winbond)
         (field (name "Part Number") W25Q16JVSSIQ)
         (field (name Description) "IC FLASH 16MBIT 104MHZ 8SOIC"))
-      (libsource (lib greatfet-one-cache) (part W25Q80BV))
+      (libsource (lib gsg-symbols) (part W25Q80BV))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B700))
     (comp (ref D1)
@@ -82,7 +82,7 @@
         (field (name Manufacturer) FCI)
         (field (name "Part Number") 10103592-0001LF)
         (field (name Description) "CONN RCPT REV MICRO USB TYPE B"))
-      (libsource (lib greatfet-one-cache) (part USB-MICRO-B-SHIELDED))
+      (libsource (lib gsg-symbols) (part USB-MICRO-B-SHIELDED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E39F2F))
     (comp (ref FB1)
@@ -676,7 +676,7 @@
         (field (name Manufacturer) "Diodes Inc.")
         (field (name "Part Number") AP2553W6-7)
         (field (name Description) "IC PD SW CURR LIMIT SOT26 "))
-      (libsource (lib greatfet-one-cache) (part NX5P2553GV))
+      (libsource (lib gsg-symbols) (part NX5P2553GV))
       (sheetpath (names /) (tstamps /))
       (tstamp 5601218B))
     (comp (ref R23)
@@ -826,7 +826,7 @@
         (field (name Manufacturer) NXP)
         (field (name "Part Number") LPC4330FBD144,551)
         (field (name Description) "IC MCU ARM ROMLESS 144LQFP"))
-      (libsource (lib greatfet-one-cache) (part LPC43XXFBD144))
+      (libsource (lib gsg-symbols) (part LPC43XXFBD144))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E0B59C))
     (comp (ref MH3)
@@ -950,6 +950,8 @@
     (comp (ref W1)
       (value VBUS_BYPASS)
       (footprint gsg-modules:0603-JUMPER)
+      (fields
+        (field (name Note) DNP))
       (libsource (lib conn) (part TEST_2P))
       (sheetpath (names /) (tstamps /))
       (tstamp 57C655EF))
@@ -994,7 +996,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4907E7)))
   (libparts
-    (libpart (lib greatfet-one-cache) (part AP7333)
+    (libpart (lib gsg-symbols) (part AP7333)
       (fields
         (field (name Reference) U)
         (field (name Value) AP7333))
@@ -1180,7 +1182,7 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib greatfet-one-cache) (part IP4220CZ6)
+    (libpart (lib gsg-symbols) (part IP4220CZ6)
       (fields
         (field (name Reference) U)
         (field (name Value) IP4220CZ6))
@@ -1201,7 +1203,7 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib greatfet-one-cache) (part LPC43XXFBD144)
+    (libpart (lib gsg-symbols) (part LPC43XXFBD144)
       (fields
         (field (name Reference) U)
         (field (name Value) LPC43XXFBD144))
@@ -1350,7 +1352,7 @@
         (pin (num 142) (name ADC0_6/ADC1_6) (type input))
         (pin (num 143) (name ADC0_2/ADC1_2) (type input))
         (pin (num 144) (name ADC0_5/ADC1_5) (type input))))
-    (libpart (lib greatfet-one-cache) (part NX5P2553GV)
+    (libpart (lib gsg-symbols) (part NX5P2553GV)
       (fields
         (field (name Reference) U)
         (field (name Value) NX5P2553GV))
@@ -1387,7 +1389,7 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib greatfet-one-cache) (part USB-MICRO-B-SHIELDED)
+    (libpart (lib gsg-symbols) (part USB-MICRO-B-SHIELDED)
       (fields
         (field (name Reference) J)
         (field (name Value) USB-MICRO-B-SHIELDED))
@@ -1398,7 +1400,7 @@
         (pin (num 3) (name D+) (type BiDi))
         (pin (num 4) (name ID) (type input))
         (pin (num 5) (name GND) (type power_out))))
-    (libpart (lib greatfet-one-cache) (part W25Q80BV)
+    (libpart (lib gsg-symbols) (part W25Q80BV)
       (fields
         (field (name Reference) U)
         (field (name Value) W25Q80BV))
@@ -1411,7 +1413,7 @@
         (pin (num 6) (name CLK) (type input))
         (pin (num 7) (name HOLD) (type BiDi))
         (pin (num 8) (name VCC) (type power_in))))
-    (libpart (lib greatfet-one-cache) (part XTAL4PIN)
+    (libpart (lib gsg-symbols) (part XTAL4PIN)
       (fields
         (field (name Reference) X)
         (field (name Value) XTAL4PIN))
@@ -1421,10 +1423,12 @@
         (pin (num 3) (name 3) (type passive))
         (pin (num 4) (name 4) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical gsg-symbols)
+      (uri /home/mossmann/src/greatfet-hardware/hardware/gsg-kicad-lib/gsg-symbols.lib))
     (library (logical greatfet-one-cache)
       (uri /home/mossmann/src/greatfet-hardware/hardware/greatfet-one/greatfet-one-cache.lib)))
   (nets
