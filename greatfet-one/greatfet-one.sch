@@ -36,10 +36,10 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "GreatFET One"
-Date "2015-09-21"
+Date "2018-03-07"
 Rev ""
-Comp "Copyright 2015 Michael Ossmann"
-Comment1 "License: GPL v2"
+Comp "Copyright 2015-2018 Great Scott Gadgets"
+Comment1 "License: BSD-3-Clause"
 Comment2 ""
 Comment3 ""
 Comment4 ""
