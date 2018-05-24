@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols
+LibName30=gsg-symbols
