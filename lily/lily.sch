@@ -1099,4 +1099,6 @@ Wire Wire Line
 	8450 2250 8850 2250
 Text Label 8450 2250 2    60   ~ 0
 ENBL
+Text Notes 9750 5250 0    60   ~ 0
+Crms = 100nF\nchange for more/less averaging
 $EndSCHEMATC
