@@ -885,7 +885,7 @@ F 2 "gsg-modules:0603" H 8538 5100 50  0001 C CNN
 F 3 "" H 8500 5250 50  0001 C CNN
 F 4 "Murata Electronics North America" H 8500 5250 60  0001 C CNN "Manufacturer"
 F 5 "GCM188L81H104KA57D" H 8500 5250 60  0001 C CNN "Part Number"
-F 6 "CAP CER 0.1UF 50V X8L 0603 " H 8500 5250 60  0001 C CNN "Description"
+F 6 "CAP CER 0.1UF 50V X8L 0603" H 8500 5250 60  0001 C CNN "Description"
 	1    8500 5250
 	1    0    0    -1  
 $EndComp
@@ -899,7 +899,7 @@ F 2 "gsg-modules:0603" H 8838 5100 50  0001 C CNN
 F 3 "" H 8800 5250 50  0001 C CNN
 F 4 "Murata Electronics North America" H 8800 5250 60  0001 C CNN "Manufacturer"
 F 5 "GQM1885C1H101JB01D" H 8800 5250 60  0001 C CNN "Part Number"
-F 6 " CAP CER 100PF 50V C0G/NP0 0603 " H 8800 5250 60  0001 C CNN "Description"
+F 6 "CAP CER 100PF 50V C0G/NP0 0603" H 8800 5250 60  0001 C CNN "Description"
 	1    8800 5250
 	1    0    0    -1  
 $EndComp
@@ -963,7 +963,7 @@ F 2 "gsg-modules:0603" V 6580 3350 50  0001 C CNN
 F 3 "" H 6650 3350 50  0001 C CNN
 F 4 "Stackpole Electronics Inc." V 6650 3350 60  0001 C CNN "Manufacturer"
 F 5 "RMCF0603FT82R5" V 6650 3350 60  0001 C CNN "Part Number"
-F 6 " RES 82.5 OHM 1% 1/10W 0603 " V 6650 3350 60  0001 C CNN "Description"
+F 6 "RES 82.5 OHM 1% 1/10W 0603" V 6650 3350 60  0001 C CNN "Description"
 	1    6650 3350
 	1    0    0    -1  
 $EndComp
@@ -977,7 +977,7 @@ F 2 "gsg-modules:0603" H 6388 2950 50  0001 C CNN
 F 3 "" H 6350 3100 50  0001 C CNN
 F 4 "Murata Electronics North America" H 6350 3100 60  0001 C CNN "Manufacturer"
 F 5 "GRM188R61H474KA12D" H 6350 3100 60  0001 C CNN "Part Number"
-F 6 " CAP CER 0.47UF 50V X5R 0603 " H 6350 3100 60  0001 C CNN "Description"
+F 6 "CAP CER 0.47UF 50V X5R 0603" H 6350 3100 60  0001 C CNN "Description"
 	1    6350 3100
 	0    -1   -1   0   
 $EndComp
@@ -1009,7 +1009,7 @@ F 2 "gsg-modules:0603" H 12088 4050 50  0001 C CNN
 F 3 "" H 12050 4200 50  0001 C CNN
 F 4 "Murata Electronics North America" H 12050 4200 60  0001 C CNN "Manufacturer"
 F 5 "GQM1885C1H100JB01D" H 12050 4200 60  0001 C CNN "Part Number"
-F 6 " CAP CER 10PF 50V C0G/NP0 0603 " H 12050 4200 60  0001 C CNN "Description"
+F 6 "CAP CER 10PF 50V C0G/NP0 0603" H 12050 4200 60  0001 C CNN "Description"
 	1    12050 4200
 	1    0    0    -1  
 $EndComp
@@ -1047,7 +1047,7 @@ F 2 "gsg-modules:0603" V 7780 5100 50  0001 C CNN
 F 3 "" H 7850 5100 50  0001 C CNN
 F 4 "Stackpole Electronics Inc." V 7850 5100 60  0001 C CNN "Manufacturer"
 F 5 "RMCF0603FT4R02" V 7850 5100 60  0001 C CNN "Part Number"
-F 6 " RES 4.02 OHM 1% 1/10W 0603 " V 7850 5100 60  0001 C CNN "Description"
+F 6 "RES 4.02 OHM 1% 1/10W 0603" V 7850 5100 60  0001 C CNN "Description"
 	1    7850 5100
 	1    0    0    -1  
 $EndComp
@@ -1061,7 +1061,7 @@ F 2 "gsg-modules:0603" H 7888 5350 50  0001 C CNN
 F 3 "" H 7850 5500 50  0001 C CNN
 F 4 "Murata Electronics North America" H 7850 5500 60  0001 C CNN "Manufacturer"
 F 5 "GCM188L81H104KA57D" H 7850 5500 60  0001 C CNN "Part Number"
-F 6 "CAP CER 0.1UF 50V X8L 0603 " H 7850 5500 60  0001 C CNN "Description"
+F 6 "CAP CER 0.1UF 50V X8L 0603" H 7850 5500 60  0001 C CNN "Description"
 	1    7850 5500
 	1    0    0    -1  
 $EndComp
@@ -1090,7 +1090,7 @@ F 2 "gsg-modules:0603" H 9988 4600 50  0001 C CNN
 F 3 "" H 9950 4750 50  0001 C CNN
 F 4 "Murata Electronics North America" H 9950 4750 60  0001 C CNN "Manufacturer"
 F 5 "GCM188L81H104KA57D" H 9950 4750 60  0001 C CNN "Part Number"
-F 6 " CAP CER 0.1UF 50V X8L 0603 " H 9950 4750 60  0001 C CNN "Description"
+F 6 "CAP CER 0.1UF 50V X8L 0603" H 9950 4750 60  0001 C CNN "Description"
 	1    9950 4750
 	1    0    0    -1  
 $EndComp
