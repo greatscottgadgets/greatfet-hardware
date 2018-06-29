@@ -1,4 +1,4 @@
 [submodule "hardware/gsg-kicad-lib"]
 	path = gsg-kicad-lib
-	url = https://github.com/mwinchester94/greatfet-hardware.git
+	url = https://github.com/mwinchester94/gsg-kicad-lib.git
 
