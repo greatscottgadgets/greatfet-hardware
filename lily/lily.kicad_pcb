@@ -2,7 +2,7 @@
 
   (general
     (links 140)
-    (no_connects 3)
+    (no_connects 2)
     (area 107.95 66.04 279.525801 124.460001)
     (thickness 1.6)
     (drawings 127)
@@ -1576,7 +1576,7 @@
   (segment (start 136.0297 88.138) (end 136.0297 84.328) (width 0.3048) (layer F.Cu) (net 96))
   (segment (start 164.008 94.238) (end 160.532 94.238) (width 0.3048) (layer F.Cu) (net 96))
   (segment (start 160.532 94.238) (end 160.528 94.234) (width 0.3048) (layer F.Cu) (net 96) (tstamp 5B244E06))
-  (segment (start 171.45 95.25) (end 171.45 97.536) (width 0.3048) (layer F.Cu) (net 97))
+  (segment (start 171.45 96.774) (end 171.45 95.25) (width 0.3048) (layer F.Cu) (net 97) (status C00000))
   (segment (start 171.45 95.25) (end 175.768 95.25) (width 0.3048) (layer F.Cu) (net 97))
   (segment (start 162.56 87.122) (end 160.274 87.122) (width 0.508) (layer F.Cu) (net 98))
   (segment (start 162.56 90.932) (end 162.56 88.646) (width 0.508) (layer F.Cu) (net 99))
