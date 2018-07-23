@@ -178,8 +178,6 @@ Text Label 16200 6100 2    40   ~ 0
 P1_19
 Text Label 15300 5900 0    40   ~ 0
 P9_5
-Text Label 15300 6100 0    40   ~ 0
-P1_20
 Text Label 16200 5900 2    40   ~ 0
 P9_6
 Text Label 15300 4800 0    40   ~ 0
@@ -3581,7 +3579,7 @@ U 1 1 5B47AC16
 P 8300 900
 F 0 "J5" H 8300 1200 50  0000 C CNN
 F 1 "Conn_01x06" H 8300 500 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x6" H 8300 900 50  0001 C CNN
+F 2 "gsg-modules:HEADER-2x3" H 8300 900 50  0001 C CNN
 F 3 "" H 8300 900 50  0001 C CNN
 	1    8300 900 
 	1    0    0    -1  
@@ -3658,7 +3656,7 @@ U 1 1 5B48A8C8
 P 3900 950
 F 0 "J3" H 3900 1250 50  0000 C CNN
 F 1 "Conn_01x06" H 3900 550 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x6" H 3900 950 50  0001 C CNN
+F 2 "gsg-modules:HEADER-2x3" H 3900 950 50  0001 C CNN
 F 3 "" H 3900 950 50  0001 C CNN
 	1    3900 950 
 	1    0    0    -1  
@@ -3677,7 +3675,7 @@ U 1 1 5B498FE0
 P 3950 5800
 F 0 "J4" H 3950 6100 50  0000 C CNN
 F 1 "Conn_01x06" H 3950 5400 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x6" H 3950 5800 50  0001 C CNN
+F 2 "gsg-modules:HEADER-2x3" H 3950 5800 50  0001 C CNN
 F 3 "" H 3950 5800 50  0001 C CNN
 	1    3950 5800
 	1    0    0    -1  
@@ -3688,7 +3686,7 @@ U 1 1 5B49919A
 P 8400 5800
 F 0 "J6" H 8400 6100 50  0000 C CNN
 F 1 "Conn_01x06" H 8400 5400 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x6" H 8400 5800 50  0001 C CNN
+F 2 "gsg-modules:HEADER-2x3" H 8400 5800 50  0001 C CNN
 F 3 "" H 8400 5800 50  0001 C CNN
 	1    8400 5800
 	1    0    0    -1  
@@ -4433,17 +4431,17 @@ Wire Wire Line
 Text Label 10500 8800 0    60   ~ 0
 P6_3
 Text Label 10500 9200 0    60   ~ 0
-P6_6
+P1_0
 Text Label 10500 9600 0    60   ~ 0
 P2_2
 Text Label 10500 10000 0    60   ~ 0
-P6_8
+P1_16
 Text Label 10500 9000 0    60   ~ 0
-P1_15
+P2_5
 Text Label 10500 9400 0    60   ~ 0
-P9_5
+P1_5
 Text Label 10500 9800 0    60   ~ 0
-P1_18
+P6_8
 $Comp
 L Conn_01x04 J8
 U 1 1 5B50E5CE
@@ -4464,23 +4462,23 @@ Wire Wire Line
 Wire Wire Line
 	9400 8650 9250 8650
 Text Label 12800 7250 0    60   ~ 0
-P1_20
+P4_3
 Text Label 10500 10200 0    60   ~ 0
-P1_6
+P1_20
 Text Label 12800 7650 0    60   ~ 0
-P6_0
+P5_2
 Text Label 12800 8050 0    60   ~ 0
-P2_0
+P3_5
 Text Label 12800 8450 0    60   ~ 0
 P9_6
 Text Label 12800 7450 0    60   ~ 0
-P6_7
+P4_4
 Text Label 12800 7850 0    60   ~ 0
-P3_7
+P1_6
 Text Label 12800 8250 0    60   ~ 0
 P3_4
 Text Label 12800 8650 0    60   ~ 0
-P2_3
+P9_5
 $Comp
 L SKY13322 U5
 U 1 1 5B458BBE
@@ -4494,8 +4492,6 @@ F 3 "" H 11600 3000 60  0000 C CNN
 $EndComp
 NoConn ~ 15300 2050
 NoConn ~ 15250 2150
-NoConn ~ 15300 2250
-NoConn ~ 15300 2350
 NoConn ~ 16000 1950
 NoConn ~ 16200 2050
 NoConn ~ 16200 2150
@@ -4513,7 +4509,6 @@ NoConn ~ 15300 2650
 NoConn ~ 15200 2750
 NoConn ~ 15300 2950
 NoConn ~ 15300 3650
-NoConn ~ 15300 3750
 NoConn ~ 15200 3850
 NoConn ~ 16300 3850
 NoConn ~ 16200 3750
@@ -4521,7 +4516,6 @@ NoConn ~ 16200 3450
 NoConn ~ 16200 3150
 NoConn ~ 16200 3050
 NoConn ~ 16200 2950
-NoConn ~ 16200 2750
 NoConn ~ 16200 2650
 NoConn ~ 16200 2550
 NoConn ~ 16200 2450
@@ -4529,22 +4523,18 @@ NoConn ~ 16200 2350
 NoConn ~ 16200 2250
 NoConn ~ 15300 4400
 NoConn ~ 15300 4500
-NoConn ~ 15300 4600
 NoConn ~ 15300 4700
 NoConn ~ 15300 4800
-NoConn ~ 15300 4900
 NoConn ~ 15300 5000
 NoConn ~ 15300 5100
 NoConn ~ 15300 5200
 NoConn ~ 15300 5400
 NoConn ~ 15300 5600
 NoConn ~ 15300 5700
-NoConn ~ 16200 5700
 NoConn ~ 16200 5400
 NoConn ~ 16200 5300
 NoConn ~ 16200 5200
 NoConn ~ 16200 5100
-NoConn ~ 16200 4900
 NoConn ~ 16200 4800
 NoConn ~ 16200 4700
 NoConn ~ 16200 4600
@@ -4566,4 +4556,14 @@ NoConn ~ 15650 7550
 NoConn ~ 15750 7550
 NoConn ~ 15850 7550
 NoConn ~ 15950 7550
+NoConn ~ 15300 3450
+Text Label 15300 6100 0    40   ~ 0
+P1_20
+NoConn ~ 16200 6000
+NoConn ~ 16200 3350
+NoConn ~ 16200 3550
+NoConn ~ 16200 2850
+NoConn ~ 16200 5600
+NoConn ~ 15300 6000
+NoConn ~ 15300 5800
 $EndSCHEMATC
