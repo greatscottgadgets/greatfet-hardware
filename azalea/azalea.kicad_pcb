@@ -3348,7 +3348,7 @@
   (gr_text "W1\nVBUS_BYPASS" (at 112.649 103.124) (layer B.SilkS) (tstamp 57C5F489)
     (effects (font (size 0.635 0.508) (thickness 0.1016)) (justify mirror))
   )
-  (gr_text "Use wiggler\nto remove\nneighbors." (at 141.224 96.266) (layer B.SilkS) (tstamp 57C52E90)
+  (gr_text "Use wiggler\nto remove\nneighbors." (at 140.716 96.266) (layer B.SilkS) (tstamp 57C52E90)
     (effects (font (size 1.27 1.016) (thickness 0.1524)) (justify mirror))
   )
   (gr_line (start 112.776 93.472) (end 114.427 93.091) (layer B.SilkS) (width 0.2032))
