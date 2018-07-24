@@ -35,12 +35,12 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "GreatFET One"
+Title "Azalea"
 Date "2018-07-24"
 Rev ""
 Comp "Copyright 2015-2018 Great Scott Gadgets"
 Comment1 "License: BSD-3-Clause"
-Comment2 ""
+Comment2 "http://greatscottgadgets.com/greatfet/"
 Comment3 ""
 Comment4 ""
 $EndDescr
