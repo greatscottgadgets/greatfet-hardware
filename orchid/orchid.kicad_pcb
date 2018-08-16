@@ -22,6 +22,7 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
+    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -66,7 +67,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFCFF7F)
     (pcbplotparams
-      (layerselection 0x010a8_80000007)
+      (layerselection 0x010e8_80000007)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
