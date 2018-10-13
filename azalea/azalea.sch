@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:gsg-symbols
-LIBS:greatfet-one-cache
+LIBS:azalea-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -40,7 +40,7 @@ Date "2018-07-24"
 Rev ""
 Comp "Copyright 2015-2018 Great Scott Gadgets"
 Comment1 "License: BSD-3-Clause"
-Comment2 "http://greatscottgadgets.com/greatfet/"
+Comment2 "https://greatscottgadgets.com/greatfet/"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -2614,17 +2614,6 @@ F 3 "" H 16050 7550 60  0000 C CNN
 	1    16050 7550
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR082
-U 1 1 56036BE7
-P 15150 7550
-F 0 "#PWR082" H 15150 7300 50  0001 C CNN
-F 1 "GND" H 15150 7400 50  0000 C CNN
-F 2 "" H 15150 7550 60  0000 C CNN
-F 3 "" H 15150 7550 60  0000 C CNN
-	1    15150 7550
-	1    0    0    -1  
-$EndComp
 Text Label 3850 5100 0    40   ~ 0
 USB0_D+
 Text Label 3850 5200 0    40   ~ 0
@@ -4155,4 +4144,6 @@ Wire Wire Line
 	5800 1450 5800 1550
 Text Notes 5150 2000 0    60   ~ 0
 pin straps for hardware\nversion detection
+Text Label 15150 7550 1    40   ~ 0
+RTCX1
 $EndSCHEMATC
