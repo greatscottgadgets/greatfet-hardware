@@ -1621,6 +1621,7 @@ F 3 "" H 2000 8900 60  0000 C CNN
 F 4 "Kemet" H 2000 8900 60  0001 C CNN "Manufacturer"
 F 5 "C0603C180J5GAC" H 2000 8900 60  0001 C CNN "Part Number"
 F 6 "CAP CER 18PF 50V 5% NP0 0603" H 2000 8900 60  0001 C CNN "Description"
+F 7 "DNP" H 2250 8900 60  0000 C CNN "Note"
 	1    2000 8900
 	1    0    0    -1  
 $EndComp
@@ -1657,6 +1658,7 @@ F 3 "" H 1500 8900 60  0000 C CNN
 F 4 "Kemet" H 1500 8900 60  0001 C CNN "Manufacturer"
 F 5 "C0603C180J5GAC" H 1500 8900 60  0001 C CNN "Part Number"
 F 6 "CAP CER 18PF 50V 5% NP0 0603" H 1500 8900 60  0001 C CNN "Description"
+F 7 "DNP" H 1250 8900 60  0000 C CNN "Note"
 	1    1500 8900
 	1    0    0    -1  
 $EndComp
@@ -1671,6 +1673,7 @@ F 3 "" H 1750 8550 60  0000 C CNN
 F 4 "Abracon" H 1750 8550 60  0001 C CNN "Manufacturer"
 F 5 "AB26TRQ-32.768KHZ-T" H 1750 8550 60  0001 C CNN "Part Number"
 F 6 "CRYSTAL 32.768KHZ 12.5PF SMD" H 1750 8550 60  0001 C CNN "Description"
+F 7 "DNP" H 1750 8800 60  0000 C CNN "Note"
 	1    1750 8550
 	1    0    0    -1  
 $EndComp
@@ -4146,4 +4149,6 @@ Text Notes 5150 2000 0    60   ~ 0
 pin straps for hardware\nversion detection
 Text Label 15150 7550 1    40   ~ 0
 RTCX1
+Text Notes 1050 10200 0    60   ~ 0
+You may populate the 32 kHz\ncrystal oscillator (X2, C1, and C2)\nfor RTC operation, but the\nrecommended alternative is to\nsupply an external 32 kHz signal\non RTCX1 (J7 pin 10).  See the\nLPC4330 errata.
 $EndSCHEMATC
