@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:orchid-cache
+LIBS:luckybamboo-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "Orchid"
+Title "Lucky Bamboo"
 Date "2018-07-13"
 Rev ""
 Comp "Matthew Winchester"
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L orchid-rescue:CONN_02X20 J2
+L luckybamboo-rescue:CONN_02X20 J2
 U 1 1 55EAB4B7
 P 15750 2900
 F 0 "J2" H 15750 3950 50  0000 C CNN
@@ -63,7 +63,7 @@ F 3 "" H 16200 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:CONN_02X20 J1
+L luckybamboo-rescue:CONN_02X20 J1
 U 1 1 55FB1D52
 P 15750 5250
 F 0 "J1" H 15750 6300 50  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 16150 7400 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x20 J7
+L luckybamboo-rescue:Conn_01x20 J7
 U 1 1 560E713A
 P 15150 7000
 F 0 "J7" H 15150 8050 50  0000 C CNN
@@ -115,7 +115,7 @@ F 7 "SSQ-120-23-G-S" H 15150 7000 60  0001 C CNN "Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x01 MH3
+L luckybamboo-rescue:Conn_01x01 MH3
 U 1 1 5600EED5
 P 15650 850
 F 0 "MH3" H 15600 950 50  0000 C CNN
@@ -138,7 +138,7 @@ F 3 "" H 15650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x01 MH4
+L luckybamboo-rescue:Conn_01x01 MH4
 U 1 1 560100F3
 P 16150 1000
 F 0 "MH4" H 16100 1100 50  0000 C CNN
@@ -161,7 +161,7 @@ F 3 "" H 16150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x01 MH1
+L luckybamboo-rescue:Conn_01x01 MH1
 U 1 1 56010ADB
 P 14650 850
 F 0 "MH1" H 14600 950 50  0000 C CNN
@@ -184,7 +184,7 @@ F 3 "" H 14650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x01 MH2
+L luckybamboo-rescue:Conn_01x01 MH2
 U 1 1 56010AE9
 P 15150 1000
 F 0 "MH2" H 15100 1100 50  0000 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 14250 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242 U1
+L luckybamboo-rescue:ADF7242 U1
 U 1 1 5B3FBCF9
 P 2950 2450
 F 0 "U1" H 2950 2300 60  0000 C CNN
@@ -298,7 +298,7 @@ F 3 "" H 3650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C5
+L luckybamboo-rescue:C C5
 U 1 1 5B3FBCFE
 P 1800 1750
 F 0 "C5" H 1825 1850 50  0000 L CNN
@@ -312,7 +312,7 @@ F 6 "C0402C270K5GACTU" H 1825 1950 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C3
+L luckybamboo-rescue:C C3
 U 1 1 5B3FBE22
 P 1500 1750
 F 0 "C3" H 1525 1850 50  0000 L CNN
@@ -348,7 +348,7 @@ F 3 "" H 1800 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:R R1
+L luckybamboo-rescue:R R1
 U 1 1 5B3FC3A1
 P 1400 2200
 F 0 "R1" V 1480 2200 50  0000 C CNN
@@ -373,7 +373,7 @@ F 3 "" H 1200 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C1
+L luckybamboo-rescue:C C1
 U 1 1 5B3FC7BA
 P 950 2350
 F 0 "C1" H 975 2450 50  0000 L CNN
@@ -398,7 +398,7 @@ F 3 "" H 700 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:C C6
+L luckybamboo-rescue:C C6
 U 1 1 5B3FCDA9
 P 1800 3050
 F 0 "C6" H 1825 3150 50  0000 L CNN
@@ -423,7 +423,7 @@ F 3 "" H 1800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C10
+L luckybamboo-rescue:C C10
 U 1 1 5B3FD176
 P 2050 3800
 F 0 "C10" H 2075 3900 50  0000 L CNN
@@ -437,7 +437,7 @@ F 6 "885012105011" H 2075 4000 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C16
+L luckybamboo-rescue:C C16
 U 1 1 5B3FD1F2
 P 2350 3800
 F 0 "C16" H 2375 3900 50  0000 L CNN
@@ -473,7 +473,7 @@ F 3 "" H 2350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C11
+L luckybamboo-rescue:C C11
 U 1 1 5B3FDB17
 P 2050 4550
 F 0 "C11" H 2075 4650 50  0000 L CNN
@@ -487,7 +487,7 @@ F 6 "885012105011" H 2075 4750 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C17
+L luckybamboo-rescue:C C17
 U 1 1 5B3FDB1D
 P 2350 4550
 F 0 "C17" H 2375 4650 50  0000 L CNN
@@ -523,7 +523,7 @@ F 3 "" H 2350 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C21
+L luckybamboo-rescue:C C21
 U 1 1 5B439A23
 P 2600 4900
 F 0 "C21" H 2625 5000 50  0000 L CNN
@@ -537,7 +537,7 @@ F 6 "C0402C180J5GAC7867" H 2625 5100 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C28
+L luckybamboo-rescue:C C28
 U 1 1 5B439D30
 P 3400 4850
 F 0 "C28" H 3425 4950 50  0000 L CNN
@@ -595,7 +595,7 @@ F 3 "" H 3400 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:XTAL4PIN X1
+L luckybamboo-rescue:XTAL4PIN X1
 U 1 1 5B3FE770
 P 3000 4600
 F 0 "X1" H 3000 4750 60  0000 C CNN
@@ -609,7 +609,7 @@ F 6 "NX3225SA-26.000000MHZ-B1" H 3000 4850 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C24
+L luckybamboo-rescue:C C24
 U 1 1 5B43B310
 P 3100 3950
 F 0 "C24" H 3125 4050 50  0000 L CNN
@@ -623,7 +623,7 @@ F 6 "885012105011" H 3125 4150 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C27
+L luckybamboo-rescue:C C27
 U 1 1 5B43B316
 P 3400 3950
 F 0 "C27" H 3425 4050 50  0000 L CNN
@@ -659,7 +659,7 @@ F 3 "" H 3400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C23
+L luckybamboo-rescue:C C23
 U 1 1 5B43BE16
 P 3100 900
 F 0 "C23" H 3125 1000 50  0000 L CNN
@@ -695,7 +695,7 @@ F 3 "" H 1950 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L orchid-rescue:Conn_Coaxial J17
+L luckybamboo-rescue:Conn_Coaxial J17
 U 1 1 5B43CE50
 P 10150 2100
 F 0 "J17" H 10160 2220 50  0000 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 12000 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:Conn_Coaxial J18
+L luckybamboo-rescue:Conn_Coaxial J18
 U 1 1 5B45A5A4
 P 13000 1100
 F 0 "J18" H 13010 1220 50  0000 C CNN
@@ -756,7 +756,7 @@ F 3 "" H 13000 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:ADF7242 U3
+L luckybamboo-rescue:ADF7242 U3
 U 1 1 5B468176
 P 3000 7300
 F 0 "U3" H 3000 7150 60  0000 C CNN
@@ -781,7 +781,7 @@ F 3 "" H 3700 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C7
+L luckybamboo-rescue:C C7
 U 1 1 5B468183
 P 1850 6600
 F 0 "C7" H 1875 6700 50  0000 L CNN
@@ -795,7 +795,7 @@ F 6 "C0402C270K5GACTU" H 1875 6800 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C4
+L luckybamboo-rescue:C C4
 U 1 1 5B468189
 P 1550 6600
 F 0 "C4" H 1575 6700 50  0000 L CNN
@@ -831,7 +831,7 @@ F 3 "" H 1850 6350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:R R2
+L luckybamboo-rescue:R R2
 U 1 1 5B4681A1
 P 1450 7050
 F 0 "R2" V 1530 7050 50  0000 C CNN
@@ -856,7 +856,7 @@ F 3 "" H 1250 6850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C2
+L luckybamboo-rescue:C C2
 U 1 1 5B4681AF
 P 1000 7200
 F 0 "C2" H 1025 7300 50  0000 L CNN
@@ -881,7 +881,7 @@ F 3 "" H 750 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:C C8
+L luckybamboo-rescue:C C8
 U 1 1 5B4681BE
 P 1850 7900
 F 0 "C8" H 1875 8000 50  0000 L CNN
@@ -906,7 +906,7 @@ F 3 "" H 1850 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C13
+L luckybamboo-rescue:C C13
 U 1 1 5B4681CB
 P 2100 8650
 F 0 "C13" H 2125 8750 50  0000 L CNN
@@ -920,7 +920,7 @@ F 6 "885012105011" H 2125 8850 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C19
+L luckybamboo-rescue:C C19
 U 1 1 5B4681D1
 P 2400 8650
 F 0 "C19" H 2425 8750 50  0000 L CNN
@@ -956,7 +956,7 @@ F 3 "" H 2400 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C14
+L luckybamboo-rescue:C C14
 U 1 1 5B4681EC
 P 2100 9400
 F 0 "C14" H 2125 9500 50  0000 L CNN
@@ -970,7 +970,7 @@ F 6 "885012105011" H 2125 9600 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C20
+L luckybamboo-rescue:C C20
 U 1 1 5B4681F2
 P 2400 9400
 F 0 "C20" H 2425 9500 50  0000 L CNN
@@ -1006,7 +1006,7 @@ F 3 "" H 2400 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C22
+L luckybamboo-rescue:C C22
 U 1 1 5B46820B
 P 2650 9750
 F 0 "C22" H 2675 9850 50  0000 L CNN
@@ -1020,7 +1020,7 @@ F 6 "C0402C180J5GAC7867" H 2675 9950 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C30
+L luckybamboo-rescue:C C30
 U 1 1 5B468214
 P 3450 9700
 F 0 "C30" H 3475 9800 50  0000 L CNN
@@ -1078,7 +1078,7 @@ F 3 "" H 3450 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:XTAL4PIN X2
+L luckybamboo-rescue:XTAL4PIN X2
 U 1 1 5B468234
 P 3050 9450
 F 0 "X2" H 3050 9600 60  0000 C CNN
@@ -1092,7 +1092,7 @@ F 6 "NX3225SA-26.000000MHZ-B1" H 3050 9700 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C26
+L luckybamboo-rescue:C C26
 U 1 1 5B468243
 P 3150 8800
 F 0 "C26" H 3175 8900 50  0000 L CNN
@@ -1106,7 +1106,7 @@ F 6 "885012105011" H 3175 9000 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C29
+L luckybamboo-rescue:C C29
 U 1 1 5B468249
 P 3450 8800
 F 0 "C29" H 3475 8900 50  0000 L CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 3450 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C25
+L luckybamboo-rescue:C C25
 U 1 1 5B468263
 P 3150 5750
 F 0 "C25" H 3175 5850 50  0000 L CNN
@@ -1167,7 +1167,7 @@ F 3 "" H 3150 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242 U2
+L luckybamboo-rescue:ADF7242 U2
 U 1 1 5B46CFC2
 P 7350 2450
 F 0 "U2" H 7350 2300 60  0000 C CNN
@@ -1192,7 +1192,7 @@ F 3 "" H 8050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C35
+L luckybamboo-rescue:C C35
 U 1 1 5B46CFCF
 P 6200 1750
 F 0 "C35" H 6225 1850 50  0000 L CNN
@@ -1206,7 +1206,7 @@ F 6 "C0402C270K5GACTU" H 6225 1950 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C33
+L luckybamboo-rescue:C C33
 U 1 1 5B46CFD5
 P 5900 1750
 F 0 "C33" H 5925 1850 50  0000 L CNN
@@ -1242,7 +1242,7 @@ F 3 "" H 6200 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:R R5
+L luckybamboo-rescue:R R5
 U 1 1 5B46CFED
 P 5800 2200
 F 0 "R5" V 5880 2200 50  0000 C CNN
@@ -1267,7 +1267,7 @@ F 3 "" H 5600 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C31
+L luckybamboo-rescue:C C31
 U 1 1 5B46CFFB
 P 5350 2350
 F 0 "C31" H 5375 2450 50  0000 L CNN
@@ -1292,7 +1292,7 @@ F 3 "" H 5100 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:C C36
+L luckybamboo-rescue:C C36
 U 1 1 5B46D00A
 P 6200 3050
 F 0 "C36" H 6225 3150 50  0000 L CNN
@@ -1317,7 +1317,7 @@ F 3 "" H 6200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C40
+L luckybamboo-rescue:C C40
 U 1 1 5B46D017
 P 6450 3800
 F 0 "C40" H 6475 3900 50  0000 L CNN
@@ -1331,7 +1331,7 @@ F 6 "885012105011" H 6475 4000 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C46
+L luckybamboo-rescue:C C46
 U 1 1 5B46D01D
 P 6750 3800
 F 0 "C46" H 6775 3900 50  0000 L CNN
@@ -1367,7 +1367,7 @@ F 3 "" H 6750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C41
+L luckybamboo-rescue:C C41
 U 1 1 5B46D038
 P 6450 4550
 F 0 "C41" H 6475 4650 50  0000 L CNN
@@ -1381,7 +1381,7 @@ F 6 "885012105011" H 6475 4750 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C47
+L luckybamboo-rescue:C C47
 U 1 1 5B46D03E
 P 6750 4550
 F 0 "C47" H 6775 4650 50  0000 L CNN
@@ -1417,7 +1417,7 @@ F 3 "" H 6750 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C51
+L luckybamboo-rescue:C C51
 U 1 1 5B46D057
 P 7000 4900
 F 0 "C51" H 7025 5000 50  0000 L CNN
@@ -1431,7 +1431,7 @@ F 6 "C0402C180J5GAC7867" H 7025 5100 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C58
+L luckybamboo-rescue:C C58
 U 1 1 5B46D060
 P 7800 4850
 F 0 "C58" H 7825 4950 50  0000 L CNN
@@ -1489,7 +1489,7 @@ F 3 "" H 7800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:XTAL4PIN X3
+L luckybamboo-rescue:XTAL4PIN X3
 U 1 1 5B46D080
 P 7400 4600
 F 0 "X3" H 7400 4750 60  0000 C CNN
@@ -1503,7 +1503,7 @@ F 6 "NX3225SA-26.000000MHZ-B1" H 7400 4850 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C54
+L luckybamboo-rescue:C C54
 U 1 1 5B46D08F
 P 7500 3950
 F 0 "C54" H 7525 4050 50  0000 L CNN
@@ -1517,7 +1517,7 @@ F 6 "885012105011" H 7525 4150 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C57
+L luckybamboo-rescue:C C57
 U 1 1 5B46D095
 P 7800 3950
 F 0 "C57" H 7825 4050 50  0000 L CNN
@@ -1553,7 +1553,7 @@ F 3 "" H 7800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C53
+L luckybamboo-rescue:C C53
 U 1 1 5B46D0AF
 P 7500 900
 F 0 "C53" H 7525 1000 50  0000 L CNN
@@ -1578,7 +1578,7 @@ F 3 "" H 7500 700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242 U4
+L luckybamboo-rescue:ADF7242 U4
 U 1 1 5B46D0D3
 P 7400 7300
 F 0 "U4" H 7400 7150 60  0000 C CNN
@@ -1603,7 +1603,7 @@ F 3 "" H 8100 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C37
+L luckybamboo-rescue:C C37
 U 1 1 5B46D0E0
 P 6250 6600
 F 0 "C37" H 6275 6700 50  0000 L CNN
@@ -1617,7 +1617,7 @@ F 6 "C0402C270K5GACTU" H 6275 6800 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C34
+L luckybamboo-rescue:C C34
 U 1 1 5B46D0E6
 P 5950 6600
 F 0 "C34" H 5975 6700 50  0000 L CNN
@@ -1653,7 +1653,7 @@ F 3 "" H 6250 6350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:R R6
+L luckybamboo-rescue:R R6
 U 1 1 5B46D0FE
 P 5850 7050
 F 0 "R6" V 5930 7050 50  0000 C CNN
@@ -1678,7 +1678,7 @@ F 3 "" H 5650 6850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C32
+L luckybamboo-rescue:C C32
 U 1 1 5B46D10C
 P 5400 7200
 F 0 "C32" H 5425 7300 50  0000 L CNN
@@ -1703,7 +1703,7 @@ F 3 "" H 5150 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:C C38
+L luckybamboo-rescue:C C38
 U 1 1 5B46D11B
 P 6250 7900
 F 0 "C38" H 6275 8000 50  0000 L CNN
@@ -1728,7 +1728,7 @@ F 3 "" H 6250 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C43
+L luckybamboo-rescue:C C43
 U 1 1 5B46D128
 P 6500 8650
 F 0 "C43" H 6525 8750 50  0000 L CNN
@@ -1742,7 +1742,7 @@ F 6 "885012105011" H 6525 8850 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C49
+L luckybamboo-rescue:C C49
 U 1 1 5B46D12E
 P 6800 8650
 F 0 "C49" H 6825 8750 50  0000 L CNN
@@ -1778,7 +1778,7 @@ F 3 "" H 6800 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C44
+L luckybamboo-rescue:C C44
 U 1 1 5B46D149
 P 6500 9400
 F 0 "C44" H 6525 9500 50  0000 L CNN
@@ -1792,7 +1792,7 @@ F 6 "885012105011" H 6525 9600 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C50
+L luckybamboo-rescue:C C50
 U 1 1 5B46D14F
 P 6800 9400
 F 0 "C50" H 6825 9500 50  0000 L CNN
@@ -1828,7 +1828,7 @@ F 3 "" H 6800 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C52
+L luckybamboo-rescue:C C52
 U 1 1 5B46D168
 P 7050 9750
 F 0 "C52" H 7075 9850 50  0000 L CNN
@@ -1842,7 +1842,7 @@ F 6 "C0402C180J5GAC7867" H 7075 9950 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C60
+L luckybamboo-rescue:C C60
 U 1 1 5B46D171
 P 7850 9700
 F 0 "C60" H 7875 9800 50  0000 L CNN
@@ -1900,7 +1900,7 @@ F 3 "" H 7850 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:XTAL4PIN X4
+L luckybamboo-rescue:XTAL4PIN X4
 U 1 1 5B46D191
 P 7450 9450
 F 0 "X4" H 7450 9600 60  0000 C CNN
@@ -1914,7 +1914,7 @@ F 6 "NX3225SA-26.000000MHZ-B1" H 7450 9700 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C56
+L luckybamboo-rescue:C C56
 U 1 1 5B46D1A0
 P 7550 8800
 F 0 "C56" H 7575 8900 50  0000 L CNN
@@ -1928,7 +1928,7 @@ F 6 "885012105011" H 7575 9000 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C59
+L luckybamboo-rescue:C C59
 U 1 1 5B46D1A6
 P 7850 8800
 F 0 "C59" H 7875 8900 50  0000 L CNN
@@ -1964,7 +1964,7 @@ F 3 "" H 7850 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C55
+L luckybamboo-rescue:C C55
 U 1 1 5B46D1C0
 P 7550 5750
 F 0 "C55" H 7575 5850 50  0000 L CNN
@@ -1989,7 +1989,7 @@ F 3 "" H 7550 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:R R3
+L luckybamboo-rescue:R R3
 U 1 1 5B4730E3
 P 4250 1900
 F 0 "R3" V 4330 1900 50  0000 C CNN
@@ -2014,7 +2014,7 @@ F 3 "" H 4250 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:R R7
+L luckybamboo-rescue:R R7
 U 1 1 5B474461
 P 8650 1900
 F 0 "R7" V 8730 1900 50  0000 C CNN
@@ -2039,7 +2039,7 @@ F 3 "" H 8650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:R R4
+L luckybamboo-rescue:R R4
 U 1 1 5B476C06
 P 4300 6750
 F 0 "R4" V 4380 6750 50  0000 C CNN
@@ -2064,7 +2064,7 @@ F 3 "" H 4300 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:R R8
+L luckybamboo-rescue:R R8
 U 1 1 5B478131
 P 8700 6750
 F 0 "R8" V 8780 6750 50  0000 C CNN
@@ -2089,7 +2089,7 @@ F 3 "" H 8700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C15
+L luckybamboo-rescue:C C15
 U 1 1 5B4D8267
 P 2350 1050
 F 0 "C15" H 2375 1150 50  0000 L CNN
@@ -2136,7 +2136,7 @@ F 3 "" H 6400 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L orchid-rescue:C C39
+L luckybamboo-rescue:C C39
 U 1 1 5B4DF5F8
 P 6450 1100
 F 0 "C39" H 6475 1200 50  0000 L CNN
@@ -2150,7 +2150,7 @@ F 6 "885012105011" H 6475 1300 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C45
+L luckybamboo-rescue:C C45
 U 1 1 5B4DF5FE
 P 6750 1100
 F 0 "C45" H 6775 1200 50  0000 L CNN
@@ -2197,7 +2197,7 @@ F 3 "" H 6450 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L orchid-rescue:C C42
+L luckybamboo-rescue:C C42
 U 1 1 5B4E09B8
 P 6500 5850
 F 0 "C42" H 6525 5950 50  0000 L CNN
@@ -2211,7 +2211,7 @@ F 6 "885012105011" H 6525 6050 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C48
+L luckybamboo-rescue:C C48
 U 1 1 5B4E09BE
 P 6800 5850
 F 0 "C48" H 6825 5950 50  0000 L CNN
@@ -2258,7 +2258,7 @@ F 3 "" H 2050 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L orchid-rescue:C C12
+L luckybamboo-rescue:C C12
 U 1 1 5B4E12DC
 P 2100 5850
 F 0 "C12" H 2125 5950 50  0000 L CNN
@@ -2272,7 +2272,7 @@ F 6 "885012105011" H 2125 6050 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C18
+L luckybamboo-rescue:C C18
 U 1 1 5B4E12E2
 P 2400 5850
 F 0 "C18" H 2425 5950 50  0000 L CNN
@@ -2308,7 +2308,7 @@ F 3 "" H 2400 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J19
+L luckybamboo-rescue:TEST_2P J19
 U 1 1 5B4F5AF4
 P 10900 3550
 F 0 "J19" H 10900 3610 50  0000 C CNN
@@ -2320,7 +2320,7 @@ F 4 "DNP" H 10900 3710 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J20
+L luckybamboo-rescue:TEST_2P J20
 U 1 1 5B4F5CBB
 P 10900 3750
 F 0 "J20" H 10900 3810 50  0000 C CNN
@@ -2332,7 +2332,7 @@ F 4 "DNP" H 10900 3910 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J21
+L luckybamboo-rescue:TEST_2P J21
 U 1 1 5B4F5E56
 P 10900 3950
 F 0 "J21" H 10900 4010 50  0000 C CNN
@@ -2344,7 +2344,7 @@ F 4 "DNP" H 10900 4110 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J22
+L luckybamboo-rescue:TEST_2P J22
 U 1 1 5B4F6076
 P 10900 4150
 F 0 "J22" H 10900 4210 50  0000 C CNN
@@ -2356,7 +2356,7 @@ F 4 "DNP" H 10900 4310 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J23
+L luckybamboo-rescue:TEST_2P J23
 U 1 1 5B4F6213
 P 10900 4350
 F 0 "J23" H 10900 4410 50  0000 C CNN
@@ -2368,7 +2368,7 @@ F 4 "DNP" H 10900 4510 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J24
+L luckybamboo-rescue:TEST_2P J24
 U 1 1 5B4F63BB
 P 10900 4550
 F 0 "J24" H 10900 4610 50  0000 C CNN
@@ -2380,7 +2380,7 @@ F 4 "DNP" H 10900 4710 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J25
+L luckybamboo-rescue:TEST_2P J25
 U 1 1 5B4F6560
 P 10900 4750
 F 0 "J25" H 10900 4810 50  0000 C CNN
@@ -2392,7 +2392,7 @@ F 4 "DNP" H 10900 4910 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J26
+L luckybamboo-rescue:TEST_2P J26
 U 1 1 5B4F6706
 P 10900 4950
 F 0 "J26" H 10900 5010 50  0000 C CNN
@@ -2404,7 +2404,7 @@ F 4 "DNP" H 10900 5110 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J9
+L luckybamboo-rescue:TEST_2P J9
 U 1 1 5B4FD1A8
 P 9500 3700
 F 0 "J9" H 9500 3760 50  0000 C CNN
@@ -2416,7 +2416,7 @@ F 4 "DNP" H 9500 3860 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J10
+L luckybamboo-rescue:TEST_2P J10
 U 1 1 5B4FD1AE
 P 9500 3900
 F 0 "J10" H 9500 3960 50  0000 C CNN
@@ -2428,7 +2428,7 @@ F 4 "DNP" H 9500 4060 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J11
+L luckybamboo-rescue:TEST_2P J11
 U 1 1 5B4FD1B4
 P 9500 4100
 F 0 "J11" H 9500 4160 50  0000 C CNN
@@ -2440,7 +2440,7 @@ F 4 "DNP" H 9500 4260 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J12
+L luckybamboo-rescue:TEST_2P J12
 U 1 1 5B4FD1BA
 P 9500 4300
 F 0 "J12" H 9500 4360 50  0000 C CNN
@@ -2452,7 +2452,7 @@ F 4 "DNP" H 9500 4460 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J13
+L luckybamboo-rescue:TEST_2P J13
 U 1 1 5B4FD1C0
 P 9500 4500
 F 0 "J13" H 9500 4560 50  0000 C CNN
@@ -2464,7 +2464,7 @@ F 4 "DNP" H 9500 4660 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J14
+L luckybamboo-rescue:TEST_2P J14
 U 1 1 5B4FD1C6
 P 9500 4700
 F 0 "J14" H 9500 4760 50  0000 C CNN
@@ -2476,7 +2476,7 @@ F 4 "DNP" H 9500 4860 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J15
+L luckybamboo-rescue:TEST_2P J15
 U 1 1 5B4FD1CC
 P 9500 4900
 F 0 "J15" H 9500 4960 50  0000 C CNN
@@ -2488,7 +2488,7 @@ F 4 "DNP" H 9500 5060 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J16
+L luckybamboo-rescue:TEST_2P J16
 U 1 1 5B4FD1D2
 P 9500 5100
 F 0 "J16" H 9500 5160 50  0000 C CNN
@@ -2500,7 +2500,7 @@ F 4 "DNP" H 9500 5260 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:SKY13322 U5
+L luckybamboo-rescue:SKY13322 U5
 U 1 1 5B458BBE
 P 12000 1050
 F 0 "U5" H 12000 1050 60  0000 C CNN
@@ -2514,7 +2514,7 @@ F 6 "SKY13322-375LF" H 12000 1150 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U9
+L luckybamboo-rescue:ADF7242_balun U9
 U 1 1 5B6912F4
 P 12100 5400
 F 0 "U9" H 12100 5450 60  0000 C CNN
@@ -2561,7 +2561,7 @@ F 3 "" H 12100 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C65
+L luckybamboo-rescue:C C65
 U 1 1 5B693196
 P 11850 6200
 F 0 "C65" H 11875 6300 50  0000 L CNN
@@ -2575,7 +2575,7 @@ F 6 "885012205012" H 11875 6400 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C69
+L luckybamboo-rescue:C C69
 U 1 1 5B693389
 P 11850 4600
 F 0 "C69" H 11875 4700 50  0000 L CNN
@@ -2589,7 +2589,7 @@ F 6 "885012205012" H 11875 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U11
+L luckybamboo-rescue:ADF7242_balun U11
 U 1 1 5B69C132
 P 12950 5400
 F 0 "U11" H 12950 5450 60  0000 C CNN
@@ -2636,7 +2636,7 @@ F 3 "" H 12950 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C71
+L luckybamboo-rescue:C C71
 U 1 1 5B69C14A
 P 12700 6200
 F 0 "C71" H 12725 6300 50  0000 L CNN
@@ -2650,7 +2650,7 @@ F 6 "885012205012" H 12725 6400 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C73
+L luckybamboo-rescue:C C73
 U 1 1 5B69C150
 P 12700 4600
 F 0 "C73" H 12725 4700 50  0000 L CNN
@@ -2664,7 +2664,7 @@ F 6 "885012205012" H 12725 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U15
+L luckybamboo-rescue:ADF7242_balun U15
 U 1 1 5B69F31B
 P 13800 5400
 F 0 "U15" H 13800 5450 60  0000 C CNN
@@ -2711,7 +2711,7 @@ F 3 "" H 13800 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C75
+L luckybamboo-rescue:C C75
 U 1 1 5B69F333
 P 13550 6200
 F 0 "C75" H 13575 6300 50  0000 L CNN
@@ -2725,7 +2725,7 @@ F 6 "885012205012" H 13575 6400 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C77
+L luckybamboo-rescue:C C77
 U 1 1 5B69F339
 P 13550 4600
 F 0 "C77" H 13575 4700 50  0000 L CNN
@@ -2739,7 +2739,7 @@ F 6 "885012205012" H 13575 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U17
+L luckybamboo-rescue:ADF7242_balun U17
 U 1 1 5B69F347
 P 14650 5400
 F 0 "U17" H 14650 5450 60  0000 C CNN
@@ -2786,7 +2786,7 @@ F 3 "" H 14650 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C79
+L luckybamboo-rescue:C C79
 U 1 1 5B69F35F
 P 14400 6200
 F 0 "C79" H 14425 6300 50  0000 L CNN
@@ -2800,7 +2800,7 @@ F 6 "885012205012" H 14425 6400 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C81
+L luckybamboo-rescue:C C81
 U 1 1 5B69F365
 P 14400 4600
 F 0 "C81" H 14425 4700 50  0000 L CNN
@@ -2814,7 +2814,7 @@ F 6 "885012205012" H 14425 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U8
+L luckybamboo-rescue:ADF7242_balun U8
 U 1 1 5B6A4C28
 P 11900 3050
 F 0 "U8" H 11900 3100 60  0000 C CNN
@@ -2861,7 +2861,7 @@ F 3 "" H 11900 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C64
+L luckybamboo-rescue:C C64
 U 1 1 5B6A4C40
 P 11650 3850
 F 0 "C64" H 11675 3950 50  0000 L CNN
@@ -2875,7 +2875,7 @@ F 6 "885012205012" H 11675 4050 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C68
+L luckybamboo-rescue:C C68
 U 1 1 5B6A4C46
 P 11650 2250
 F 0 "C68" H 11675 2350 50  0000 L CNN
@@ -2889,7 +2889,7 @@ F 6 "885012205012" H 11675 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U10
+L luckybamboo-rescue:ADF7242_balun U10
 U 1 1 5B6A4C54
 P 12750 3050
 F 0 "U10" H 12750 3100 60  0000 C CNN
@@ -2936,7 +2936,7 @@ F 3 "" H 12750 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C70
+L luckybamboo-rescue:C C70
 U 1 1 5B6A4C6C
 P 12500 3850
 F 0 "C70" H 12525 3950 50  0000 L CNN
@@ -2950,7 +2950,7 @@ F 6 "885012205012" H 12525 4050 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C72
+L luckybamboo-rescue:C C72
 U 1 1 5B6A4C72
 P 12500 2250
 F 0 "C72" H 12525 2350 50  0000 L CNN
@@ -2964,7 +2964,7 @@ F 6 "885012205012" H 12525 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U14
+L luckybamboo-rescue:ADF7242_balun U14
 U 1 1 5B6A4C80
 P 13600 3050
 F 0 "U14" H 13600 3100 60  0000 C CNN
@@ -3011,7 +3011,7 @@ F 3 "" H 13600 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C74
+L luckybamboo-rescue:C C74
 U 1 1 5B6A4C98
 P 13350 3850
 F 0 "C74" H 13375 3950 50  0000 L CNN
@@ -3025,7 +3025,7 @@ F 6 "885012205012" H 13375 4050 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C76
+L luckybamboo-rescue:C C76
 U 1 1 5B6A4C9E
 P 13350 2250
 F 0 "C76" H 13375 2350 50  0000 L CNN
@@ -3039,7 +3039,7 @@ F 6 "885012205012" H 13375 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:ADF7242_balun U16
+L luckybamboo-rescue:ADF7242_balun U16
 U 1 1 5B6A4CAC
 P 14450 3050
 F 0 "U16" H 14450 3100 60  0000 C CNN
@@ -3086,7 +3086,7 @@ F 3 "" H 14450 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:C C78
+L luckybamboo-rescue:C C78
 U 1 1 5B6A4CC4
 P 14200 3850
 F 0 "C78" H 14225 3950 50  0000 L CNN
@@ -3100,7 +3100,7 @@ F 6 "885012205012" H 14225 4050 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C80
+L luckybamboo-rescue:C C80
 U 1 1 5B6A4CCA
 P 14200 2250
 F 0 "C80" H 14225 2350 50  0000 L CNN
@@ -3114,7 +3114,7 @@ F 6 "885012205012" H 14225 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:L L1
+L luckybamboo-rescue:L L1
 U 1 1 5B6B5127
 P 10850 2100
 F 0 "L1" V 10800 2100 50  0000 C CNN
@@ -3128,7 +3128,7 @@ F 6 "ATFC-0402-3N8B-T" H 10800 2200 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:C C63
+L luckybamboo-rescue:C C63
 U 1 1 5B6B527C
 P 10500 2100
 F 0 "C63" H 10525 2200 50  0000 L CNN
@@ -3142,7 +3142,7 @@ F 6 "885012205006" H 10525 2300 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x08 J3
+L luckybamboo-rescue:Conn_01x08 J3
 U 1 1 5B6BE607
 P 4850 950
 F 0 "J3" H 4850 1350 50  0000 C CNN
@@ -3156,7 +3156,7 @@ F 6 "NPPN042AFCN-RC" H 4850 1450 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:C C9
+L luckybamboo-rescue:C C9
 U 1 1 5B4D7F5E
 P 2050 1050
 F 0 "C9" H 2075 1150 50  0000 L CNN
@@ -3170,7 +3170,7 @@ F 6 "885012105011" H 2075 1250 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x08 J5
+L luckybamboo-rescue:Conn_01x08 J5
 U 1 1 5B6CCC66
 P 9650 950
 F 0 "J5" H 9650 1350 50  0000 C CNN
@@ -3184,7 +3184,7 @@ F 6 "NPPN042AFCN-RC" H 9650 1450 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:Conn_01x08 J4
+L luckybamboo-rescue:Conn_01x08 J4
 U 1 1 5B6D54A0
 P 5050 5800
 F 0 "J4" H 5050 6200 50  0000 C CNN
@@ -3198,7 +3198,7 @@ F 6 "NPPN042AFCN-RC" H 5050 6300 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J27
+L luckybamboo-rescue:TEST_2P J27
 U 1 1 5B6C3BF4
 P 4100 1250
 F 0 "J27" H 4100 1310 50  0000 C CNN
@@ -3210,7 +3210,7 @@ F 4 "DNP" H 4100 1410 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J8
+L luckybamboo-rescue:TEST_2P J8
 U 1 1 5B6C3DBE
 P 4100 1150
 F 0 "J8" H 4100 1210 50  0000 C CNN
@@ -3222,7 +3222,7 @@ F 4 "DNP" H 4100 1310 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J30
+L luckybamboo-rescue:TEST_2P J30
 U 1 1 5B6C5BDC
 P 8900 1150
 F 0 "J30" H 8900 1210 50  0000 C CNN
@@ -3234,7 +3234,7 @@ F 4 "DNP" H 8900 1310 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J31
+L luckybamboo-rescue:TEST_2P J31
 U 1 1 5B6C6372
 P 8900 1250
 F 0 "J31" H 8900 1310 50  0000 C CNN
@@ -3246,7 +3246,7 @@ F 4 "DNP" H 8900 1410 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J28
+L luckybamboo-rescue:TEST_2P J28
 U 1 1 5B6C7C6B
 P 4300 6000
 F 0 "J28" H 4300 6060 50  0000 C CNN
@@ -3258,7 +3258,7 @@ F 4 "DNP" H 4300 6160 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J29
+L luckybamboo-rescue:TEST_2P J29
 U 1 1 5B6C84C9
 P 4300 6100
 F 0 "J29" H 4300 6160 50  0000 C CNN
@@ -3270,7 +3270,7 @@ F 4 "DNP" H 4300 6260 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J32
+L luckybamboo-rescue:TEST_2P J32
 U 1 1 5B6C9771
 P 8950 6000
 F 0 "J32" H 8950 6060 50  0000 C CNN
@@ -3282,7 +3282,7 @@ F 4 "DNP" H 8950 6160 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L orchid-rescue:TEST_2P J33
+L luckybamboo-rescue:TEST_2P J33
 U 1 1 5B6C99A6
 P 8950 6100
 F 0 "J33" H 8950 6160 50  0000 C CNN
@@ -5202,7 +5202,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 7900 11350 8500
 $Comp
-L orchid-rescue:Conn_01x08 J6
+L luckybamboo-rescue:Conn_01x08 J6
 U 1 1 5B6D5D3D
 P 9700 5800
 F 0 "J6" H 9700 6200 50  0000 C CNN

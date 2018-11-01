@@ -73,11 +73,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:ADF7242
+# luckybamboo-rescue:ADF7242
 #
-DEF orchid-rescue:ADF7242 U 0 40 Y Y 1 F N
+DEF luckybamboo-rescue:ADF7242 U 0 40 Y Y 1 F N
 F0 "U" 0 -150 60 H V C CNN
-F1 "orchid-rescue:ADF7242" 0 -300 60 H V C CNN
+F1 "luckybamboo-rescue:ADF7242" 0 -300 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -118,11 +118,11 @@ X VDD_VCO 9 -350 -1100 300 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:ADF7242_balun
+# luckybamboo-rescue:ADF7242_balun
 #
-DEF orchid-rescue:ADF7242_balun U 0 40 Y Y 1 F N
+DEF luckybamboo-rescue:ADF7242_balun U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "orchid-rescue:ADF7242_balun" 0 -50 60 H V C CNN
+F1 "luckybamboo-rescue:ADF7242_balun" 0 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -136,11 +136,11 @@ X GND 6 250 -600 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:C
+# luckybamboo-rescue:C
 #
-DEF orchid-rescue:C C 0 10 N Y 1 F N
+DEF luckybamboo-rescue:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "orchid-rescue:C" 25 -100 50 H V L CNN
+F1 "luckybamboo-rescue:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -154,11 +154,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:CONN_02X20
+# luckybamboo-rescue:CONN_02X20
 #
-DEF orchid-rescue:CONN_02X20 P 0 1 Y N 1 F N
+DEF luckybamboo-rescue:CONN_02X20 P 0 1 Y N 1 F N
 F0 "P" 0 1050 50 H V C CNN
-F1 "orchid-rescue:CONN_02X20" 0 0 50 V V C CNN
+F1 "luckybamboo-rescue:CONN_02X20" 0 0 50 V V C CNN
 F2 "" 0 -950 50 H V C CNN
 F3 "" 0 -950 50 H V C CNN
 $FPLIST
@@ -252,11 +252,11 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:Conn_01x01
+# luckybamboo-rescue:Conn_01x01
 #
-DEF orchid-rescue:Conn_01x01 J 0 40 Y N 1 F N
+DEF luckybamboo-rescue:Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "orchid-rescue:Conn_01x01" 0 -100 50 H V C CNN
+F1 "luckybamboo-rescue:Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -274,11 +274,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:Conn_01x08
+# luckybamboo-rescue:Conn_01x08
 #
-DEF orchid-rescue:Conn_01x08 J 0 40 Y N 1 F N
+DEF luckybamboo-rescue:Conn_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "orchid-rescue:Conn_01x08" 0 -500 50 H V C CNN
+F1 "luckybamboo-rescue:Conn_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -310,11 +310,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:Conn_01x20
+# luckybamboo-rescue:Conn_01x20
 #
-DEF orchid-rescue:Conn_01x20 J 0 40 Y N 1 F N
+DEF luckybamboo-rescue:Conn_01x20 J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "orchid-rescue:Conn_01x20" 0 -1100 50 H V C CNN
+F1 "luckybamboo-rescue:Conn_01x20" 0 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -370,11 +370,11 @@ X Pin_9 9 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:Conn_Coaxial
+# luckybamboo-rescue:Conn_Coaxial
 #
-DEF orchid-rescue:Conn_Coaxial J 0 40 Y N 1 F N
+DEF luckybamboo-rescue:Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "orchid-rescue:Conn_Coaxial" 115 0 50 V V C CNN
+F1 "luckybamboo-rescue:Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -395,11 +395,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:L
+# luckybamboo-rescue:L
 #
-DEF orchid-rescue:L L 0 40 N N 1 F N
+DEF luckybamboo-rescue:L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "orchid-rescue:L" 75 0 50 V V C CNN
+F1 "luckybamboo-rescue:L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -418,11 +418,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:R
+# luckybamboo-rescue:R
 #
-DEF orchid-rescue:R R 0 0 N Y 1 F N
+DEF luckybamboo-rescue:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "orchid-rescue:R" 0 0 50 V V C CNN
+F1 "luckybamboo-rescue:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -436,11 +436,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:SKY13322
+# luckybamboo-rescue:SKY13322
 #
-DEF orchid-rescue:SKY13322 U 0 40 Y Y 1 F N
+DEF luckybamboo-rescue:SKY13322 U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "orchid-rescue:SKY13322" 0 250 60 H V C CNN
+F1 "luckybamboo-rescue:SKY13322" 0 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -459,11 +459,11 @@ X V4 9 400 50 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:TEST_2P
+# luckybamboo-rescue:TEST_2P
 #
-DEF orchid-rescue:TEST_2P J 0 30 N N 1 F N
+DEF luckybamboo-rescue:TEST_2P J 0 30 N N 1 F N
 F0 "J" 0 60 50 H V C CNN
-F1 "orchid-rescue:TEST_2P" 0 -70 50 H V C CNN
+F1 "luckybamboo-rescue:TEST_2P" 0 -70 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -474,11 +474,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# orchid-rescue:XTAL4PIN
+# luckybamboo-rescue:XTAL4PIN
 #
-DEF orchid-rescue:XTAL4PIN X 0 40 N N 1 F N
+DEF luckybamboo-rescue:XTAL4PIN X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "orchid-rescue:XTAL4PIN" 0 -150 60 H V C CNN
+F1 "luckybamboo-rescue:XTAL4PIN" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
