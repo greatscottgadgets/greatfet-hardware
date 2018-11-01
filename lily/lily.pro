@@ -1,4 +1,4 @@
-update=Sun 27 Sep 2015 03:28:08 PM MDT
+update=Fri 03 Nov 2017 05:32:42 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../gsg-kicad-lib
@@ -58,4 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=gsg-symbols
+LibName30=/home/mossmann/src/greatfet/hardware/gsg-kicad-lib/gsg-symbols
+[general]
+version=1
