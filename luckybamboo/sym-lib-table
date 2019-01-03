@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name luckybamboo-rescue)(type Legacy)(uri ${KIPRJMOD}/luckybamboo-rescue.lib)(options "")(descr ""))
+  (lib (name gsg-symbols)(type Legacy)(uri ${KIPRJMOD}/../gsg-kicad-lib/gsg-symbols.lib)(options "")(descr ""))
+)
