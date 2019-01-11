@@ -1175,7 +1175,7 @@ Wire Wire Line
 	2000 3350 2000 3050
 Connection ~ 2500 3050
 Text Notes 800  4250 0    40   ~ 0
-Default I2C address set by resistors:\n0x40 read\n0x41 write\n0x20 7 bit (without r/w bit)
+Default I2C address set by resistors:\n0x20 (7-bit format)
 $Comp
 L GND #PWR036
 U 1 1 56067F1F

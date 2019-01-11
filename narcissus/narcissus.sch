@@ -1112,9 +1112,9 @@ U1_IO2_0
 Text Label 5450 2250 0    40   ~ 0
 U1_IO2_1
 Text Notes 5700 9050 0    60   ~ 0
-I2C address 0x4C
+I2C address 0x26
 Text Notes 8700 9050 0    60   ~ 0
-I2C address 0x4E
+I2C address 0x27
 Text Label 6650 2150 2    40   ~ 0
 U1_IO2_2
 Text Label 5450 2150 0    40   ~ 0
