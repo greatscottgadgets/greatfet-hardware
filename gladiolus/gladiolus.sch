@@ -4477,4 +4477,8 @@ Text Label 1050 2300 0    50   ~ 0
 P3_5
 Text Notes 1200 3500 0    50   ~ 0
 switch for\nac/dc coupling
+Text Notes 750  2700 0    50   ~ 0
+add pulldown\non gate
+Text Notes 750  2950 0    50   ~ 0
+switch gate \nand drain
 $EndSCHEMATC
