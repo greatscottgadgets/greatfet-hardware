@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:gsg-symbols
+EESchema Schematic File Version 4
 LIBS:foxglove-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X20 J2
+L foxglove-rescue:CONN_02X20 J2
 U 1 1 55EAB4B7
 P 15750 2650
 F 0 "J2" H 15750 3700 50  0000 C CNN
@@ -60,7 +30,7 @@ F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 2650 60  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 55EACE84
 P 15300 1700
 F 0 "#PWR01" H 15300 1450 50  0001 C CNN
@@ -71,7 +41,7 @@ F 3 "" H 15300 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 55EAECD0
 P 15300 4300
 F 0 "#PWR02" H 15300 4050 50  0001 C CNN
@@ -82,7 +52,7 @@ F 3 "" H 15300 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR03
+L power:VCC #PWR03
 U 1 1 55EAF03E
 P 16200 4300
 F 0 "#PWR03" H 16200 4150 50  0001 C CNN
@@ -93,7 +63,7 @@ F 3 "" H 16200 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_02X20 J1
+L foxglove-rescue:CONN_02X20 J1
 U 1 1 55FB1D52
 P 15750 5250
 F 0 "J1" H 15750 6300 50  0000 C CNN
@@ -154,7 +124,7 @@ VA2
 Text Label 16200 2100 2    40   ~ 0
 VA6
 $Comp
-L CONN_01X20 J7
+L foxglove-rescue:CONN_01X20 J7
 U 1 1 560E713A
 P 15200 7000
 F 0 "J7" H 15200 8050 50  0000 C CNN
@@ -169,7 +139,7 @@ F 7 "DNP" V 15400 7000 60  0000 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X01 MH3
+L foxglove-rescue:CONN_01X01 MH3
 U 1 1 5600EED5
 P 13650 850
 F 0 "MH3" H 13600 950 50  0000 C CNN
@@ -181,7 +151,7 @@ F 4 "DNP" H 13650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5600F9D3
 P 13650 1150
 F 0 "#PWR04" H 13650 900 50  0001 C CNN
@@ -192,7 +162,7 @@ F 3 "" H 13650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH4
+L foxglove-rescue:CONN_01X01 MH4
 U 1 1 560100F3
 P 14150 1000
 F 0 "MH4" H 14100 1100 50  0000 C CNN
@@ -204,7 +174,7 @@ F 4 "DNP" H 14150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 560100F9
 P 14150 1300
 F 0 "#PWR05" H 14150 1050 50  0001 C CNN
@@ -215,7 +185,7 @@ F 3 "" H 14150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH1
+L foxglove-rescue:CONN_01X01 MH1
 U 1 1 56010ADB
 P 12650 850
 F 0 "MH1" H 12600 950 50  0000 C CNN
@@ -227,7 +197,7 @@ F 4 "DNP" H 12650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 56010AE1
 P 12650 1150
 F 0 "#PWR06" H 12650 900 50  0001 C CNN
@@ -238,7 +208,7 @@ F 3 "" H 12650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH2
+L foxglove-rescue:CONN_01X01 MH2
 U 1 1 56010AE9
 P 13150 1000
 F 0 "MH2" H 13100 1100 50  0000 C CNN
@@ -250,7 +220,7 @@ F 4 "DNP" H 13150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 56010AEF
 P 13150 1300
 F 0 "#PWR07" H 13150 1050 50  0001 C CNN
@@ -261,7 +231,7 @@ F 3 "" H 13150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC1T45 U1
+L gsg-symbols:74LVC1T45 U1
 U 1 1 578FC398
 P 3700 3100
 F 0 "U1" H 3700 3300 60  0000 C CNN
@@ -275,7 +245,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 3100 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 578FC8E0
 P 3250 3100
 F 0 "#PWR08" H 3250 2850 50  0001 C CNN
@@ -296,7 +266,7 @@ DIR1
 Text Label 4200 3000 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U2
+L gsg-symbols:74LVC1T45 U2
 U 1 1 578FD259
 P 3700 3800
 F 0 "U2" H 3700 4000 60  0000 C CNN
@@ -310,7 +280,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 3800 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 578FD25F
 P 3250 3800
 F 0 "#PWR09" H 3250 3550 50  0001 C CNN
@@ -331,7 +301,7 @@ DIR2
 Text Label 4200 3700 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U3
+L gsg-symbols:74LVC1T45 U3
 U 1 1 578FD361
 P 3700 4500
 F 0 "U3" H 3700 4700 60  0000 C CNN
@@ -345,7 +315,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 4500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 578FD367
 P 3250 4500
 F 0 "#PWR010" H 3250 4250 50  0001 C CNN
@@ -366,7 +336,7 @@ DIR3
 Text Label 4200 4400 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U4
+L gsg-symbols:74LVC1T45 U4
 U 1 1 578FD37B
 P 3700 5200
 F 0 "U4" H 3700 5400 60  0000 C CNN
@@ -380,7 +350,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 5200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 578FD381
 P 3250 5200
 F 0 "#PWR011" H 3250 4950 50  0001 C CNN
@@ -401,7 +371,7 @@ DIR4
 Text Label 4200 5100 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U5
+L gsg-symbols:74LVC1T45 U5
 U 1 1 578FD5E5
 P 3700 5900
 F 0 "U5" H 3700 6100 60  0000 C CNN
@@ -415,7 +385,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 5900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 578FD5EB
 P 3250 5900
 F 0 "#PWR012" H 3250 5650 50  0001 C CNN
@@ -436,7 +406,7 @@ DIR5
 Text Label 4200 5800 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U6
+L gsg-symbols:74LVC1T45 U6
 U 1 1 578FD5FF
 P 3700 6600
 F 0 "U6" H 3700 6800 60  0000 C CNN
@@ -450,7 +420,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 6600 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 578FD605
 P 3250 6600
 F 0 "#PWR013" H 3250 6350 50  0001 C CNN
@@ -471,7 +441,7 @@ DIR6
 Text Label 4200 6500 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U7
+L gsg-symbols:74LVC1T45 U7
 U 1 1 578FD619
 P 3700 7300
 F 0 "U7" H 3700 7500 60  0000 C CNN
@@ -485,7 +455,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 7300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 578FD61F
 P 3250 7300
 F 0 "#PWR014" H 3250 7050 50  0001 C CNN
@@ -506,7 +476,7 @@ DIR7
 Text Label 4200 7200 2    40   ~ 0
 VCCB
 $Comp
-L 74LVC1T45 U8
+L gsg-symbols:74LVC1T45 U8
 U 1 1 578FD633
 P 3700 8000
 F 0 "U8" H 3700 8200 60  0000 C CNN
@@ -520,7 +490,7 @@ F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 3700 8000 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 578FD639
 P 3250 8000
 F 0 "#PWR015" H 3250 7750 50  0001 C CNN
@@ -541,7 +511,7 @@ DIR8
 Text Label 4200 7900 2    40   ~ 0
 VCCB
 $Comp
-L RJ45 J3
+L foxglove-rescue:RJ45 J3
 U 1 1 57903ED0
 P 1900 1900
 F 0 "J3" H 2100 2400 60  0000 C CNN
@@ -552,7 +522,7 @@ F 3 "" H 1900 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X05 P1
+L foxglove-rescue:CONN_02X05 P1
 U 1 1 57904052
 P 1900 4100
 F 0 "P1" H 1900 4400 50  0000 C CNN
@@ -781,7 +751,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4200 2150 4200
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 57904C35
 P 1550 4400
 F 0 "#PWR016" H 1550 4150 50  0001 C CNN
@@ -816,7 +786,7 @@ B7
 Text Label 2250 2450 1    40   ~ 0
 B8
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5790532A
 P 2550 1650
 F 0 "#PWR017" H 2550 1400 50  0001 C CNN
@@ -898,9 +868,6 @@ NoConn ~ 15500 3400
 NoConn ~ 15500 3500
 NoConn ~ 15500 3600
 NoConn ~ 16000 3600
-NoConn ~ 16000 3500
-NoConn ~ 16000 3200
-NoConn ~ 16000 3100
 NoConn ~ 16000 3000
 NoConn ~ 16000 2900
 NoConn ~ 16000 2800
@@ -953,7 +920,7 @@ NoConn ~ 16000 2300
 NoConn ~ 16000 4700
 NoConn ~ 16000 4800
 $Comp
-L SLG46621 U9
+L gsg-symbols:SLG46621 U9
 U 1 1 5B218E60
 P 7950 1700
 F 0 "U9" H 7950 900 60  0000 C CNN
@@ -964,7 +931,7 @@ F 3 "" H 7950 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR018
+L power:VCC #PWR018
 U 1 1 5B21A1F4
 P 7150 1400
 F 0 "#PWR018" H 7150 1250 50  0001 C CNN
@@ -977,7 +944,7 @@ $EndComp
 Wire Wire Line
 	7150 1400 7300 1400
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5B21A30C
 P 8700 2000
 F 0 "#PWR019" H 8700 1750 50  0001 C CNN
@@ -1001,7 +968,7 @@ Text Notes 8700 1200 0    60   ~ 0
 VDD2: \npins 12-20
 NoConn ~ 15500 4400
 $Comp
-L PWR_FLAG #FLG020
+L power:PWR_FLAG #FLG020
 U 1 1 5B5A6174
 P 11350 1200
 F 0 "#FLG020" H 11350 1275 50  0001 C CNN
@@ -1012,7 +979,7 @@ F 3 "" H 11350 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR021
+L power:VCC #PWR021
 U 1 1 5B5A61D0
 P 11350 1150
 F 0 "#PWR021" H 11350 1000 50  0001 C CNN
@@ -1023,7 +990,7 @@ F 3 "" H 11350 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 5B5A627E
 P 11750 1150
 F 0 "#PWR022" H 11750 900 50  0001 C CNN
@@ -1034,7 +1001,7 @@ F 3 "" H 11750 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG023
+L power:PWR_FLAG #FLG023
 U 1 1 5B5A62C6
 P 11750 1200
 F 0 "#FLG023" H 11750 1275 50  0001 C CNN
@@ -1049,7 +1016,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 1200 11750 1150
 $Comp
-L iCE40HX4K U10
+L foxglove-rescue:iCE40HX4K U10
 U 1 1 5B5FEAD8
 P 9050 6250
 F 0 "U10" H 9050 6400 60  0000 C CNN
@@ -1060,7 +1027,7 @@ F 3 "" H 9050 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B60038C
 P 6250 4900
 F 0 "#PWR?" H 6250 4650 50  0001 C CNN
@@ -1071,7 +1038,7 @@ F 3 "" H 6250 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B6003D7
 P 6250 5700
 F 0 "#PWR?" H 6250 5450 50  0001 C CNN
@@ -1082,7 +1049,7 @@ F 3 "" H 6250 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B600792
 P 10500 9050
 F 0 "#PWR?" H 10500 8800 50  0001 C CNN
@@ -1093,7 +1060,7 @@ F 3 "" H 10500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B6007DD
 P 9500 9050
 F 0 "#PWR?" H 9500 8800 50  0001 C CNN
@@ -1104,7 +1071,7 @@ F 3 "" H 9500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B6008E1
 P 11850 6700
 F 0 "#PWR?" H 11850 6450 50  0001 C CNN
@@ -1115,7 +1082,7 @@ F 3 "" H 11850 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B600BED
 P 8500 3450
 F 0 "#PWR?" H 8500 3200 50  0001 C CNN
@@ -1126,7 +1093,7 @@ F 3 "" H 8500 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B600C71
 P 7700 3450
 F 0 "#PWR?" H 7700 3200 50  0001 C CNN
@@ -1143,10 +1110,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4900 6250 4900
 Wire Wire Line
-	6350 5800 6350 5700
-Wire Wire Line
 	6350 5700 6250 5700
-Connection ~ 6350 5700
 Wire Wire Line
 	9500 8950 9500 9050
 Wire Wire Line
@@ -1154,7 +1118,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 6700 11850 6700
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B60196C
 P 11850 5000
 F 0 "#PWR?" H 11850 4750 50  0001 C CNN
@@ -1167,7 +1131,7 @@ $EndComp
 Wire Wire Line
 	11750 5000 11850 5000
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B601F0E
 P 6100 5000
 F 0 "#PWR?" H 6100 4850 50  0001 C CNN
@@ -1180,7 +1144,7 @@ $EndComp
 Wire Wire Line
 	6100 5000 6350 5000
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B602240
 P 6250 7400
 F 0 "#PWR?" H 6250 7250 50  0001 C CNN
@@ -1193,7 +1157,7 @@ $EndComp
 Wire Wire Line
 	6250 7400 6350 7400
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B602750
 P 8200 9050
 F 0 "#PWR?" H 8200 8900 50  0001 C CNN
@@ -1206,7 +1170,7 @@ $EndComp
 Wire Wire Line
 	8200 9050 8200 8950
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B602978
 P 8950 9300
 F 0 "C?" H 8975 9400 50  0000 L CNN
@@ -1227,11 +1191,11 @@ Wire Wire Line
 Connection ~ 8800 9300
 Connection ~ 9100 9300
 Wire Wire Line
-	8800 9150 8800 9600
+	8800 9150 8800 9300
 Wire Wire Line
-	9100 9150 9100 9700
+	9100 9150 9100 9300
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B603762
 P 8950 9600
 F 0 "C?" H 8975 9700 50  0000 L CNN
@@ -1243,7 +1207,7 @@ F 3 "" H 8950 9600 50  0001 C CNN
 $EndComp
 Connection ~ 9100 9600
 $Comp
-L R R?
+L foxglove-rescue:R R?
 U 1 1 5B6038D3
 P 9100 9850
 F 0 "R?" V 9180 9850 50  0000 C CNN
@@ -1254,7 +1218,7 @@ F 3 "" H 9100 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B603C89
 P 10800 9050
 F 0 "#PWR?" H 10800 8900 50  0001 C CNN
@@ -1267,7 +1231,7 @@ $EndComp
 Wire Wire Line
 	10800 9050 10800 8950
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B603D82
 P 9300 9050
 F 0 "#PWR?" H 9300 8900 50  0001 C CNN
@@ -1280,7 +1244,7 @@ $EndComp
 Wire Wire Line
 	9300 9050 9300 8950
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B604179
 P 11900 6400
 F 0 "#PWR?" H 11900 6250 50  0001 C CNN
@@ -1293,7 +1257,7 @@ $EndComp
 Wire Wire Line
 	11900 6400 11750 6400
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B6043AA
 P 11850 5300
 F 0 "#PWR?" H 11850 5150 50  0001 C CNN
@@ -1306,7 +1270,7 @@ $EndComp
 Wire Wire Line
 	11850 5300 11750 5300
 $Comp
-L Conn_01x02 J?
+L foxglove-rescue:Conn_01x02 J?
 U 1 1 5B60459A
 P 11300 3400
 F 0 "J?" H 11300 3500 50  0000 C CNN
@@ -1321,7 +1285,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 3400 11100 3400
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B60472E
 P 10950 3600
 F 0 "#PWR?" H 10950 3350 50  0001 C CNN
@@ -1336,7 +1300,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 3500 10950 3600
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B604B2A
 P 9400 3450
 F 0 "#PWR?" H 9400 3300 50  0001 C CNN
@@ -1349,7 +1313,7 @@ $EndComp
 Wire Wire Line
 	9400 3550 9400 3450
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B606166
 P 9050 3200
 F 0 "C?" H 9075 3300 50  0000 L CNN
@@ -1370,11 +1334,11 @@ Wire Wire Line
 Connection ~ 8900 3200
 Connection ~ 9200 3200
 Wire Wire Line
-	8900 3350 8900 2900
+	8900 3350 8900 3200
 Wire Wire Line
-	9200 3350 9200 2800
+	9200 3350 9200 3200
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B606174
 P 9050 2900
 F 0 "C?" H 9075 3000 50  0000 L CNN
@@ -1386,7 +1350,7 @@ F 3 "" H 9050 2900 50  0001 C CNN
 $EndComp
 Connection ~ 9200 2900
 $Comp
-L R R?
+L foxglove-rescue:R R?
 U 1 1 5B60617B
 P 9200 2650
 F 0 "R?" V 9280 2650 50  0000 C CNN
@@ -1397,7 +1361,7 @@ F 3 "" H 9200 2650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B606D1C
 P 8600 3300
 F 0 "#PWR?" H 8600 3150 50  0001 C CNN
@@ -1410,7 +1374,7 @@ $EndComp
 Wire Wire Line
 	8600 3550 8600 3300
 $Comp
-L MIC94310 U?
+L foxglove-rescue:MIC94310 U?
 U 1 1 5B5FA44C
 P 13200 3150
 F 0 "U?" H 13200 3100 60  0000 C CNN
@@ -1421,7 +1385,7 @@ F 3 "" H 13200 3150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B5FA690
 P 13450 3850
 F 0 "C?" H 13475 3950 50  0000 L CNN
@@ -1432,7 +1396,7 @@ F 3 "" H 13450 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B5FA89F
 P 13050 2350
 F 0 "C?" H 13075 2450 50  0000 L CNN
@@ -1445,7 +1409,7 @@ $EndComp
 Wire Wire Line
 	13200 2550 13200 2350
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B5FAED9
 P 12850 2350
 F 0 "#PWR?" H 12850 2200 50  0001 C CNN
@@ -1459,7 +1423,7 @@ Wire Wire Line
 	12900 2550 13000 2550
 Connection ~ 12900 2350
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B5FB0A9
 P 13250 2350
 F 0 "#PWR?" H 13250 2100 50  0001 C CNN
@@ -1474,9 +1438,9 @@ Wire Wire Line
 Connection ~ 13200 2350
 Connection ~ 13300 3850
 Wire Wire Line
-	13300 3750 13300 4000
+	13300 3750 13300 3850
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B5FB45A
 P 13500 2550
 F 0 "#PWR?" H 13500 2400 50  0001 C CNN
@@ -1489,7 +1453,7 @@ $EndComp
 Wire Wire Line
 	13400 2550 13500 2550
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B5FB61D
 P 13700 3850
 F 0 "#PWR?" H 13700 3600 50  0001 C CNN
@@ -1502,7 +1466,7 @@ $EndComp
 Wire Wire Line
 	13600 3850 13700 3850
 $Comp
-L MIC94310 U?
+L foxglove-rescue:MIC94310 U?
 U 1 1 5B5FBAEE
 P 14000 3150
 F 0 "U?" H 14000 3100 60  0000 C CNN
@@ -1513,7 +1477,7 @@ F 3 "" H 14000 3150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B5FBAF4
 P 14250 3850
 F 0 "C?" H 14275 3950 50  0000 L CNN
@@ -1524,7 +1488,7 @@ F 3 "" H 14250 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L foxglove-rescue:C C?
 U 1 1 5B5FBAFA
 P 13850 2350
 F 0 "C?" H 13875 2450 50  0000 L CNN
@@ -1537,7 +1501,7 @@ $EndComp
 Wire Wire Line
 	14000 2550 14000 2350
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B5FBB01
 P 13650 2350
 F 0 "#PWR?" H 13650 2200 50  0001 C CNN
@@ -1551,7 +1515,7 @@ Wire Wire Line
 	13700 2550 13800 2550
 Connection ~ 13700 2350
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B5FBB0A
 P 14050 2350
 F 0 "#PWR?" H 14050 2100 50  0001 C CNN
@@ -1566,9 +1530,9 @@ Wire Wire Line
 Connection ~ 14000 2350
 Connection ~ 14100 3850
 Wire Wire Line
-	14100 3750 14100 4000
+	14100 3750 14100 3850
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 5B5FBB14
 P 14300 2550
 F 0 "#PWR?" H 14300 2400 50  0001 C CNN
@@ -1581,7 +1545,7 @@ $EndComp
 Wire Wire Line
 	14200 2550 14300 2550
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5B5FBB1B
 P 14500 3850
 F 0 "#PWR?" H 14500 3600 50  0001 C CNN
@@ -1625,4 +1589,145 @@ Wire Wire Line
 	9100 10000 9100 10050
 Text Label 9100 10050 0    60   ~ 0
 1V2
+Wire Wire Line
+	8800 9300 8800 9600
+Wire Wire Line
+	9100 9300 9100 9600
+Wire Wire Line
+	9100 9600 9100 9700
+Wire Wire Line
+	8900 3200 8900 2900
+Wire Wire Line
+	9200 3200 9200 2900
+Wire Wire Line
+	9200 2900 9200 2800
+Wire Wire Line
+	13300 3850 13300 4000
+Wire Wire Line
+	14100 3850 14100 4000
+Wire Wire Line
+	16000 3200 16200 3200
+Text Label 16200 3200 0    50   ~ 0
+SPI_SCK
+Wire Wire Line
+	16000 3100 16200 3100
+Text Label 16200 3100 0    50   ~ 0
+SPI_MOSI
+Wire Wire Line
+	16000 3500 16200 3500
+Text Label 16200 3500 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	10600 8950 10600 9300
+Wire Wire Line
+	10400 8950 10400 9300
+Wire Wire Line
+	10300 8950 10300 9300
+Text Label 10600 9300 3    50   ~ 0
+SPI_SCK
+Text Label 10400 9300 3    50   ~ 0
+SPI_MOSI
+Text Label 10300 9300 3    50   ~ 0
+SPI_MISO
+$Comp
+L foxglove-rescue:R R?
+U 1 1 5C622220
+P 10950 9300
+F 0 "R?" V 11030 9300 50  0000 C CNN
+F 1 "10k" V 10950 9300 50  0000 C CNN
+F 2 "" V 10880 9300 50  0001 C CNN
+F 3 "" H 10950 9300 50  0001 C CNN
+	1    10950 9300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10700 8950 10700 9300
+Wire Wire Line
+	10800 9300 10700 9300
+Connection ~ 10700 9300
+Wire Wire Line
+	10700 9300 10700 9400
+$Comp
+L power:GND #PWR?
+U 1 1 5C62C9FA
+P 11150 9300
+F 0 "#PWR?" H 11150 9050 50  0001 C CNN
+F 1 "GND" H 11150 9150 50  0000 C CNN
+F 2 "" H 11150 9300 50  0001 C CNN
+F 3 "" H 11150 9300 50  0001 C CNN
+	1    11150 9300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11100 9300 11150 9300
+Text Label 10700 9400 3    50   ~ 0
+SPI_SSEL
+Wire Wire Line
+	10200 8950 10200 9850
+$Comp
+L foxglove-rescue:R R?
+U 1 1 5C64379F
+P 10400 9850
+F 0 "R?" V 10480 9850 50  0000 C CNN
+F 1 "10k" V 10400 9850 50  0000 C CNN
+F 2 "" V 10330 9850 50  0001 C CNN
+F 3 "" H 10400 9850 50  0001 C CNN
+	1    10400 9850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 9850 10600 9850
+$Comp
+L power:VCC #PWR?
+U 1 1 5C64E7DF
+P 10600 9850
+F 0 "#PWR?" H 10600 9700 50  0001 C CNN
+F 1 "VCC" H 10600 10000 50  0000 C CNN
+F 2 "" H 10600 9850 50  0001 C CNN
+F 3 "" H 10600 9850 50  0001 C CNN
+	1    10600 9850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 9850 10250 9850
+Wire Wire Line
+	10200 9850 10200 9950
+Connection ~ 10200 9850
+Text Label 10200 9950 3    50   ~ 0
+CRESET
+Wire Wire Line
+	10100 8950 10100 9850
+$Comp
+L foxglove-rescue:R R?
+U 1 1 5C6D1D64
+P 9900 9850
+F 0 "R?" V 9980 9850 50  0000 C CNN
+F 1 "10k" V 9900 9850 50  0000 C CNN
+F 2 "" V 9830 9850 50  0001 C CNN
+F 3 "" H 9900 9850 50  0001 C CNN
+	1    9900 9850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9750 9850 9700 9850
+$Comp
+L power:VCC #PWR?
+U 1 1 5C6D1D6C
+P 9700 9850
+F 0 "#PWR?" H 9700 9700 50  0001 C CNN
+F 1 "VCC" H 9700 10000 50  0000 C CNN
+F 2 "" H 9700 9850 50  0001 C CNN
+F 3 "" H 9700 9850 50  0001 C CNN
+	1    9700 9850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10100 9850 10050 9850
+Wire Wire Line
+	10100 9850 10100 9950
+Connection ~ 10100 9850
+Text Label 10100 9950 3    50   ~ 0
+CDONE
+Text Notes 8550 10250 0    50   ~ 0
+don't connect PLL ground\nto board ground
 $EndSCHEMATC
