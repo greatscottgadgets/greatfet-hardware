@@ -502,7 +502,7 @@
   (gr_text 1 (at 178.3588 113.6396 98.9) (layer F.Cu)
     (effects (font (size 1.016 1.016) (thickness 0.1778)))
   )
-  (gr_text http://greatscottgadgets.com/ (at 168.021 102.616) (layer F.SilkS) (tstamp 5604731D)
+  (gr_text https://greatscottgadgets.com/ (at 168.021 102.616) (layer F.SilkS) (tstamp 5604731D)
     (effects (font (size 1.016 0.762) (thickness 0.1524)))
   )
   (gr_text GND (at 118.999 73.406) (layer F.SilkS) (tstamp 56047187)
