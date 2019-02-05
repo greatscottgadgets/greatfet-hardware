@@ -4593,4 +4593,10 @@ Wire Wire Line
 Connection ~ 1400 3300
 Text Label 1400 2800 1    50   ~ 0
 P2_1
+Text Notes 5600 9750 0    40   ~ 0
+TODO:\nDNP?
+Text Notes 6600 8100 0    50   ~ 0
+TODO:\nshort +/- inputs\nto turn off TX
+Text Notes 5050 6700 0    50   ~ 0
+TODO:\nremove DNP components\nfor inverting output
 $EndSCHEMATC
