@@ -702,9 +702,9 @@ F 0 "J17" H 10160 2220 50  0000 C CNN
 F 1 "Conn_Coaxial" V 10265 2100 50  0000 C CNN
 F 2 "gsg-modules:SMA-EDGE" H 10150 2100 50  0001 C CNN
 F 3 "" H 10150 2100 50  0001 C CNN
-F 4 " CONN SMA RCPT STR 50OHM EDGE MNT" H 10160 2320 50  0001 C CNN "Description"
+F 4 " CONN RPSMA PLG STR 50OHM EDGEMNT" H 10160 2320 50  0001 C CNN "Description"
 F 5 "Linx Technologies Inc." H 10160 2320 50  0001 C CNN "Manufacturer"
-F 6 "CONSMA003.062" H 10160 2320 50  0001 C CNN "Part Number"
+F 6 "CONREVSMA013.062" H 10160 2320 50  0001 C CNN "Part Number"
 	1    10150 2100
 	-1   0    0    1   
 $EndComp
@@ -3149,9 +3149,9 @@ F 0 "J3" H 4850 1350 50  0000 C CNN
 F 1 "Conn_01x08" H 4850 450 50  0000 C CNN
 F 2 "gsg-modules:HEADER-2x4" H 4850 950 50  0001 C CNN
 F 3 "" H 4850 950 50  0001 C CNN
-F 4 " CONN RECEPT 2MM DUAL STR 8POS" H 4850 1450 50  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 4850 1450 50  0001 C CNN "Manufacturer"
-F 6 "NPPN042AFCN-RC" H 4850 1450 50  0001 C CNN "Part Number"
+F 4 "CONN RCPT 8POS 0.1 GOLD PCB" H 4850 1450 50  0001 C CNN "Description"
+F 5 "Samtec Inc." H 4850 1450 50  0001 C CNN "Manufacturer"
+F 6 "CES-104-01-L-D" H 4850 1450 50  0001 C CNN "Part Number"
 	1    4850 950 
 	1    0    0    -1  
 $EndComp
@@ -3177,9 +3177,9 @@ F 0 "J5" H 9650 1350 50  0000 C CNN
 F 1 "Conn_01x08" H 9650 450 50  0000 C CNN
 F 2 "gsg-modules:HEADER-2x4" H 9650 950 50  0001 C CNN
 F 3 "" H 9650 950 50  0001 C CNN
-F 4 " CONN RECEPT 2MM DUAL STR 8POS" H 9650 1450 50  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 9650 1450 50  0001 C CNN "Manufacturer"
-F 6 "NPPN042AFCN-RC" H 9650 1450 50  0001 C CNN "Part Number"
+F 4 "CONN RCPT 8POS 0.1 GOLD PCB" H 9650 1450 50  0001 C CNN "Description"
+F 5 "Samtec Inc." H 9650 1450 50  0001 C CNN "Manufacturer"
+F 6 "CES-104-01-L-D" H 9650 1450 50  0001 C CNN "Part Number"
 	1    9650 950 
 	1    0    0    -1  
 $EndComp
@@ -3191,9 +3191,9 @@ F 0 "J4" H 5050 6200 50  0000 C CNN
 F 1 "Conn_01x08" H 5050 5300 50  0000 C CNN
 F 2 "gsg-modules:HEADER-2x4" H 5050 5800 50  0001 C CNN
 F 3 "" H 5050 5800 50  0001 C CNN
-F 4 " CONN RECEPT 2MM DUAL STR 8POS" H 5050 6300 50  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 5050 6300 50  0001 C CNN "Manufacturer"
-F 6 "NPPN042AFCN-RC" H 5050 6300 50  0001 C CNN "Part Number"
+F 4 "CONN RCPT 8POS 0.1 GOLD PCB" H 5050 6300 50  0001 C CNN "Description"
+F 5 "Samtec Inc. " H 5050 6300 50  0001 C CNN "Manufacturer"
+F 6 "CES-104-01-L-D" H 5050 6300 50  0001 C CNN "Part Number"
 	1    5050 5800
 	1    0    0    -1  
 $EndComp
@@ -4998,7 +4998,7 @@ F 3 "" H 11350 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L gsg-symbols:HHM2293A1 U7
+L luckybamboo-rescue:HHM2293A1-gsg-symbols U7
 U 1 1 5BDFC016
 P 10250 7900
 F 0 "U7" H 10250 7850 60  0000 C CNN
@@ -5047,7 +5047,7 @@ $EndComp
 Wire Wire Line
 	9700 7700 9650 7700
 $Comp
-L gsg-symbols:HHM2293A1 U6
+L luckybamboo-rescue:HHM2293A1-gsg-symbols U6
 U 1 1 5BDFC052
 P 10250 9400
 F 0 "U6" H 10250 9350 60  0000 C CNN
@@ -5205,7 +5205,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 9200 9350 9200
 $Comp
-L gsg-symbols:BGA7H1N6 U13
+L luckybamboo-rescue:BGA7H1N6-gsg-symbols U13
 U 1 1 5BDFBFD4
 P 12800 7450
 F 0 "U13" H 12800 7350 60  0000 C CNN
@@ -5230,9 +5230,9 @@ F 0 "J6" H 9700 6200 50  0000 C CNN
 F 1 "Conn_01x08" H 9700 5300 50  0000 C CNN
 F 2 "gsg-modules:HEADER-2x4" H 9700 5800 50  0001 C CNN
 F 3 "" H 9700 5800 50  0001 C CNN
-F 4 " CONN RECEPT 2MM DUAL STR 8POS" H 9700 6300 50  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 9700 6300 50  0001 C CNN "Manufacturer"
-F 6 "NPPN042AFCN-RC" H 9700 6300 50  0001 C CNN "Part Number"
+F 4 "CONN RCPT 8POS 0.1 GOLD PCB" H 9700 6300 50  0001 C CNN "Description"
+F 5 "Samtec Inc." H 9700 6300 50  0001 C CNN "Manufacturer"
+F 6 "CES-104-01-L-D" H 9700 6300 50  0001 C CNN "Part Number"
 	1    9700 5800
 	1    0    0    -1  
 $EndComp
@@ -5254,7 +5254,7 @@ Wire Wire Line
 Text Label 9750 9850 0    50   ~ 0
 RFIN2
 $Comp
-L gsg-symbols:HHM2293A1 U12
+L luckybamboo-rescue:HHM2293A1-gsg-symbols U12
 U 1 1 5BDFBFCD
 P 11900 8750
 F 0 "U12" H 11900 8700 60  0000 C CNN
