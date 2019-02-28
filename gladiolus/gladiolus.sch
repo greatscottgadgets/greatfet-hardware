@@ -6,7 +6,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "GreatFET Gladiolus"
-Date "2015-09-24"
+Date "2019-02-27"
 Rev ""
 Comp "Copyright 2015 Michael Ossmann"
 Comment1 "License: GPL v2"
@@ -17,7 +17,7 @@ $EndDescr
 Text Label 15300 1800 0    40   ~ 0
 P2_8
 $Comp
-L gladiolus-rescue:CONN_02X20 J2
+L gladiolus-rescue:CONN_02X20-gladiolus-rescue J2
 U 1 1 55EAB4B7
 P 15750 2150
 F 0 "J2" H 15750 3200 50  0000 C CNN
@@ -67,7 +67,7 @@ $EndComp
 Text Label 16200 1200 2    40   ~ 0
 VBUS
 $Comp
-L gladiolus-rescue:CONN_02X20 J1
+L gladiolus-rescue:CONN_02X20-gladiolus-rescue J1
 U 1 1 55FB1D52
 P 15750 4750
 F 0 "J1" H 15750 5800 50  0000 C CNN
@@ -283,7 +283,7 @@ $EndComp
 Text Notes 14750 7250 1    40   ~ 0
 BOOT
 $Comp
-L gladiolus-rescue:CONN_01X20 J7
+L gladiolus-rescue:CONN_01X20-gladiolus-rescue J7
 U 1 1 560E713A
 P 15200 6500
 F 0 "J7" H 15200 7550 50  0000 C CNN
@@ -302,7 +302,7 @@ ADC0_2
 Text Label 14550 7050 1    40   ~ 0
 ADC0_5
 $Comp
-L gladiolus-rescue:CONN_01X01 MH3
+L gladiolus-rescue:CONN_01X01-gladiolus-rescue MH3
 U 1 1 5600EED5
 P 13650 800
 F 0 "MH3" H 13600 900 50  0000 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 13650 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:CONN_01X01 MH4
+L gladiolus-rescue:CONN_01X01-gladiolus-rescue MH4
 U 1 1 560100F3
 P 14150 950
 F 0 "MH4" H 14100 1050 50  0000 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 14150 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:CONN_01X01 MH1
+L gladiolus-rescue:CONN_01X01-gladiolus-rescue MH1
 U 1 1 56010ADB
 P 12650 800
 F 0 "MH1" H 12600 900 50  0000 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 12650 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:CONN_01X01 MH2
+L gladiolus-rescue:CONN_01X01-gladiolus-rescue MH2
 U 1 1 56010AE9
 P 13150 950
 F 0 "MH2" H 13100 1050 50  0000 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 2900 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:AD8330ARQZ U2
+L gladiolus-rescue:AD8330ARQZ-gladiolus-rescue U2
 U 1 1 58431C5F
 P 7500 3400
 F 0 "U2" H 7500 3850 60  0000 C CNN
@@ -742,7 +742,7 @@ F 3 "" H 3100 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:POT RV3
+L gladiolus-rescue:POT-gladiolus-rescue RV3
 U 1 1 5843C880
 P 7900 1450
 F 0 "RV3" H 7900 1370 50  0000 C CNN
@@ -862,7 +862,7 @@ F 3 "" H 8700 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:FILTER FB1
+L gladiolus-rescue:FILTER-gladiolus-rescue FB1
 U 1 1 5844406A
 P 15650 3450
 F 0 "FB1" H 15650 3600 50  0000 C CNN
@@ -993,7 +993,7 @@ F 6 "CAP CER 24PF 50V NP0 0402" H 10100 3400 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:AD9283 U3
+L gladiolus-rescue:AD9283-gladiolus-rescue U3
 U 1 1 5844DDA3
 P 12150 3300
 F 0 "U3" H 12150 3850 60  0000 C CNN
@@ -1446,7 +1446,7 @@ F 7 "DNP" V 8050 1200 60  0000 C CNN "Note"
 	-1   0    0    1   
 $EndComp
 $Comp
-L gladiolus-rescue:POT RV2
+L gladiolus-rescue:POT-gladiolus-rescue RV2
 U 1 1 58485812
 P 6600 1450
 F 0 "RV2" H 6600 1370 50  0000 C CNN
@@ -1558,67 +1558,67 @@ F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 13450 4000 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L gladiolus-rescue:LED D3
+L gladiolus-rescue:LED-gladiolus-rescue D3
 U 1 1 58496E3C
-P 8450 6650
-F 0 "D3" H 8450 6750 50  0000 C CNN
-F 1 "LED" H 8450 6550 50  0000 C CNN
-F 2 "LEDs:LED-5MM" H 8450 6650 50  0001 C CNN
-F 3 "" H 8450 6650 50  0000 C CNN
-F 4 "Vishay" H 8450 6650 60  0001 C CNN "Manufacturer"
-F 5 "TSHF5210" H 8450 6650 60  0001 C CNN "Part Number"
-F 6 "Infrared (IR) Emitter 890nm 1.4V 100mA 120mW/sr @ 100mA 20° Radial, 5mm Dia (T 1 3/4)" H 8450 6650 60  0001 C CNN "Description"
-	1    8450 6650
+P 8850 6650
+F 0 "D3" H 8850 6750 50  0000 C CNN
+F 1 "LED" H 8850 6550 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 8850 6650 50  0001 C CNN
+F 3 "" H 8850 6650 50  0000 C CNN
+F 4 "Vishay" H 8850 6650 60  0001 C CNN "Manufacturer"
+F 5 "TSHF5210" H 8850 6650 60  0001 C CNN "Part Number"
+F 6 "Infrared (IR) Emitter 890nm 1.4V 100mA 120mW/sr @ 100mA 20° Radial, 5mm Dia (T 1 3/4)" H 8850 6650 60  0001 C CNN "Description"
+	1    8850 6650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R30
 U 1 1 58497E1A
-P 8450 7950
-F 0 "R30" V 8530 7950 50  0000 C CNN
-F 1 "75" V 8450 7950 50  0000 C CNN
-F 2 "gsg-modules:0603" V 8380 7950 50  0001 C CNN
-F 3 "" H 8450 7950 50  0000 C CNN
-F 4 "Yageo" H 8450 7950 60  0001 C CNN "Manufacturer"
-F 5 "RC0603FR-0775RL" H 8450 7950 60  0001 C CNN "Part Number"
-F 6 "RES SMD 75 OHM 1% 1/10W 0603" H 8450 7950 60  0001 C CNN "Description"
-	1    8450 7950
+P 8850 8250
+F 0 "R30" V 8930 8250 50  0000 C CNN
+F 1 "75" V 8850 8250 50  0000 C CNN
+F 2 "gsg-modules:0603" V 8780 8250 50  0001 C CNN
+F 3 "" H 8850 8250 50  0000 C CNN
+F 4 "Yageo" H 8850 8250 60  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-0775RL" H 8850 8250 60  0001 C CNN "Part Number"
+F 6 "RES SMD 75 OHM 1% 1/10W 0603" H 8850 8250 60  0001 C CNN "Description"
+	1    8850 8250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR046
 U 1 1 58498676
-P 8450 6350
-F 0 "#PWR046" H 8450 6200 50  0001 C CNN
-F 1 "VCC" H 8450 6500 50  0000 C CNN
-F 2 "" H 8450 6350 60  0000 C CNN
-F 3 "" H 8450 6350 60  0000 C CNN
-	1    8450 6350
+P 8850 6350
+F 0 "#PWR046" H 8850 6200 50  0001 C CNN
+F 1 "VCC" H 8850 6500 50  0000 C CNN
+F 2 "" H 8850 6350 60  0000 C CNN
+F 3 "" H 8850 6350 60  0000 C CNN
+	1    8850 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Q_NPN_BEC Q1
 U 1 1 5849B3A4
-P 8350 7400
-F 0 "Q1" H 8650 7450 50  0000 R CNN
-F 1 "Q_NPN_BEC" H 8950 7350 50  0000 R CNN
-F 2 "gsg-modules:SOT23-3" H 8550 7500 50  0001 C CNN
-F 3 "" H 8350 7400 50  0000 C CNN
-F 4 "Fairchild" H 8350 7400 60  0001 C CNN "Manufacturer"
-F 5 "BSV52" H 8350 7400 60  0001 C CNN "Part Number"
-F 6 "TRANS NPN 12V 0.2A SOT-23" H 8350 7400 60  0001 C CNN "Description"
-	1    8350 7400
+P 8750 7400
+F 0 "Q1" H 9050 7450 50  0000 R CNN
+F 1 "Q_NPN_BEC" H 9350 7350 50  0000 R CNN
+F 2 "gsg-modules:SOT23-3" H 8950 7500 50  0001 C CNN
+F 3 "" H 8750 7400 50  0000 C CNN
+F 4 "Fairchild" H 8750 7400 60  0001 C CNN "Manufacturer"
+F 5 "BSV52" H 8750 7400 60  0001 C CNN "Part Number"
+F 6 "TRANS NPN 12V 0.2A SOT-23" H 8750 7400 60  0001 C CNN "Description"
+	1    8750 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR047
 U 1 1 5849BD3B
-P 8450 8200
-F 0 "#PWR047" H 8450 7950 50  0001 C CNN
-F 1 "GND" H 8450 8050 50  0000 C CNN
-F 2 "" H 8450 8200 50  0000 C CNN
-F 3 "" H 8450 8200 50  0000 C CNN
-	1    8450 8200
+P 8850 8500
+F 0 "#PWR047" H 8850 8250 50  0001 C CNN
+F 1 "GND" H 8850 8350 50  0000 C CNN
+F 2 "" H 8850 8500 50  0000 C CNN
+F 3 "" H 8850 8500 50  0000 C CNN
+	1    8850 8500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1636,7 +1636,7 @@ F 6 "RES SMD 1K OHM 5% 1/10W 0603" H 5850 9750 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:THS4520RGT U1
+L gladiolus-rescue:THS4520RGT-gladiolus-rescue U1
 U 1 1 585AF88F
 P 2950 3400
 F 0 "U1" H 2950 3550 60  0000 C CNN
@@ -2070,7 +2070,7 @@ F 6 "RES SMD 3.24K OHM 1% 1/10W 0603" H 2600 4550 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L gladiolus-rescue:POT RV1
+L gladiolus-rescue:POT-gladiolus-rescue RV1
 U 1 1 585D6FEA
 P 1950 5350
 F 0 "RV1" H 1950 5270 50  0000 C CNN
@@ -2189,7 +2189,7 @@ F 6 "RES SMD 39 OHM 5% 1/10W 0603" H 13450 4950 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L gladiolus-rescue:LMH6643 U5
+L gladiolus-rescue:LMH6643-gladiolus-rescue U5
 U 1 1 586AE8AE
 P 6950 7450
 F 0 "U5" H 6950 7700 60  0000 C CNN
@@ -2203,7 +2203,7 @@ F 6 "IC OPAMP VFB 130MHZ RRO 8VSSOP" H 6950 7450 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L gladiolus-rescue:AD9704 U4
+L gladiolus-rescue:AD9704-gladiolus-rescue U4
 U 1 1 586AD726
 P 3050 7450
 F 0 "U4" H 3050 7500 60  0000 C CNN
@@ -2244,12 +2244,12 @@ $EndComp
 $Comp
 L power:GND #PWR061
 U 1 1 586B0AAC
-P 6450 7700
-F 0 "#PWR061" H 6450 7450 50  0001 C CNN
-F 1 "GND" H 6450 7550 50  0000 C CNN
-F 2 "" H 6450 7700 50  0000 C CNN
-F 3 "" H 6450 7700 50  0000 C CNN
-	1    6450 7700
+P 6550 7650
+F 0 "#PWR061" H 6550 7400 50  0001 C CNN
+F 1 "GND" H 6550 7500 50  0000 C CNN
+F 2 "" H 6550 7650 50  0000 C CNN
+F 3 "" H 6550 7650 50  0000 C CNN
+	1    6550 7650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2478,32 +2478,6 @@ F 4 "Yageo" H 5550 7650 60  0001 C CNN "Manufacturer"
 F 5 "RC0603FR-071K8L" H 5550 7650 60  0001 C CNN "Part Number"
 F 6 "RES SMD 1.8K OHM 1% 1/10W 0603" H 5550 7650 60  0001 C CNN "Description"
 	1    5550 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR075
-U 1 1 586C1C4F
-P 4700 8000
-F 0 "#PWR075" H 4700 7750 50  0001 C CNN
-F 1 "GND" H 4700 7850 50  0000 C CNN
-F 2 "" H 4700 8000 50  0000 C CNN
-F 3 "" H 4700 8000 50  0000 C CNN
-	1    4700 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R64
-U 1 1 586C1C56
-P 4700 7750
-F 0 "R64" V 4780 7750 50  0000 C CNN
-F 1 "249" V 4700 7750 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4630 7750 50  0001 C CNN
-F 3 "" H 4700 7750 50  0000 C CNN
-F 4 "Yageo" H 4700 7750 60  0001 C CNN "Manufacturer"
-F 5 "311-249HR" H 4700 7750 60  0001 C CNN "Part Number"
-F 6 "RES SMD 249 OHM 1% 1/10W 0603" H 4700 7750 60  0001 C CNN "Description"
-F 7 "DNP" V 4600 7750 60  0000 C CNN "Note"
-	1    4700 7750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2963,52 +2937,28 @@ F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 5300 6900 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R68
-U 1 1 586F7F80
-P 5300 7050
-F 0 "R68" V 5380 7050 50  0000 C CNN
-F 1 "R" V 5300 7050 50  0000 C CNN
-F 2 "gsg-modules:0603" V 5230 7050 50  0001 C CNN
-F 3 "" H 5300 7050 50  0000 C CNN
-F 4 "DNP" V 5450 7050 60  0000 C CNN "Note"
-	1    5300 7050
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR087
 U 1 1 586FCE10
-P 4950 8000
-F 0 "#PWR087" H 4950 7750 50  0001 C CNN
-F 1 "GND" H 4950 7850 50  0000 C CNN
-F 2 "" H 4950 8000 50  0000 C CNN
-F 3 "" H 4950 8000 50  0000 C CNN
-	1    4950 8000
-	1    0    0    -1  
+P 4500 7400
+F 0 "#PWR087" H 4500 7150 50  0001 C CNN
+F 1 "GND" H 4500 7250 50  0000 C CNN
+F 2 "" H 4500 7400 50  0000 C CNN
+F 3 "" H 4500 7400 50  0000 C CNN
+	1    4500 7400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R66
 U 1 1 586FCE16
-P 4950 7750
-F 0 "R66" V 5030 7750 50  0000 C CNN
-F 1 "249" V 4950 7750 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4880 7750 50  0001 C CNN
-F 3 "" H 4950 7750 50  0000 C CNN
-F 4 "Yageo" H 4950 7750 60  0001 C CNN "Manufacturer"
-F 5 "311-249HR" H 4950 7750 60  0001 C CNN "Part Number"
-F 6 "RES SMD 249 OHM 1% 1/10W 0603" H 4950 7750 60  0001 C CNN "Description"
-	1    4950 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R65
-U 1 1 586FDA2A
-P 5000 7300
-F 0 "R65" V 5080 7300 50  0000 C CNN
-F 1 "R" V 5000 7300 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4930 7300 50  0001 C CNN
-F 3 "" H 5000 7300 50  0000 C CNN
-F 4 "DNP" V 5150 7300 60  0000 C CNN "Note"
-	1    5000 7300
+P 4300 7400
+F 0 "R66" V 4380 7400 50  0000 C CNN
+F 1 "249" V 4300 7400 50  0000 C CNN
+F 2 "gsg-modules:0603" V 4230 7400 50  0001 C CNN
+F 3 "" H 4300 7400 50  0000 C CNN
+F 4 "Yageo" H 4300 7400 60  0001 C CNN "Manufacturer"
+F 5 "311-249HR" H 4300 7400 60  0001 C CNN "Part Number"
+F 6 "RES SMD 249 OHM 1% 1/10W 0603" H 4300 7400 60  0001 C CNN "Description"
+	1    4300 7400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3040,15 +2990,15 @@ $EndComp
 $Comp
 L Device:R R73
 U 1 1 587030DD
-P 7900 7400
-F 0 "R73" V 7980 7400 50  0000 C CNN
-F 1 "1k" V 7900 7400 50  0000 C CNN
-F 2 "gsg-modules:0603" V 7830 7400 50  0001 C CNN
-F 3 "" H 7900 7400 50  0000 C CNN
-F 4 "Yageo" H 7900 7400 60  0001 C CNN "Manufacturer"
-F 5 "RC0603JR-071KL" H 7900 7400 60  0001 C CNN "Part Number"
-F 6 "RES SMD 1K OHM 5% 1/10W 0603" H 7900 7400 60  0001 C CNN "Description"
-	1    7900 7400
+P 8300 7400
+F 0 "R73" V 8380 7400 50  0000 C CNN
+F 1 "1k" V 8300 7400 50  0000 C CNN
+F 2 "gsg-modules:0603" V 8230 7400 50  0001 C CNN
+F 3 "" H 8300 7400 50  0000 C CNN
+F 4 "Yageo" H 8300 7400 60  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-071KL" H 8300 7400 60  0001 C CNN "Part Number"
+F 6 "RES SMD 1K OHM 5% 1/10W 0603" H 8300 7400 60  0001 C CNN "Description"
+	1    8300 7400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3068,15 +3018,15 @@ $EndComp
 $Comp
 L Device:R R74
 U 1 1 587067C0
-P 7900 7700
-F 0 "R74" V 7980 7700 50  0000 C CNN
-F 1 "0" V 7900 7700 50  0000 C CNN
-F 2 "gsg-modules:0603" V 7830 7700 50  0001 C CNN
-F 3 "" H 7900 7700 50  0000 C CNN
-F 4 "Yageo" H 7900 7700 60  0001 C CNN "Manufacturer"
-F 5 "RC0603JR-070RL" H 7900 7700 60  0001 C CNN "Part Number"
-F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 7900 7700 60  0001 C CNN "Description"
-	1    7900 7700
+P 8300 8000
+F 0 "R74" V 8380 8000 50  0000 C CNN
+F 1 "0" V 8300 8000 50  0000 C CNN
+F 2 "gsg-modules:0603" V 8230 8000 50  0001 C CNN
+F 3 "" H 8300 8000 50  0000 C CNN
+F 4 "Yageo" H 8300 8000 60  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-070RL" H 8300 8000 60  0001 C CNN "Part Number"
+F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 8300 8000 60  0001 C CNN "Description"
+	1    8300 8000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3156,7 +3106,7 @@ F 6 "RES SMD 12K OHM 5% 1/10W 0603" H 6600 1050 60  0001 C CNN "Description"
 $EndComp
 Text Label 1650 2050 0    40   ~ 0
 RXIN
-Text Label 8450 7100 1    40   ~ 0
+Text Label 8850 7100 1    40   ~ 0
 TXOUT
 Wire Wire Line
 	3850 7800 4550 7800
@@ -3164,15 +3114,11 @@ Connection ~ 6100 7500
 Wire Wire Line
 	6100 7500 6100 7600
 Wire Wire Line
-	5650 6900 5650 7300
-Wire Wire Line
 	5650 7500 5850 7500
 Connection ~ 5550 7400
 Wire Wire Line
 	5550 7500 5550 7400
 Connection ~ 5950 7400
-Wire Wire Line
-	4700 7300 4700 7500
 Wire Wire Line
 	3950 7600 3850 7600
 Connection ~ 3400 6500
@@ -3326,8 +3272,6 @@ Wire Wire Line
 	7550 6850 7550 7600
 Wire Wire Line
 	6100 8000 6100 7900
-Wire Wire Line
-	4700 7900 4700 8000
 Connection ~ 6450 7100
 Wire Wire Line
 	6350 6850 6450 6850
@@ -3380,12 +3324,6 @@ Wire Wire Line
 	7450 7200 7450 7300
 Wire Wire Line
 	7350 7300 7450 7300
-Wire Wire Line
-	6450 7600 6550 7600
-Wire Wire Line
-	6450 7700 6450 7600
-Wire Wire Line
-	3850 7500 4700 7500
 Wire Wire Line
 	5450 7400 5550 7400
 Wire Wire Line
@@ -3605,15 +3543,13 @@ Wire Wire Line
 Wire Wire Line
 	2200 3250 2200 3350
 Wire Wire Line
-	8050 7400 8150 7400
+	8450 7400 8550 7400
 Wire Wire Line
-	8450 6850 8450 7200
+	8850 6850 8850 7200
 Wire Wire Line
-	8450 7600 8450 7700
+	8850 8400 8850 8500
 Wire Wire Line
-	8450 8100 8450 8200
-Wire Wire Line
-	8450 6350 8450 6450
+	8850 6350 8850 6450
 Wire Wire Line
 	13000 2600 13300 2600
 Wire Wire Line
@@ -4146,31 +4082,15 @@ Wire Wire Line
 Wire Wire Line
 	4150 6900 4600 6900
 Wire Wire Line
-	4950 7900 4950 8000
-Wire Wire Line
-	4950 7600 4950 7400
-Wire Wire Line
-	5150 7300 5650 7300
-Connection ~ 5650 7300
-Wire Wire Line
-	4850 7300 4700 7300
-Connection ~ 4700 7500
-Wire Wire Line
 	4600 6900 4600 6800
 Connection ~ 4600 6900
 Wire Wire Line
 	4600 6500 4600 6400
-Wire Wire Line
-	7650 7700 7650 7500
-Connection ~ 8450 7700
-Wire Wire Line
-	7350 7400 7750 7400
+Connection ~ 8850 8000
 Wire Wire Line
 	7100 6850 7550 6850
 Wire Wire Line
-	7650 7700 7750 7700
-Wire Wire Line
-	8050 7700 8450 7700
+	8450 8000 8850 8000
 Wire Wire Line
 	5850 10150 5850 9900
 Wire Wire Line
@@ -4193,31 +4113,15 @@ Connection ~ 5850 7500
 Wire Wire Line
 	7550 7600 7350 7600
 Wire Wire Line
-	7650 7500 7350 7500
-Wire Wire Line
-	5450 7050 5750 7050
-Wire Wire Line
-	5750 7050 5750 7400
-Connection ~ 5750 7400
-Wire Wire Line
-	5150 7050 5050 7050
-Wire Wire Line
-	5050 7050 5050 6900
-Connection ~ 5050 6900
-Wire Wire Line
 	6600 800  6600 900 
-Wire Wire Line
-	4950 7400 3850 7400
 Wire Wire Line
 	5050 7500 5050 7400
 Wire Wire Line
 	5050 7400 5150 7400
 Wire Wire Line
-	6100 7500 6550 7500
+	6100 7500 6450 7500
 Wire Wire Line
-	5550 7400 5750 7400
-Wire Wire Line
-	5950 7400 6550 7400
+	5950 7400 6400 7400
 Wire Wire Line
 	3400 6500 3400 6650
 Wire Wire Line
@@ -4371,25 +4275,13 @@ Wire Wire Line
 Wire Wire Line
 	1650 1300 1900 1300
 Wire Wire Line
-	5650 7300 5650 7500
-Wire Wire Line
-	4700 7500 4700 7600
-Wire Wire Line
-	4700 7500 5050 7500
-Wire Wire Line
-	4600 6900 5050 6900
-Wire Wire Line
-	8450 7700 8450 7800
+	8850 8000 8850 8100
 Wire Wire Line
 	5850 9500 5850 9600
 Wire Wire Line
 	5850 8600 5850 9500
 Wire Wire Line
 	5850 7500 6100 7500
-Wire Wire Line
-	5750 7400 5950 7400
-Wire Wire Line
-	5050 6900 5150 6900
 Wire Wire Line
 	900  4800 2200 4800
 Connection ~ 2200 4800
@@ -4445,8 +4337,8 @@ Connection ~ 1650 2650
 Wire Wire Line
 	1650 2650 1650 2700
 Connection ~ 2200 2650
-Text Notes 2050 4550 2    50   ~ 0
-switch for ac/dc coupling\ndc coupled on logic low
+Text Notes 2000 4600 2    50   ~ 0
+switch for ac/dc coupling\nac coupled on logic low
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C7387E5
@@ -4548,14 +4440,9 @@ Wire Wire Line
 Wire Wire Line
 	1600 3300 1600 3550
 Wire Wire Line
-	1600 4150 1900 4150
-Wire Wire Line
-	1900 4150 1900 2900
-Wire Wire Line
 	1900 2900 2200 2900
 Wire Wire Line
 	2200 2900 2200 2650
-NoConn ~ 1400 4150
 $Comp
 L Device:R R77
 U 1 1 5C8E0748
@@ -4595,8 +4482,233 @@ Text Label 1400 2800 1    50   ~ 0
 P2_1
 Text Notes 5600 9750 0    40   ~ 0
 TODO:\nDNP?
-Text Notes 6600 8100 0    50   ~ 0
-TODO:\nshort +/- inputs\nto turn off TX
-Text Notes 5050 6700 0    50   ~ 0
-TODO:\nremove DNP components\nfor inverting output
+Text Notes 6600 8350 0    50   ~ 0
+short +/- inputs\nto turn off TX
+Text Notes 5000 6700 0    50   ~ 0
+removed DNP components\nfor inverting output
+$Comp
+L Device:C C29
+U 1 1 5C93BED7
+P 8000 7700
+F 0 "C29" H 8025 7800 50  0000 L CNN
+F 1 "470pF" H 8025 7600 50  0000 L CNN
+F 2 "gsg-modules:0402" H 8038 7550 50  0001 C CNN
+F 3 "" H 8000 7700 50  0000 C CNN
+	1    8000 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 7500 7800 8000
+Wire Wire Line
+	7800 8000 8000 8000
+Wire Wire Line
+	7350 7500 7800 7500
+Wire Wire Line
+	7350 7400 8000 7400
+Wire Wire Line
+	8000 7550 8000 7400
+Connection ~ 8000 7400
+Wire Wire Line
+	8000 7400 8150 7400
+Wire Wire Line
+	8000 7850 8000 8000
+Connection ~ 8000 8000
+Wire Wire Line
+	8000 8000 8150 8000
+Wire Wire Line
+	8850 7600 8850 8000
+Text Notes 7750 8300 0    50   ~ 0
+^ This cap cuts off\nhigher freqs (15MHz+)\n470pF works well
+Wire Wire Line
+	1400 4150 1400 4400
+Wire Wire Line
+	1400 4400 1900 4400
+Wire Wire Line
+	1900 2900 1900 4400
+NoConn ~ 1600 4150
+$Comp
+L gsg-symbols:74LVC1G3157 U7
+U 1 1 5CA8792E
+P 6900 8550
+F 0 "U7" V 6946 8322 50  0000 R CNN
+F 1 "74LVC1G3157" V 6855 8322 50  0000 R CNN
+F 2 "gsg-modules:SOT363" H 6900 8550 50  0001 C CNN
+F 3 "" H 6900 8550 50  0001 C CNN
+F 4 "Diodes Incorporated" V 6855 8322 50  0001 R CNN "Manufacturer"
+F 5 "74LVC1G3157DW-7" H 6900 8550 50  0001 C CNN "Part Number"
+F 6 "IC SWITCH SPDT 6 OHM SOT363" V 6764 8322 50  0001 R CNN "Description"
+	1    6900 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5CAEC765
+P 7250 8550
+F 0 "#PWR0106" H 7250 8400 50  0001 C CNN
+F 1 "VCC" H 7250 8700 50  0000 C CNN
+F 2 "" H 7250 8550 60  0000 C CNN
+F 3 "" H 7250 8550 60  0000 C CNN
+	1    7250 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 8550 7250 8550
+$Comp
+L power:GND #PWR0107
+U 1 1 5CB4C675
+P 6550 8550
+F 0 "#PWR0107" H 6550 8300 50  0001 C CNN
+F 1 "GND" H 6550 8400 50  0000 C CNN
+F 2 "" H 6550 8550 50  0000 C CNN
+F 3 "" H 6550 8550 50  0000 C CNN
+	1    6550 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 8550 6600 8550
+Text Label 7400 8450 2    40   ~ 0
+P5_0
+Wire Wire Line
+	7200 8450 7400 8450
+Wire Wire Line
+	6550 7600 6550 7650
+Wire Wire Line
+	6450 7500 6450 8450
+Wire Wire Line
+	6450 8450 6600 8450
+Connection ~ 6450 7500
+Wire Wire Line
+	6450 7500 6550 7500
+NoConn ~ 6600 8650
+Wire Wire Line
+	6400 7400 6400 8400
+Wire Wire Line
+	6400 8400 6300 8400
+Wire Wire Line
+	6300 8400 6300 8750
+Wire Wire Line
+	6300 8750 7200 8750
+Wire Wire Line
+	7200 8750 7200 8650
+Connection ~ 6400 7400
+Wire Wire Line
+	6400 7400 6550 7400
+$Comp
+L Device:R R64
+U 1 1 5CDFA3FF
+P 9500 8000
+F 0 "R64" V 9580 8000 50  0000 C CNN
+F 1 "0" V 9500 8000 50  0000 C CNN
+F 2 "gsg-modules:0603" V 9430 8000 50  0001 C CNN
+F 3 "" H 9500 8000 50  0000 C CNN
+F 4 "Yageo" H 9500 8000 60  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-070RL" H 9500 8000 60  0001 C CNN "Part Number"
+F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 9500 8000 60  0001 C CNN "Description"
+F 7 "DNP" V 9400 8000 60  0000 C CNN "Note"
+	1    9500 8000
+	0    -1   -1   0   
+$EndComp
+Text Label 9900 8000 2    40   ~ 0
+ADC0_0
+Wire Wire Line
+	9900 8000 9650 8000
+Wire Wire Line
+	8850 8000 9250 8000
+Text Label 9900 8250 2    40   ~ 0
+P1_17
+$Comp
+L Device:R R65
+U 1 1 5D05915F
+P 9500 8250
+F 0 "R65" V 9580 8250 50  0000 C CNN
+F 1 "0" V 9500 8250 50  0000 C CNN
+F 2 "gsg-modules:0603" V 9430 8250 50  0001 C CNN
+F 3 "" H 9500 8250 50  0000 C CNN
+F 4 "Yageo" H 9500 8250 60  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-070RL" H 9500 8250 60  0001 C CNN "Part Number"
+F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 9500 8250 60  0001 C CNN "Description"
+F 7 "DNP" V 9400 8250 60  0000 C CNN "Note"
+	1    9500 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 8250 9650 8250
+Wire Wire Line
+	9250 8000 9250 8250
+Wire Wire Line
+	9250 8250 9350 8250
+Connection ~ 9250 8000
+Wire Wire Line
+	9250 8000 9350 8000
+Wire Wire Line
+	5650 6900 5650 7500
+Wire Wire Line
+	3850 7500 5050 7500
+Wire Wire Line
+	3850 7400 4150 7400
+Wire Wire Line
+	4450 7400 4500 7400
+Wire Wire Line
+	4600 6900 5150 6900
+Wire Wire Line
+	5550 7400 5950 7400
+NoConn ~ 15300 1700
+NoConn ~ 15300 1800
+NoConn ~ 15300 1900
+NoConn ~ 15200 2000
+NoConn ~ 15300 2100
+NoConn ~ 15300 2200
+NoConn ~ 15300 2300
+NoConn ~ 15300 2400
+NoConn ~ 15300 2500
+NoConn ~ 15300 2600
+NoConn ~ 15300 2700
+NoConn ~ 15200 3100
+NoConn ~ 16300 3100
+NoConn ~ 16200 3000
+NoConn ~ 16200 2700
+NoConn ~ 16200 2600
+NoConn ~ 16200 2500
+NoConn ~ 16200 2400
+NoConn ~ 16200 2300
+NoConn ~ 16200 2200
+NoConn ~ 16200 1900
+NoConn ~ 16200 1800
+NoConn ~ 16200 1700
+NoConn ~ 16200 1600
+NoConn ~ 16200 1500
+NoConn ~ 16200 1400
+NoConn ~ 16200 1300
+NoConn ~ 15300 3900
+NoConn ~ 15300 4000
+NoConn ~ 15300 4200
+NoConn ~ 15300 4300
+NoConn ~ 15300 5200
+NoConn ~ 15300 5300
+NoConn ~ 15300 5400
+NoConn ~ 15300 5500
+NoConn ~ 15300 5600
+NoConn ~ 15300 5700
+NoConn ~ 16200 5700
+NoConn ~ 16200 5600
+NoConn ~ 16200 5500
+NoConn ~ 16200 4900
+NoConn ~ 16200 4200
+NoConn ~ 16200 4300
+NoConn ~ 14350 7050
+NoConn ~ 14450 7050
+NoConn ~ 14550 7050
+NoConn ~ 14650 7050
+NoConn ~ 14750 7050
+NoConn ~ 14850 7050
+NoConn ~ 14950 7050
+NoConn ~ 15050 7050
+NoConn ~ 15250 7050
+NoConn ~ 15350 7050
+NoConn ~ 15450 7050
+NoConn ~ 15550 7050
+NoConn ~ 15650 7050
+NoConn ~ 15750 7050
+NoConn ~ 15850 7050
+NoConn ~ 15950 7050
 $EndSCHEMATC
