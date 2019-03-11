@@ -273,16 +273,16 @@ F 3 "" H 14250 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242 U1
+L gsg-symbols:ADF7242 U1
 U 1 1 5B3FBCF9
 P 2950 2450
 F 0 "U1" H 2950 2300 60  0000 C CNN
 F 1 "ADF7242" H 2950 2150 60  0000 C CNN
 F 2 "gsg-modules:LFCSP32" H 2950 2450 60  0001 C CNN
 F 3 "" H 2950 2450 60  0001 C CNN
-F 4 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 2950 2400 50  0001 C CNN "Description"
-F 5 "Analog Devices Inc." H 2950 2400 50  0001 C CNN "Manufacturer"
-F 6 "ADF7242BCPZ" H 2950 2400 50  0001 C CNN "Part Number"
+F 4 "Analog Devices Inc." H 2950 2400 50  0001 C CNN "Manufacturer"
+F 5 "ADF7242BCPZ" H 2950 2400 50  0001 C CNN "Part Number"
+F 6 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 2950 2400 50  0001 C CNN "Description"
 	1    2950 2450
 	1    0    0    -1  
 $EndComp
@@ -733,39 +733,39 @@ $EndComp
 $Comp
 L luckybamboo-rescue:Conn_Coaxial J18
 U 1 1 5B45A5A4
-P 13000 1100
-F 0 "J18" H 13010 1220 50  0000 C CNN
-F 1 "Conn_Coaxial" V 13115 1100 50  0000 C CNN
-F 2 "gsg-modules:SMA-EDGE" H 13000 1100 50  0001 C CNN
-F 3 "" H 13000 1100 50  0001 C CNN
-F 4 " CONN SMA RCPT STR 50OHM EDGE MNT" H 13010 1320 50  0001 C CNN "Description"
-F 5 "Linx Technologies Inc." H 13010 1320 50  0001 C CNN "Manufacturer"
-F 6 "CONSMA003.062" H 13010 1320 50  0001 C CNN "Part Number"
-	1    13000 1100
+P 13350 1100
+F 0 "J18" H 13360 1220 50  0000 C CNN
+F 1 "Conn_Coaxial" V 13465 1100 50  0000 C CNN
+F 2 "gsg-modules:SMA-EDGE" H 13350 1100 50  0001 C CNN
+F 3 "" H 13350 1100 50  0001 C CNN
+F 4 " CONN SMA RCPT STR 50OHM EDGE MNT" H 13360 1320 50  0001 C CNN "Description"
+F 5 "Linx Technologies Inc." H 13360 1320 50  0001 C CNN "Manufacturer"
+F 6 "CONSMA003.062" H 13360 1320 50  0001 C CNN "Part Number"
+	1    13350 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR036
 U 1 1 5B45ADB9
-P 13000 1350
-F 0 "#PWR036" H 13000 1100 50  0001 C CNN
-F 1 "GND" H 13000 1200 50  0000 C CNN
-F 2 "" H 13000 1350 50  0001 C CNN
-F 3 "" H 13000 1350 50  0001 C CNN
-	1    13000 1350
+P 13350 1350
+F 0 "#PWR036" H 13350 1100 50  0001 C CNN
+F 1 "GND" H 13350 1200 50  0000 C CNN
+F 2 "" H 13350 1350 50  0001 C CNN
+F 3 "" H 13350 1350 50  0001 C CNN
+	1    13350 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242 U3
+L gsg-symbols:ADF7242 U3
 U 1 1 5B468176
 P 3000 7300
 F 0 "U3" H 3000 7150 60  0000 C CNN
 F 1 "ADF7242" H 3000 7000 60  0000 C CNN
 F 2 "gsg-modules:LFCSP32" H 3000 7300 60  0001 C CNN
 F 3 "" H 3000 7300 60  0001 C CNN
-F 4 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 3000 7250 50  0001 C CNN "Description"
-F 5 "Analog Devices Inc." H 3000 7250 50  0001 C CNN "Manufacturer"
-F 6 "ADF7242BCPZ" H 3000 7250 50  0001 C CNN "Part Number"
+F 4 "Analog Devices Inc." H 3000 7250 50  0001 C CNN "Manufacturer"
+F 5 "ADF7242BCPZ" H 3000 7250 50  0001 C CNN "Part Number"
+F 6 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 3000 7250 50  0001 C CNN "Description"
 	1    3000 7300
 	1    0    0    -1  
 $EndComp
@@ -1167,16 +1167,16 @@ F 3 "" H 3150 5550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242 U2
+L gsg-symbols:ADF7242 U2
 U 1 1 5B46CFC2
 P 7350 2450
 F 0 "U2" H 7350 2300 60  0000 C CNN
 F 1 "ADF7242" H 7350 2150 60  0000 C CNN
 F 2 "gsg-modules:LFCSP32" H 7350 2450 60  0001 C CNN
 F 3 "" H 7350 2450 60  0001 C CNN
-F 4 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 7350 2400 50  0001 C CNN "Description"
-F 5 "Analog Devices Inc." H 7350 2400 50  0001 C CNN "Manufacturer"
-F 6 "ADF7242BCPZ" H 7350 2400 50  0001 C CNN "Part Number"
+F 4 "Analog Devices Inc." H 7350 2400 50  0001 C CNN "Manufacturer"
+F 5 "ADF7242BCPZ" H 7350 2400 50  0001 C CNN "Part Number"
+F 6 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 7350 2400 50  0001 C CNN "Description"
 	1    7350 2450
 	1    0    0    -1  
 $EndComp
@@ -1578,16 +1578,16 @@ F 3 "" H 7500 700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242 U4
+L gsg-symbols:ADF7242 U4
 U 1 1 5B46D0D3
 P 7400 7300
 F 0 "U4" H 7400 7150 60  0000 C CNN
 F 1 "ADF7242" H 7400 7000 60  0000 C CNN
 F 2 "gsg-modules:LFCSP32" H 7400 7300 60  0001 C CNN
 F 3 "" H 7400 7300 60  0001 C CNN
-F 4 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 7400 7250 50  0001 C CNN "Description"
-F 5 "Analog Devices Inc." H 7400 7250 50  0001 C CNN "Manufacturer"
-F 6 "ADF7242BCPZ" H 7400 7250 50  0001 C CNN "Part Number"
+F 4 "Analog Devices Inc." H 7400 7250 50  0001 C CNN "Manufacturer"
+F 5 "ADF7242BCPZ" H 7400 7250 50  0001 C CNN "Part Number"
+F 6 "IC RF TXRX+MCU 802.15.4 32-WFQFN" H 7400 7250 50  0001 C CNN "Description"
 	1    7400 7300
 	1    0    0    -1  
 $EndComp
@@ -2500,30 +2500,30 @@ F 4 "DNP" H 9500 5260 50  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L luckybamboo-rescue:SKY13322 U5
+L gsg-symbols:SKY13322 U5
 U 1 1 5B458BBE
 P 12000 1050
 F 0 "U5" H 12000 1050 60  0000 C CNN
 F 1 "SKY13322" H 12000 1300 60  0000 C CNN
 F 2 "gsg-modules:SKY13322-375LF" H 12000 1050 60  0001 C CNN
 F 3 "" H 12000 1050 60  0000 C CNN
-F 4 "IC SWITCH SP4T 0.1-6GHZ 10MLPD" H 12000 1150 50  0001 C CNN "Description"
-F 5 "Skyworks Solutions Inc." H 12000 1150 50  0001 C CNN "Manufacturer"
-F 6 "SKY13322-375LF" H 12000 1150 50  0001 C CNN "Part Number"
+F 4 "Skyworks Solutions Inc." H 12000 1150 50  0001 C CNN "Manufacturer"
+F 5 "SKY13322-375LF" H 12000 1150 50  0001 C CNN "Part Number"
+F 6 "IC SWITCH SP4T 0.1-6GHZ 10MLPD" H 12000 1150 50  0001 C CNN "Description"
 	1    12000 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U9
+L gsg-symbols:ADF7242_balun U9
 U 1 1 5B6912F4
 P 12100 5400
 F 0 "U9" H 12100 5450 60  0000 C CNN
 F 1 "ADF7242_balun" H 12100 5350 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 12100 5400 60  0001 C CNN
 F 3 "" H 12100 5400 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 12100 5550 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 12100 5550 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 12100 5550 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 12100 5550 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 12100 5550 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 12100 5550 50  0001 C CNN "Description"
 	1    12100 5400
 	1    0    0    -1  
 $EndComp
@@ -2589,16 +2589,16 @@ F 6 "885012205012" H 11875 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U11
+L gsg-symbols:ADF7242_balun U11
 U 1 1 5B69C132
 P 12950 5400
 F 0 "U11" H 12950 5450 60  0000 C CNN
 F 1 "ADF7242_balun" H 12950 5350 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 12950 5400 60  0001 C CNN
 F 3 "" H 12950 5400 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 12950 5550 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 12950 5550 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 12950 5550 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 12950 5550 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 12950 5550 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 12950 5550 50  0001 C CNN "Description"
 	1    12950 5400
 	1    0    0    -1  
 $EndComp
@@ -2664,16 +2664,16 @@ F 6 "885012205012" H 12725 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U15
+L gsg-symbols:ADF7242_balun U15
 U 1 1 5B69F31B
 P 13800 5400
 F 0 "U15" H 13800 5450 60  0000 C CNN
 F 1 "ADF7242_balun" H 13800 5350 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 13800 5400 60  0001 C CNN
 F 3 "" H 13800 5400 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 13800 5550 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 13800 5550 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 13800 5550 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 13800 5550 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 13800 5550 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 13800 5550 50  0001 C CNN "Description"
 	1    13800 5400
 	1    0    0    -1  
 $EndComp
@@ -2739,16 +2739,16 @@ F 6 "885012205012" H 13575 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U17
+L gsg-symbols:ADF7242_balun U17
 U 1 1 5B69F347
 P 14650 5400
 F 0 "U17" H 14650 5450 60  0000 C CNN
 F 1 "ADF7242_balun" H 14650 5350 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 14650 5400 60  0001 C CNN
 F 3 "" H 14650 5400 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 14650 5550 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 14650 5550 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 14650 5550 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 14650 5550 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 14650 5550 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 14650 5550 50  0001 C CNN "Description"
 	1    14650 5400
 	1    0    0    -1  
 $EndComp
@@ -2814,16 +2814,16 @@ F 6 "885012205012" H 14425 4800 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U8
+L gsg-symbols:ADF7242_balun U8
 U 1 1 5B6A4C28
 P 11900 3050
 F 0 "U8" H 11900 3100 60  0000 C CNN
 F 1 "ADF7242_balun" H 11900 3000 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 11900 3050 60  0001 C CNN
 F 3 "" H 11900 3050 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 11900 3200 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 11900 3200 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 11900 3200 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 11900 3200 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 11900 3200 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 11900 3200 50  0001 C CNN "Description"
 	1    11900 3050
 	1    0    0    -1  
 $EndComp
@@ -2889,16 +2889,16 @@ F 6 "885012205012" H 11675 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U10
+L gsg-symbols:ADF7242_balun U10
 U 1 1 5B6A4C54
 P 12750 3050
 F 0 "U10" H 12750 3100 60  0000 C CNN
 F 1 "ADF7242_balun" H 12750 3000 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 12750 3050 60  0001 C CNN
 F 3 "" H 12750 3050 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 12750 3200 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 12750 3200 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 12750 3200 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 12750 3200 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 12750 3200 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 12750 3200 50  0001 C CNN "Description"
 	1    12750 3050
 	1    0    0    -1  
 $EndComp
@@ -2964,16 +2964,16 @@ F 6 "885012205012" H 12525 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U14
+L gsg-symbols:ADF7242_balun U14
 U 1 1 5B6A4C80
 P 13600 3050
 F 0 "U14" H 13600 3100 60  0000 C CNN
 F 1 "ADF7242_balun" H 13600 3000 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 13600 3050 60  0001 C CNN
 F 3 "" H 13600 3050 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 13600 3200 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 13600 3200 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 13600 3200 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 13600 3200 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 13600 3200 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 13600 3200 50  0001 C CNN "Description"
 	1    13600 3050
 	1    0    0    -1  
 $EndComp
@@ -3039,16 +3039,16 @@ F 6 "885012205012" H 13375 2450 50  0001 C CNN "Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L luckybamboo-rescue:ADF7242_balun U16
+L gsg-symbols:ADF7242_balun U16
 U 1 1 5B6A4CAC
 P 14450 3050
 F 0 "U16" H 14450 3100 60  0000 C CNN
 F 1 "ADF7242_balun" H 14450 3000 60  0000 C CNN
 F 2 "gsg-modules:ADF7242_balun" H 14450 3050 60  0001 C CNN
 F 3 "" H 14450 3050 60  0001 C CNN
-F 4 "ADF7241 ADF7242 BALUN FILTER " H 14450 3200 50  0001 C CNN "Description"
-F 5 "Johanson Technology Inc." H 14450 3200 50  0001 C CNN "Manufacturer"
-F 6 "2450BM14E0007T" H 14450 3200 50  0001 C CNN "Part Number"
+F 4 "Johanson Technology Inc." H 14450 3200 50  0001 C CNN "Manufacturer"
+F 5 "2450BM14E0007T" H 14450 3200 50  0001 C CNN "Part Number"
+F 6 "ADF7241 ADF7242 BALUN FILTER " H 14450 3200 50  0001 C CNN "Description"
 	1    14450 3050
 	1    0    0    -1  
 $EndComp
@@ -3515,13 +3515,13 @@ Text Label 4050 2400 0    60   ~ 0
 P1_3
 Text Notes 4450 2250 0    60   ~ 0
 SPI
-Text Label 11600 1300 2    60   ~ 0
+Text Label 11100 1300 2    60   ~ 0
 RFOUT1
-Text Label 12400 1300 0    60   ~ 0
+Text Label 12900 1300 0    60   ~ 0
 RFOUT3
-Text Label 11600 900  2    60   ~ 0
+Text Label 11100 900  2    60   ~ 0
 RFOUT2
-Text Label 12400 900  0    60   ~ 0
+Text Label 12900 900  0    60   ~ 0
 RFOUT4
 Text Label 11600 1200 2    60   ~ 0
 SW1
@@ -3680,7 +3680,7 @@ P1_20
 Text Label 11100 3950 0    60   ~ 0
 P5_2
 Text Label 11100 4350 0    60   ~ 0
-P3_5
+P6_7
 Text Label 11100 4750 0    60   ~ 0
 P9_6
 Text Label 11100 3750 0    60   ~ 0
@@ -3688,7 +3688,7 @@ P4_4
 Text Label 11100 4150 0    60   ~ 0
 P1_6
 Text Label 11100 4550 0    60   ~ 0
-P3_4
+P3_1
 Text Label 11100 4950 0    60   ~ 0
 P9_5
 Text Label 15300 2850 2    60   ~ 0
@@ -3872,7 +3872,7 @@ P2_6
 Text Label 3900 1250 2    60   ~ 0
 P7_7
 Text Label 4100 6000 2    60   ~ 0
-P3_6
+P6_6
 Text Label 4100 6100 2    60   ~ 0
 P2_1
 Text Label 8700 1150 2    60   ~ 0
@@ -4198,9 +4198,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 1500 12000 1550
 Wire Wire Line
-	13000 1300 13000 1350
-Wire Wire Line
-	12850 1100 12400 1100
+	13350 1300 13350 1350
 Wire Wire Line
 	3100 1050 3100 1350
 Wire Wire Line
@@ -4796,7 +4794,6 @@ NoConn ~ 15200 3850
 NoConn ~ 16300 3850
 NoConn ~ 16200 3450
 NoConn ~ 16200 3150
-NoConn ~ 16200 3050
 NoConn ~ 16200 2950
 NoConn ~ 16200 2550
 NoConn ~ 16200 2450
@@ -4833,10 +4830,8 @@ NoConn ~ 15650 7550
 NoConn ~ 15750 7550
 NoConn ~ 15850 7550
 NoConn ~ 15950 7550
-NoConn ~ 15300 3450
 NoConn ~ 16200 6000
 NoConn ~ 16200 3350
-NoConn ~ 16200 3550
 NoConn ~ 16200 2850
 NoConn ~ 15300 5800
 NoConn ~ 16200 5200
@@ -4998,7 +4993,7 @@ F 3 "" H 11350 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L luckybamboo-rescue:HHM2293A1-gsg-symbols U7
+L gsg-symbols:HHM2293A1 U7
 U 1 1 5BDFC016
 P 10250 7900
 F 0 "U7" H 10250 7850 60  0000 C CNN
@@ -5047,7 +5042,7 @@ $EndComp
 Wire Wire Line
 	9700 7700 9650 7700
 $Comp
-L luckybamboo-rescue:HHM2293A1-gsg-symbols U6
+L gsg-symbols:HHM2293A1 U6
 U 1 1 5BDFC052
 P 10250 9400
 F 0 "U6" H 10250 9350 60  0000 C CNN
@@ -5205,7 +5200,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 9200 9350 9200
 $Comp
-L luckybamboo-rescue:BGA7H1N6-gsg-symbols U13
+L gsg-symbols:BGA7H1N6 U13
 U 1 1 5BDFBFD4
 P 12800 7450
 F 0 "U13" H 12800 7350 60  0000 C CNN
@@ -5254,7 +5249,7 @@ Wire Wire Line
 Text Label 9750 9850 0    50   ~ 0
 RFIN2
 $Comp
-L luckybamboo-rescue:HHM2293A1-gsg-symbols U12
+L gsg-symbols:HHM2293A1 U12
 U 1 1 5BDFBFCD
 P 11900 8750
 F 0 "U12" H 11900 8700 60  0000 C CNN
@@ -5312,4 +5307,97 @@ NoConn ~ 7600 1350
 NoConn ~ 3200 1350
 NoConn ~ 3250 6200
 NoConn ~ 7650 6200
+NoConn ~ 16200 3750
+$Comp
+L luckybamboo-rescue:C C66
+U 1 1 5C90F244
+P 11300 1300
+F 0 "C66" H 11325 1400 50  0000 L CNN
+F 1 "47pF" H 11325 1200 50  0000 L CNN
+F 2 "gsg-modules:0402" H 11338 1150 50  0001 C CNN
+F 3 "" H 11300 1300 50  0001 C CNN
+F 4 "KEMET" H 11325 1500 50  0001 C CNN "Manufacturer"
+F 5 "C0402C470K5GACTU" H 11325 1500 50  0001 C CNN "Part Number"
+F 6 "CAP CER 47PF 50V C0G/NP0 0402 " H 11325 1500 50  0001 C CNN "Description"
+	1    11300 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L luckybamboo-rescue:C C62
+U 1 1 5C9A25B2
+P 11300 900
+F 0 "C62" H 11325 1000 50  0000 L CNN
+F 1 "47pF" H 11325 800 50  0000 L CNN
+F 2 "gsg-modules:0402" H 11338 750 50  0001 C CNN
+F 3 "" H 11300 900 50  0001 C CNN
+F 4 "KEMET" H 11325 1100 50  0001 C CNN "Manufacturer"
+F 5 "C0402C470K5GACTU" H 11325 1100 50  0001 C CNN "Part Number"
+F 6 "CAP CER 47PF 50V C0G/NP0 0402 " H 11325 1100 50  0001 C CNN "Description"
+	1    11300 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 900  11600 900 
+Wire Wire Line
+	11450 1300 11600 1300
+Wire Wire Line
+	11150 900  11100 900 
+Wire Wire Line
+	11150 1300 11100 1300
+$Comp
+L luckybamboo-rescue:C C67
+U 1 1 5CB104D2
+P 12700 900
+F 0 "C67" H 12725 1000 50  0000 L CNN
+F 1 "47pF" H 12725 800 50  0000 L CNN
+F 2 "gsg-modules:0402" H 12738 750 50  0001 C CNN
+F 3 "" H 12700 900 50  0001 C CNN
+F 4 "KEMET" H 12725 1100 50  0001 C CNN "Manufacturer"
+F 5 "C0402C470K5GACTU" H 12725 1100 50  0001 C CNN "Part Number"
+F 6 "CAP CER 47PF 50V C0G/NP0 0402 " H 12725 1100 50  0001 C CNN "Description"
+	1    12700 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12400 900  12550 900 
+$Comp
+L luckybamboo-rescue:C C82
+U 1 1 5CB5A764
+P 12700 1300
+F 0 "C82" H 12725 1400 50  0000 L CNN
+F 1 "47pF" H 12725 1200 50  0000 L CNN
+F 2 "gsg-modules:0402" H 12738 1150 50  0001 C CNN
+F 3 "" H 12700 1300 50  0001 C CNN
+F 4 "KEMET" H 12725 1500 50  0001 C CNN "Manufacturer"
+F 5 "C0402C470K5GACTU" H 12725 1500 50  0001 C CNN "Part Number"
+F 6 "CAP CER 47PF 50V C0G/NP0 0402 " H 12725 1500 50  0001 C CNN "Description"
+	1    12700 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12400 1300 12550 1300
+Wire Wire Line
+	12850 900  12900 900 
+Wire Wire Line
+	12850 1300 12900 1300
+$Comp
+L luckybamboo-rescue:C C83
+U 1 1 5CC823BF
+P 12800 1100
+F 0 "C83" H 12825 1200 50  0000 L CNN
+F 1 "47pF" H 12825 1000 50  0000 L CNN
+F 2 "gsg-modules:0402" H 12838 950 50  0001 C CNN
+F 3 "" H 12800 1100 50  0001 C CNN
+F 4 "KEMET" H 12825 1300 50  0001 C CNN "Manufacturer"
+F 5 "C0402C470K5GACTU" H 12825 1300 50  0001 C CNN "Part Number"
+F 6 "CAP CER 47PF 50V C0G/NP0 0402 " H 12825 1300 50  0001 C CNN "Description"
+	1    12800 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12400 1100 12650 1100
+Wire Wire Line
+	12950 1100 13200 1100
+NoConn ~ 15300 3750
+NoConn ~ 16200 3250
 $EndSCHEMATC
