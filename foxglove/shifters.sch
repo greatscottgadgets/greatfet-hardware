@@ -15,1070 +15,1538 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF431
-P 2950 1850
-AR Path="/5C7EF431" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF431" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 2050 60  0000 C CNN
-F 1 "SHIFTER0" H 2950 1650 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 1850 60  0001 C CNN
-F 3 "" H 2950 1850 60  0000 C CNN
-F 4 "NXP" H 2950 1850 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 1850 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 1850 60  0001 C CNN "Description"
-	1    2950 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF438
-P 2500 1850
-AR Path="/5C7EF438" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF438" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 1600 50  0001 C CNN
-F 1 "GND" H 2500 1700 50  0000 C CNN
-F 2 "" H 2500 1850 60  0000 C CNN
-F 3 "" H 2500 1850 60  0000 C CNN
-	1    2500 1850
-	0    1    1    0   
-$EndComp
-Text Label 2450 1750 0    40   ~ 0
-VCCA
-Text Label 2500 1950 0    40   ~ 0
-A0
-Text Label 3450 1950 2    40   ~ 0
-B0
-Text Label 3450 1850 2    40   ~ 0
-DIR0
-Text Label 3450 1750 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF446
-P 2950 2500
-AR Path="/5C7EF446" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF446" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 2700 60  0000 C CNN
-F 1 "SHIFTER1" H 2950 2300 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 2500 60  0001 C CNN
-F 3 "" H 2950 2500 60  0000 C CNN
-F 4 "NXP" H 2950 2500 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 2500 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 2500 60  0001 C CNN "Description"
-	1    2950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF44D
-P 2500 2500
-AR Path="/5C7EF44D" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF44D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 2250 50  0001 C CNN
-F 1 "GND" H 2500 2350 50  0000 C CNN
-F 2 "" H 2500 2500 60  0000 C CNN
-F 3 "" H 2500 2500 60  0000 C CNN
-	1    2500 2500
-	0    1    1    0   
-$EndComp
-Text Label 2450 2400 0    40   ~ 0
-VCCA
-Text Label 2500 2600 0    40   ~ 0
-A1
-Text Label 3450 2600 2    40   ~ 0
-B1
-Text Label 3450 2500 2    40   ~ 0
-DIR1
-Text Label 3450 2400 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF45B
-P 2950 3150
-AR Path="/5C7EF45B" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF45B" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 3350 60  0000 C CNN
-F 1 "SHIFTER2" H 2950 2950 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 3150 60  0001 C CNN
-F 3 "" H 2950 3150 60  0000 C CNN
-F 4 "NXP" H 2950 3150 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 3150 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 3150 60  0001 C CNN "Description"
-	1    2950 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF462
-P 2500 3150
-AR Path="/5C7EF462" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF462" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 2900 50  0001 C CNN
-F 1 "GND" H 2500 3000 50  0000 C CNN
-F 2 "" H 2500 3150 60  0000 C CNN
-F 3 "" H 2500 3150 60  0000 C CNN
-	1    2500 3150
-	0    1    1    0   
-$EndComp
-Text Label 2450 3050 0    40   ~ 0
-VCCA
-Text Label 2500 3250 0    40   ~ 0
-A2
-Text Label 3450 3250 2    40   ~ 0
-B2
-Text Label 3450 3150 2    40   ~ 0
-DIR2
-Text Label 3450 3050 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF470
-P 2950 4450
-AR Path="/5C7EF470" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF470" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 4650 60  0000 C CNN
-F 1 "SHIFTER4" H 2950 4250 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 4450 60  0001 C CNN
-F 3 "" H 2950 4450 60  0000 C CNN
-F 4 "NXP" H 2950 4450 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 4450 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 4450 60  0001 C CNN "Description"
-	1    2950 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF477
-P 2500 4450
-AR Path="/5C7EF477" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF477" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 4200 50  0001 C CNN
-F 1 "GND" H 2500 4300 50  0000 C CNN
-F 2 "" H 2500 4450 60  0000 C CNN
-F 3 "" H 2500 4450 60  0000 C CNN
-	1    2500 4450
-	0    1    1    0   
-$EndComp
-Text Label 2450 4350 0    40   ~ 0
-VCCA
-Text Label 2500 4550 0    40   ~ 0
-A4
-Text Label 3450 4550 2    40   ~ 0
-B4
-Text Label 3450 4450 2    40   ~ 0
-DIR4
-Text Label 3450 4350 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF485
-P 2950 5150
-AR Path="/5C7EF485" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF485" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 5350 60  0000 C CNN
-F 1 "SHIFTER5" H 2950 4950 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 5150 60  0001 C CNN
-F 3 "" H 2950 5150 60  0000 C CNN
-F 4 "NXP" H 2950 5150 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 5150 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 5150 60  0001 C CNN "Description"
-	1    2950 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF48C
-P 2500 5150
-AR Path="/5C7EF48C" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF48C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 4900 50  0001 C CNN
-F 1 "GND" H 2500 5000 50  0000 C CNN
-F 2 "" H 2500 5150 60  0000 C CNN
-F 3 "" H 2500 5150 60  0000 C CNN
-	1    2500 5150
-	0    1    1    0   
-$EndComp
-Text Label 2450 5050 0    40   ~ 0
-VCCA
-Text Label 2500 5250 0    40   ~ 0
-A5
-Text Label 3450 5250 2    40   ~ 0
-B5
-Text Label 3450 5150 2    40   ~ 0
-DIR5
-Text Label 3450 5050 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF49A
-P 2950 5850
-AR Path="/5C7EF49A" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF49A" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 6050 60  0000 C CNN
-F 1 "SHIFTER6" H 2950 5650 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 5850 60  0001 C CNN
-F 3 "" H 2950 5850 60  0000 C CNN
-F 4 "NXP" H 2950 5850 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 5850 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 5850 60  0001 C CNN "Description"
-	1    2950 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF4A1
-P 2500 5850
-AR Path="/5C7EF4A1" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF4A1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 5600 50  0001 C CNN
-F 1 "GND" H 2500 5700 50  0000 C CNN
-F 2 "" H 2500 5850 60  0000 C CNN
-F 3 "" H 2500 5850 60  0000 C CNN
-	1    2500 5850
-	0    1    1    0   
-$EndComp
-Text Label 2450 5750 0    40   ~ 0
-VCCA
-Text Label 2500 5950 0    40   ~ 0
-A6
-Text Label 3450 5950 2    40   ~ 0
-B6
-Text Label 3450 5850 2    40   ~ 0
-DIR6
-Text Label 3450 5750 2    40   ~ 0
-VCCB
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7EF4AF
-P 2950 6550
-AR Path="/5C7EF4AF" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF4AF" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 6750 60  0000 C CNN
-F 1 "SHIFTER7" H 2950 6350 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 6550 60  0001 C CNN
-F 3 "" H 2950 6550 60  0000 C CNN
-F 4 "NXP" H 2950 6550 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 6550 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 6550 60  0001 C CNN "Description"
-	1    2950 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7EF4B6
-P 2500 6550
-AR Path="/5C7EF4B6" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7EF4B6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 6300 50  0001 C CNN
-F 1 "GND" H 2500 6400 50  0000 C CNN
-F 2 "" H 2500 6550 60  0000 C CNN
-F 3 "" H 2500 6550 60  0000 C CNN
-	1    2500 6550
-	0    1    1    0   
-$EndComp
-Text Label 2450 6450 0    40   ~ 0
-VCCA
-Text Label 2500 6650 0    40   ~ 0
-A7
-Text Label 3450 6650 2    40   ~ 0
-B7
-Text Label 3450 6550 2    40   ~ 0
-DIR7
-Text Label 3450 6450 2    40   ~ 0
-VCCB
-Wire Wire Line
-	2500 1850 2600 1850
-Wire Wire Line
-	2500 1950 2600 1950
-Wire Wire Line
-	3450 1950 3300 1950
-Wire Wire Line
-	3450 1850 3300 1850
-Wire Wire Line
-	3450 1750 3300 1750
-Wire Wire Line
-	2500 2500 2600 2500
-Wire Wire Line
-	2500 2600 2600 2600
-Wire Wire Line
-	3450 2600 3300 2600
-Wire Wire Line
-	3450 2500 3300 2500
-Wire Wire Line
-	3450 2400 3300 2400
-Wire Wire Line
-	2500 3150 2600 3150
-Wire Wire Line
-	2500 3250 2600 3250
-Wire Wire Line
-	3450 3250 3300 3250
-Wire Wire Line
-	3450 3150 3300 3150
-Wire Wire Line
-	3450 3050 3300 3050
-Wire Wire Line
-	2500 4450 2600 4450
-Wire Wire Line
-	2500 4550 2600 4550
-Wire Wire Line
-	3450 4550 3300 4550
-Wire Wire Line
-	3450 4450 3300 4450
-Wire Wire Line
-	3450 4350 3300 4350
-Wire Wire Line
-	2500 5150 2600 5150
-Wire Wire Line
-	2500 5250 2600 5250
-Wire Wire Line
-	3450 5250 3300 5250
-Wire Wire Line
-	3450 5150 3300 5150
-Wire Wire Line
-	3450 5050 3300 5050
-Wire Wire Line
-	2500 5850 2600 5850
-Wire Wire Line
-	2500 5950 2600 5950
-Wire Wire Line
-	3450 5950 3300 5950
-Wire Wire Line
-	3450 5850 3300 5850
-Wire Wire Line
-	3450 5750 3300 5750
-Wire Wire Line
-	2500 6550 2600 6550
-Wire Wire Line
-	2500 6650 2600 6650
-Wire Wire Line
-	3450 6650 3300 6650
-Wire Wire Line
-	3450 6550 3300 6550
-Wire Wire Line
-	3450 6450 3300 6450
-Text Notes 2600 1500 0    50   ~ 0
-1.2 < VCC < 5.5
-$Comp
-L gsg-symbols:74LVC1T45 U?
-U 1 1 5C7FD399
-P 2950 3800
-AR Path="/5C7FD399" Ref="U?"  Part="1" 
-AR Path="/5C7E37E4/5C7FD399" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 4000 60  0000 C CNN
-F 1 "SHIFTER3" H 2950 3600 60  0000 C CNN
-F 2 "gsg-modules:SOT363" H 2950 3800 60  0001 C CNN
-F 3 "" H 2950 3800 60  0000 C CNN
-F 4 "NXP" H 2950 3800 60  0001 C CNN "Manufacturer"
-F 5 "74LVCH1T45GW,125" H 2950 3800 60  0001 C CNN "Part Number"
-F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2950 3800 60  0001 C CNN "Description"
-	1    2950 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C7FD3A0
-P 2500 3800
-AR Path="/5C7FD3A0" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C7FD3A0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2500 3550 50  0001 C CNN
-F 1 "GND" H 2500 3650 50  0000 C CNN
-F 2 "" H 2500 3800 60  0000 C CNN
-F 3 "" H 2500 3800 60  0000 C CNN
-	1    2500 3800
-	0    1    1    0   
-$EndComp
-Text Label 2450 3700 0    40   ~ 0
-VCCA
-Text Label 2500 3900 0    40   ~ 0
-A3
-Text Label 3450 3900 2    40   ~ 0
-B3
-Text Label 3450 3800 2    40   ~ 0
-DIR3
-Text Label 3450 3700 2    40   ~ 0
-VCCB
-Wire Wire Line
-	2500 3800 2600 3800
-Wire Wire Line
-	2500 3900 2600 3900
-Wire Wire Line
-	3450 3900 3300 3900
-Wire Wire Line
-	3450 3800 3300 3800
-Wire Wire Line
-	3450 3700 3300 3700
-$Comp
-L gsg-symbols:LM339 U?
-U 1 1 5C88551E
-P 5200 2500
-F 0 "U?" H 5225 3065 50  0000 C CNN
-F 1 "LM339" H 5225 2974 50  0000 C CNN
-F 2 "" H 5500 2700 50  0001 C CNN
-F 3 "" H 5500 2700 50  0001 C CNN
-F 4 "Texas Instruments" H 5200 2500 50  0001 C CNN "Manufacturer"
-F 5 "LM339DR " H 5200 2500 50  0001 C CNN "Part Number"
-F 6 "IC QUAD DIFF COMP 14-SOIC " H 5200 2500 50  0001 C CNN "Description"
-	1    5200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C886966
-P 5850 2450
-F 0 "#PWR?" H 5850 2200 50  0001 C CNN
-F 1 "GND" V 5855 2322 50  0000 R CNN
-F 2 "" H 5850 2450 50  0001 C CNN
-F 3 "" H 5850 2450 50  0001 C CNN
-	1    5850 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5C886A97
-P 4350 2250
-F 0 "C?" H 4465 2296 50  0000 L CNN
-F 1 "0.1uF" H 4465 2205 50  0000 L CNN
-F 2 "" H 4388 2100 50  0001 C CNN
-F 3 "~" H 4350 2250 50  0001 C CNN
-	1    4350 2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8892F0
-P 4350 2050
-F 0 "#PWR?" H 4350 1800 50  0001 C CNN
-F 1 "GND" H 4355 1877 50  0000 C CNN
-F 2 "" H 4350 2050 50  0001 C CNN
-F 3 "" H 4350 2050 50  0001 C CNN
-	1    4350 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C88E643
-P 4300 2450
-F 0 "#PWR?" H 4300 2300 50  0001 C CNN
-F 1 "+5V" V 4315 2578 50  0000 L CNN
-F 2 "" H 4300 2450 50  0001 C CNN
-F 3 "" H 4300 2450 50  0001 C CNN
-	1    4300 2450
-	0    -1   -1   0   
-$EndComp
-Text Notes 4950 3000 0    50   ~ 0
-0<Vthr<VCC-2
-$Comp
-L gsg-symbols:NCD9830 U?
-U 1 1 5C857323
-P 9150 2200
-F 0 "U?" H 9175 2865 50  0000 C CNN
-F 1 "NCD9830" H 9175 2774 50  0000 C CNN
-F 2 "" H 9350 2800 50  0001 C CNN
-F 3 "" H 9350 2800 50  0001 C CNN
-F 4 "ON Semiconductor" H 9150 2200 50  0001 C CNN "Manufacturer"
-F 5 "NCD9830DBR2G" H 9150 2200 50  0001 C CNN "Part Number"
-F 6 "IC ADC 8BIT 8CH I2C 16TSSOP " H 9150 2200 50  0001 C CNN "Description"
-	1    9150 2200
-	1    0    0    -1  
-$EndComp
-Text Label 8850 1850 2    50   ~ 0
-A0
-Text Label 8850 1950 2    50   ~ 0
-A1
-Text Label 8850 2050 2    50   ~ 0
-A2
-Text Label 8850 2150 2    50   ~ 0
-A3
-Text Label 8850 2250 2    50   ~ 0
-A4
-Text Label 8850 2350 2    50   ~ 0
-A5
-Text Label 8850 2450 2    50   ~ 0
-A6
-Text Label 8850 2550 2    50   ~ 0
-A7
-NoConn ~ 9500 2450
-Wire Wire Line
-	9500 2350 9550 2350
-$Comp
-L power:GND #PWR?
-U 1 1 5C85B2EB
-P 9550 2350
-F 0 "#PWR?" H 9550 2100 50  0001 C CNN
-F 1 "GND" V 9555 2222 50  0000 R CNN
-F 2 "" H 9550 2350 50  0001 C CNN
-F 3 "" H 9550 2350 50  0001 C CNN
-	1    9550 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9500 2550 9550 2550
-$Comp
-L power:GND #PWR?
-U 1 1 5C85C7F6
-P 9550 2550
-F 0 "#PWR?" H 9550 2300 50  0001 C CNN
-F 1 "GND" V 9555 2422 50  0000 R CNN
-F 2 "" H 9550 2550 50  0001 C CNN
-F 3 "" H 9550 2550 50  0001 C CNN
-	1    9550 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5C85CA7D
-P 9750 1650
-F 0 "C?" H 9865 1696 50  0000 L CNN
-F 1 "0.1uF" H 9865 1605 50  0000 L CNN
-F 2 "" H 9788 1500 50  0001 C CNN
-F 3 "~" H 9750 1650 50  0001 C CNN
-	1    9750 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C85CA84
-P 9750 1450
-F 0 "#PWR?" H 9750 1200 50  0001 C CNN
-F 1 "GND" H 9755 1277 50  0000 C CNN
-F 2 "" H 9750 1450 50  0001 C CNN
-F 3 "" H 9750 1450 50  0001 C CNN
-	1    9750 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C860AAC
-P 9800 1850
-F 0 "#PWR?" H 9800 1700 50  0001 C CNN
-F 1 "+5V" V 9815 1978 50  0000 L CNN
-F 2 "" H 9800 1850 50  0001 C CNN
-F 3 "" H 9800 1850 50  0001 C CNN
-	1    9800 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:RJ45_Shielded J?
-U 1 1 5C86EFFB
-P 1250 2550
-AR Path="/5C86EFFB" Ref="J?"  Part="1" 
-AR Path="/5C7E37E4/5C86EFFB" Ref="J?"  Part="1" 
-F 0 "J?" H 1450 3000 60  0000 C CNN
-F 1 "RJ45" H 1100 3000 60  0000 C CNN
-F 2 "gsg-modules:RJ45-RJHSE-5380" H 1250 2550 60  0001 C CNN
-F 3 "" H 1250 2550 60  0000 C CNN
-	1    1250 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even P?
-U 1 1 5C86F002
-P 1250 4700
-AR Path="/5C86F002" Ref="P?"  Part="1" 
-AR Path="/5C7E37E4/5C86F002" Ref="P?"  Part="1" 
-F 0 "P?" H 1250 5000 50  0000 C CNN
-F 1 "CONN_02X05" H 1250 4400 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x5" H 1250 3500 60  0001 C CNN
-F 3 "" H 1250 3500 60  0000 C CNN
-	1    1250 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  2950 950  4500
-Wire Wire Line
-	950  4500 1050 4500
-Wire Wire Line
-	1050 2950 1050 4300
-Wire Wire Line
-	1050 4300 1650 4300
-Wire Wire Line
-	1650 4300 1650 4500
-Wire Wire Line
-	1650 4500 1550 4500
-Wire Wire Line
-	1150 2950 1150 4200
-Wire Wire Line
-	1150 4200 850  4200
-Wire Wire Line
-	850  4200 850  4600
-Wire Wire Line
-	850  4600 1050 4600
-Wire Wire Line
-	1250 2950 1250 4200
-Wire Wire Line
-	1250 4200 1750 4200
-Wire Wire Line
-	1750 4200 1750 4600
-Wire Wire Line
-	1750 4600 1550 4600
-Wire Wire Line
-	1350 2950 1350 4100
-Wire Wire Line
-	1350 4100 750  4100
-Wire Wire Line
-	750  4100 750  4700
-Wire Wire Line
-	750  4700 1050 4700
-Wire Wire Line
-	1450 2950 1450 4100
-Wire Wire Line
-	1450 4100 1850 4100
-Wire Wire Line
-	1850 4100 1850 4700
-Wire Wire Line
-	1850 4700 1550 4700
-Wire Wire Line
-	1550 2950 1550 4000
-Wire Wire Line
-	1550 4000 650  4000
-Wire Wire Line
-	650  4000 650  4800
-Wire Wire Line
-	650  4800 1050 4800
-Wire Wire Line
-	1650 2950 1650 4000
-Wire Wire Line
-	1650 4000 1950 4000
-Wire Wire Line
-	1950 4000 1950 4800
-Wire Wire Line
-	1950 4800 1550 4800
-Wire Wire Line
-	1050 4900 950  4900
-Wire Wire Line
-	1750 4900 1550 4900
-Text Label 1750 4900 2    40   ~ 0
-VCCB
-Text Label 950  3050 1    40   ~ 0
-A0
-Text Label 1050 3050 1    40   ~ 0
-A1
-Text Label 1150 3050 1    40   ~ 0
-A2
-Text Label 1250 3050 1    40   ~ 0
-A3
-Text Label 1350 3050 1    40   ~ 0
-A4
-Text Label 1450 3050 1    40   ~ 0
-A5
-Text Label 1550 3050 1    40   ~ 0
-A6
-Text Label 1650 3050 1    40   ~ 0
-A7
-$Comp
-L power:GND #PWR?
-U 1 1 5C86F039
-P 700 2600
-AR Path="/5C86F039" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E37E4/5C86F039" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 700 2350 50  0001 C CNN
-F 1 "GND" H 700 2450 50  0000 C CNN
-F 2 "" H 700 2600 60  0000 C CNN
-F 3 "" H 700 2600 60  0000 C CNN
-	1    700  2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	700  2600 700  2550
-Wire Wire Line
-	700  2550 750  2550
-$Comp
-L power:GND #PWR?
-U 1 1 5C872992
-P 950 4900
-F 0 "#PWR?" H 950 4650 50  0001 C CNN
-F 1 "GND" V 955 4772 50  0000 R CNN
-F 2 "" H 950 4900 50  0001 C CNN
-F 3 "" H 950 4900 50  0001 C CNN
-	1    950  4900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 6450 2600 6450
-Wire Wire Line
-	2450 5750 2600 5750
-Wire Wire Line
-	2450 5050 2600 5050
-Wire Wire Line
-	2450 4350 2600 4350
-Wire Wire Line
-	2450 3700 2600 3700
-Wire Wire Line
-	2450 3050 2600 3050
-Wire Wire Line
-	2450 2400 2600 2400
-Wire Wire Line
-	2450 1750 2600 1750
-Text Notes 8850 1450 0    50   ~ 0
-ADC, I2C interface
-Wire Wire Line
-	9750 1500 9750 1450
-Wire Wire Line
-	9500 1850 9750 1850
-Wire Wire Line
-	9750 1800 9750 1850
-Connection ~ 9750 1850
-Wire Wire Line
-	9750 1850 9800 1850
-Text Label 4850 2550 2    50   ~ 0
-High_thr
-Text Label 4850 2850 2    50   ~ 0
-Low_thr
-Wire Wire Line
-	4850 2750 4850 2700
-Wire Wire Line
-	4850 2700 4750 2700
-Connection ~ 4850 2700
-Wire Wire Line
-	4850 2700 4850 2650
-Text Label 4750 2700 2    50   ~ 0
-A0
-Text Label 4850 2250 2    50   ~ 0
-A0_low
-Text Label 4850 2350 2    50   ~ 0
-A0_high
-Wire Wire Line
-	4350 2050 4350 2100
-Wire Wire Line
-	4350 2400 4350 2450
-Wire Wire Line
-	4350 2450 4300 2450
-Wire Wire Line
-	5600 2650 5600 2700
-Wire Wire Line
-	5600 2700 5700 2700
-Connection ~ 5600 2700
-Wire Wire Line
-	5600 2700 5600 2750
-Text Label 5700 2700 0    50   ~ 0
-A1
-Text Label 5600 2550 0    50   ~ 0
-Low_thr
-Wire Wire Line
-	5600 2450 5850 2450
-Text Label 5600 2850 0    50   ~ 0
-High_thr
-Text Label 5600 2350 0    50   ~ 0
-A1_low
-Text Label 5600 2250 0    50   ~ 0
-A1_high
-$Comp
-L gsg-symbols:LM339 U?
-U 1 1 5C8CCCE1
-P 5200 3650
-F 0 "U?" H 5225 4215 50  0000 C CNN
-F 1 "LM339" H 5225 4124 50  0000 C CNN
-F 2 "" H 5500 3850 50  0001 C CNN
-F 3 "" H 5500 3850 50  0001 C CNN
-F 4 "Texas Instruments" H 5200 3650 50  0001 C CNN "Manufacturer"
-F 5 "LM339DR " H 5200 3650 50  0001 C CNN "Part Number"
-F 6 "IC QUAD DIFF COMP 14-SOIC " H 5200 3650 50  0001 C CNN "Description"
-	1    5200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8CCCE8
-P 5850 3600
-F 0 "#PWR?" H 5850 3350 50  0001 C CNN
-F 1 "GND" V 5855 3472 50  0000 R CNN
-F 2 "" H 5850 3600 50  0001 C CNN
-F 3 "" H 5850 3600 50  0001 C CNN
-	1    5850 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5C8CCCEE
-P 4350 3400
-F 0 "C?" H 4465 3446 50  0000 L CNN
-F 1 "0.1uF" H 4465 3355 50  0000 L CNN
-F 2 "" H 4388 3250 50  0001 C CNN
-F 3 "~" H 4350 3400 50  0001 C CNN
-	1    4350 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8CCCF5
-P 4350 3200
-F 0 "#PWR?" H 4350 2950 50  0001 C CNN
-F 1 "GND" H 4355 3027 50  0000 C CNN
-F 2 "" H 4350 3200 50  0001 C CNN
-F 3 "" H 4350 3200 50  0001 C CNN
-	1    4350 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C8CCCFB
-P 4300 3600
-F 0 "#PWR?" H 4300 3450 50  0001 C CNN
-F 1 "+5V" V 4315 3728 50  0000 L CNN
-F 2 "" H 4300 3600 50  0001 C CNN
-F 3 "" H 4300 3600 50  0001 C CNN
-	1    4300 3600
-	0    -1   -1   0   
-$EndComp
-Text Notes 4950 4150 0    50   ~ 0
-0<Vthr<VCC-2
-Text Label 4850 3700 2    50   ~ 0
-High_thr
-Text Label 4850 4000 2    50   ~ 0
-Low_thr
-Wire Wire Line
-	4850 3900 4850 3850
-Wire Wire Line
-	4850 3850 4750 3850
-Connection ~ 4850 3850
-Wire Wire Line
-	4850 3850 4850 3800
-Text Label 4750 3850 2    50   ~ 0
-A2
-Text Label 4850 3400 2    50   ~ 0
-A2_low
-Text Label 4850 3500 2    50   ~ 0
-A2_high
-Wire Wire Line
-	4350 3200 4350 3250
-Wire Wire Line
-	4350 3550 4350 3600
-Wire Wire Line
-	4350 3600 4300 3600
-Wire Wire Line
-	5600 3800 5600 3850
-Wire Wire Line
-	5600 3850 5700 3850
-Connection ~ 5600 3850
-Wire Wire Line
-	5600 3850 5600 3900
-Text Label 5700 3850 0    50   ~ 0
-A3
-Text Label 5600 3700 0    50   ~ 0
-Low_thr
-Wire Wire Line
-	5600 3600 5850 3600
-Text Label 5600 4000 0    50   ~ 0
-High_thr
-Text Label 5600 3500 0    50   ~ 0
-A3_low
-Text Label 5600 3400 0    50   ~ 0
-A3_high
-$Comp
-L gsg-symbols:LM339 U?
-U 1 1 5C8D51AF
-P 5200 4800
-F 0 "U?" H 5225 5365 50  0000 C CNN
-F 1 "LM339" H 5225 5274 50  0000 C CNN
-F 2 "" H 5500 5000 50  0001 C CNN
-F 3 "" H 5500 5000 50  0001 C CNN
-F 4 "Texas Instruments" H 5200 4800 50  0001 C CNN "Manufacturer"
-F 5 "LM339DR " H 5200 4800 50  0001 C CNN "Part Number"
-F 6 "IC QUAD DIFF COMP 14-SOIC " H 5200 4800 50  0001 C CNN "Description"
-	1    5200 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8D51B6
-P 5850 4750
-F 0 "#PWR?" H 5850 4500 50  0001 C CNN
-F 1 "GND" V 5855 4622 50  0000 R CNN
-F 2 "" H 5850 4750 50  0001 C CNN
-F 3 "" H 5850 4750 50  0001 C CNN
-	1    5850 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5C8D51BC
-P 4350 4550
-F 0 "C?" H 4465 4596 50  0000 L CNN
-F 1 "0.1uF" H 4465 4505 50  0000 L CNN
-F 2 "" H 4388 4400 50  0001 C CNN
-F 3 "~" H 4350 4550 50  0001 C CNN
-	1    4350 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8D51C3
-P 4350 4350
-F 0 "#PWR?" H 4350 4100 50  0001 C CNN
-F 1 "GND" H 4355 4177 50  0000 C CNN
-F 2 "" H 4350 4350 50  0001 C CNN
-F 3 "" H 4350 4350 50  0001 C CNN
-	1    4350 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C8D51C9
-P 4300 4750
-F 0 "#PWR?" H 4300 4600 50  0001 C CNN
-F 1 "+5V" V 4315 4878 50  0000 L CNN
-F 2 "" H 4300 4750 50  0001 C CNN
-F 3 "" H 4300 4750 50  0001 C CNN
-	1    4300 4750
-	0    -1   -1   0   
-$EndComp
-Text Notes 4950 5300 0    50   ~ 0
-0<Vthr<VCC-2
-Text Label 4850 4850 2    50   ~ 0
-High_thr
-Text Label 4850 5150 2    50   ~ 0
-Low_thr
-Wire Wire Line
-	4850 5050 4850 5000
-Wire Wire Line
-	4850 5000 4750 5000
-Connection ~ 4850 5000
-Wire Wire Line
-	4850 5000 4850 4950
-Text Label 4750 5000 2    50   ~ 0
-A4
-Text Label 4850 4550 2    50   ~ 0
-A4_low
-Text Label 4850 4650 2    50   ~ 0
-A4_high
-Wire Wire Line
-	4350 4350 4350 4400
-Wire Wire Line
-	4350 4700 4350 4750
-Wire Wire Line
-	4350 4750 4300 4750
-Wire Wire Line
-	5600 4950 5600 5000
-Wire Wire Line
-	5600 5000 5700 5000
-Connection ~ 5600 5000
-Wire Wire Line
-	5600 5000 5600 5050
-Text Label 5700 5000 0    50   ~ 0
-A5
-Text Label 5600 4850 0    50   ~ 0
-Low_thr
-Wire Wire Line
-	5600 4750 5850 4750
-Text Label 5600 5150 0    50   ~ 0
-High_thr
-Text Label 5600 4650 0    50   ~ 0
-A5_low
-Text Label 5600 4550 0    50   ~ 0
-A5_high
-$Comp
 L gsg-symbols:LM339 U?
 U 1 1 5C8D51EB
-P 5200 5950
-F 0 "U?" H 5225 6515 50  0000 C CNN
-F 1 "LM339" H 5225 6424 50  0000 C CNN
-F 2 "" H 5500 6150 50  0001 C CNN
-F 3 "" H 5500 6150 50  0001 C CNN
-F 4 "Texas Instruments" H 5200 5950 50  0001 C CNN "Manufacturer"
-F 5 "LM339DR " H 5200 5950 50  0001 C CNN "Part Number"
-F 6 "IC QUAD DIFF COMP 14-SOIC " H 5200 5950 50  0001 C CNN "Description"
-	1    5200 5950
+P 8900 4300
+F 0 "U?" H 8925 4865 50  0000 C CNN
+F 1 "LM339" H 8925 4774 50  0000 C CNN
+F 2 "" H 9200 4500 50  0001 C CNN
+F 3 "" H 9200 4500 50  0001 C CNN
+F 4 "Texas Instruments" H 8900 4300 50  0001 C CNN "Manufacturer"
+F 5 "LM339DR " H 8900 4300 50  0001 C CNN "Part Number"
+F 6 "IC QUAD DIFF COMP 14-SOIC " H 8900 4300 50  0001 C CNN "Description"
+	1    8900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C8D51F2
-P 5850 5900
-F 0 "#PWR?" H 5850 5650 50  0001 C CNN
-F 1 "GND" V 5855 5772 50  0000 R CNN
-F 2 "" H 5850 5900 50  0001 C CNN
-F 3 "" H 5850 5900 50  0001 C CNN
-	1    5850 5900
+P 9550 4250
+F 0 "#PWR?" H 9550 4000 50  0001 C CNN
+F 1 "GND" V 9555 4122 50  0000 R CNN
+F 2 "" H 9550 4250 50  0001 C CNN
+F 3 "" H 9550 4250 50  0001 C CNN
+	1    9550 4250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5C8D51F8
-P 4350 5700
-F 0 "C?" H 4465 5746 50  0000 L CNN
-F 1 "0.1uF" H 4465 5655 50  0000 L CNN
-F 2 "" H 4388 5550 50  0001 C CNN
-F 3 "~" H 4350 5700 50  0001 C CNN
-	1    4350 5700
+P 8050 4050
+F 0 "C?" H 8165 4096 50  0000 L CNN
+F 1 "0.1uF" H 8165 4005 50  0000 L CNN
+F 2 "" H 8088 3900 50  0001 C CNN
+F 3 "~" H 8050 4050 50  0001 C CNN
+	1    8050 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C8D51FF
-P 4350 5500
-F 0 "#PWR?" H 4350 5250 50  0001 C CNN
-F 1 "GND" H 4355 5327 50  0000 C CNN
-F 2 "" H 4350 5500 50  0001 C CNN
-F 3 "" H 4350 5500 50  0001 C CNN
-	1    4350 5500
+P 8050 3850
+F 0 "#PWR?" H 8050 3600 50  0001 C CNN
+F 1 "GND" H 8055 3677 50  0000 C CNN
+F 2 "" H 8050 3850 50  0001 C CNN
+F 3 "" H 8050 3850 50  0001 C CNN
+	1    8050 3850
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5C8D5205
-P 4300 5900
-F 0 "#PWR?" H 4300 5750 50  0001 C CNN
-F 1 "+5V" V 4315 6028 50  0000 L CNN
-F 2 "" H 4300 5900 50  0001 C CNN
-F 3 "" H 4300 5900 50  0001 C CNN
-	1    4300 5900
+P 8000 4250
+F 0 "#PWR?" H 8000 4100 50  0001 C CNN
+F 1 "+5V" V 8015 4378 50  0000 L CNN
+F 2 "" H 8000 4250 50  0001 C CNN
+F 3 "" H 8000 4250 50  0001 C CNN
+	1    8000 4250
 	0    -1   -1   0   
 $EndComp
-Text Notes 4950 6450 0    50   ~ 0
-0<Vthr<VCC-2
-Text Label 4850 6000 2    50   ~ 0
-High_thr
-Text Label 4850 6300 2    50   ~ 0
-Low_thr
 Wire Wire Line
-	4850 6200 4850 6150
+	8050 3850 8050 3900
 Wire Wire Line
-	4850 6150 4750 6150
-Connection ~ 4850 6150
+	8050 4200 8050 4250
 Wire Wire Line
-	4850 6150 4850 6100
-Text Label 4750 6150 2    50   ~ 0
+	8050 4250 8000 4250
+Wire Wire Line
+	9300 4250 9550 4250
+Wire Wire Line
+	8050 4250 8550 4250
+Connection ~ 8050 4250
+Text Notes 7200 850  0    50   ~ 0
+bank A: ADC, DAC, level shifter, pull-up, pull-down, comparator\nbank B: FPGA
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5C908C44
+P 8450 1350
+F 0 "J?" H 8500 1767 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8500 1676 50  0000 C CNN
+F 2 "" H 8450 1350 50  0001 C CNN
+F 3 "~" H 8450 1350 50  0001 C CNN
+F 4 "Samtec Inc." H 8450 1350 50  0001 C CNN "Manufacturer"
+F 5 "TSW-105-22-T-D-RA" H 8450 1350 50  0001 C CNN "Part Number"
+F 6 "CONN HEADER R/A 10POS 2.54MM " H 8450 1350 50  0001 C CNN "Description"
+	1    8450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C909203
+P 8800 1550
+F 0 "#PWR?" H 8800 1300 50  0001 C CNN
+F 1 "GND" V 8805 1422 50  0000 R CNN
+F 2 "" H 8800 1550 50  0001 C CNN
+F 3 "" H 8800 1550 50  0001 C CNN
+	1    8800 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 1550 8800 1550
+Wire Wire Line
+	8250 1550 8200 1550
+Text Label 8200 1550 2    50   ~ 0
+VCCA
+Text Label 8250 1150 2    50   ~ 0
+A1
+Text Label 8750 1150 0    50   ~ 0
+A2
+Text Label 8250 1250 2    50   ~ 0
+A3
+Text Label 8750 1250 0    50   ~ 0
+A4
+Text Label 8250 1350 2    50   ~ 0
+A5
+Text Label 8750 1350 0    50   ~ 0
 A6
-Text Label 4850 5700 2    50   ~ 0
-A6_low
-Text Label 4850 5800 2    50   ~ 0
-A6_high
-Wire Wire Line
-	4350 5500 4350 5550
-Wire Wire Line
-	4350 5850 4350 5900
-Wire Wire Line
-	4350 5900 4300 5900
-Wire Wire Line
-	5600 6100 5600 6150
-Wire Wire Line
-	5600 6150 5700 6150
-Connection ~ 5600 6150
-Wire Wire Line
-	5600 6150 5600 6200
-Text Label 5700 6150 0    50   ~ 0
+Text Label 8250 1450 2    50   ~ 0
 A7
-Text Label 5600 6000 0    50   ~ 0
-Low_thr
+Text Label 8750 1450 0    50   ~ 0
+A8
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5C914003
+P 8450 2150
+F 0 "J?" H 8500 2567 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8500 2476 50  0000 C CNN
+F 2 "" H 8450 2150 50  0001 C CNN
+F 3 "~" H 8450 2150 50  0001 C CNN
+F 4 "Samtec Inc." H 8450 2150 50  0001 C CNN "Manufacturer"
+F 5 "TSW-105-22-T-D-RA" H 8450 2150 50  0001 C CNN "Part Number"
+F 6 "CONN HEADER R/A 10POS 2.54MM " H 8450 2150 50  0001 C CNN "Description"
+	1    8450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C91400A
+P 8800 2350
+F 0 "#PWR?" H 8800 2100 50  0001 C CNN
+F 1 "GND" V 8805 2222 50  0000 R CNN
+F 2 "" H 8800 2350 50  0001 C CNN
+F 3 "" H 8800 2350 50  0001 C CNN
+	1    8800 2350
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	5600 5900 5850 5900
-Text Label 5600 6300 0    50   ~ 0
-High_thr
-Text Label 5600 5800 0    50   ~ 0
-A7_low
-Text Label 5600 5700 0    50   ~ 0
-A7_high
+	8750 2350 8800 2350
 Wire Wire Line
-	4350 2450 4850 2450
-Connection ~ 4350 2450
+	8250 2350 8200 2350
+Text Label 8200 2350 2    50   ~ 0
+VCCB
+Text Label 8250 1950 2    50   ~ 0
+B1
+Text Label 8750 1950 0    50   ~ 0
+B2
+Text Label 8250 2050 2    50   ~ 0
+B3
+Text Label 8750 2050 0    50   ~ 0
+B4
+Text Label 8250 2150 2    50   ~ 0
+B5
+Text Label 8750 2150 0    50   ~ 0
+B6
+Text Label 8250 2250 2    50   ~ 0
+B7
+Text Label 8750 2250 0    50   ~ 0
+B8
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5C941979
+P 1000 1450
+F 0 "U?" H 1050 2128 50  0000 C CNN
+F 1 "74HC4051" H 1050 2037 50  0000 C CNN
+F 2 "" H 1000 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 1000 1050 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 1000 1450 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 1000 1450 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 1000 1450 50  0001 C CNN "Description"
+	1    1000 1450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4350 3600 4850 3600
-Connection ~ 4350 3600
+	1000 950  1050 950 
+$Comp
+L power:+5V #PWR?
+U 1 1 5C948C46
+P 1050 950
+F 0 "#PWR?" H 1050 800 50  0001 C CNN
+F 1 "+5V" V 1065 1078 50  0000 L CNN
+F 2 "" H 1050 950 50  0001 C CNN
+F 3 "" H 1050 950 50  0001 C CNN
+	1    1050 950 
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4350 4750 4850 4750
-Connection ~ 4350 4750
+	1000 2050 1050 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5C94F288
+P 1050 2100
+F 0 "#PWR?" H 1050 1850 50  0001 C CNN
+F 1 "GND" H 1055 1927 50  0000 C CNN
+F 2 "" H 1050 2100 50  0001 C CNN
+F 3 "" H 1050 2100 50  0001 C CNN
+	1    1050 2100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4350 5900 4850 5900
-Connection ~ 4350 5900
+	1050 2050 1050 2100
+Connection ~ 1050 2050
+Wire Wire Line
+	1050 2050 1100 2050
+Wire Wire Line
+	700  1150 650  1150
+Text Label 650  1150 2    50   ~ 0
+A1
+$Comp
+L Device:R R?
+U 1 1 5C975B1A
+P 1450 950
+F 0 "R?" H 1380 904 50  0000 R CNN
+F 1 "R" H 1380 995 50  0000 R CNN
+F 2 "" V 1380 950 50  0001 C CNN
+F 3 "~" H 1450 950 50  0001 C CNN
+	1    1450 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C975C0B
+P 1700 950
+F 0 "R?" H 1630 904 50  0000 R CNN
+F 1 "R" H 1630 995 50  0000 R CNN
+F 2 "" V 1630 950 50  0001 C CNN
+F 3 "~" H 1700 950 50  0001 C CNN
+	1    1700 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1150 1450 1150
+Wire Wire Line
+	1450 1150 1450 1100
+Wire Wire Line
+	1400 1250 1700 1250
+Wire Wire Line
+	1700 1250 1700 1100
+Wire Wire Line
+	1450 800  1450 750 
+Wire Wire Line
+	1700 800  1700 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5C98FB23
+P 1450 750
+F 0 "#PWR?" H 1450 500 50  0001 C CNN
+F 1 "GND" H 1455 577 50  0000 C CNN
+F 2 "" H 1450 750 50  0001 C CNN
+F 3 "" H 1450 750 50  0001 C CNN
+	1    1450 750 
+	-1   0    0    1   
+$EndComp
+Text Label 1700 750  0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5C990989
+P 2450 1250
+AR Path="/5C990989" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5C990989" Ref="U?"  Part="1" 
+F 0 "U?" H 2450 1450 60  0000 C CNN
+F 1 "SHIFTER1" H 2450 1050 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 2450 1250 60  0001 C CNN
+F 3 "" H 2450 1250 60  0000 C CNN
+F 4 "NXP" H 2450 1250 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 2450 1250 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2450 1250 60  0001 C CNN "Description"
+	1    2450 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C990990
+P 2850 1250
+AR Path="/5C990990" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5C990990" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 1000 50  0001 C CNN
+F 1 "GND" H 2850 1100 50  0000 C CNN
+F 2 "" H 2850 1250 60  0000 C CNN
+F 3 "" H 2850 1250 60  0000 C CNN
+	1    2850 1250
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 1250 2    40   ~ 0
+DIR1
+Text Label 2100 1350 2    40   ~ 0
+VCCA
+Wire Wire Line
+	1400 1350 1800 1350
+Wire Wire Line
+	1800 1350 1800 1150
+Wire Wire Line
+	1800 1150 2100 1150
+Text Label 2800 1150 0    50   ~ 0
+A1_shift
+Wire Wire Line
+	2800 1350 2850 1350
+Wire Wire Line
+	2800 1250 2850 1250
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5C9F43B2
+P 2850 1350
+F 0 "#PWR?" H 2850 1200 50  0001 C CNN
+F 1 "+1V2" V 2865 1478 50  0000 L CNN
+F 2 "" H 2850 1350 50  0001 C CNN
+F 3 "" H 2850 1350 50  0001 C CNN
+	1    2850 1350
+	0    1    1    0   
+$EndComp
+Text Label 1400 1450 0    50   ~ 0
+ADC
+$Comp
+L Device:R R?
+U 1 1 5C9F4F63
+P 8750 5700
+F 0 "R?" V 8543 5700 50  0000 C CNN
+F 1 "5k" V 8634 5700 50  0000 C CNN
+F 2 "" V 8680 5700 50  0001 C CNN
+F 3 "~" H 8750 5700 50  0001 C CNN
+	1    8750 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C9F5027
+P 8950 5900
+F 0 "R?" H 8880 5854 50  0000 R CNN
+F 1 "10k" H 8880 5945 50  0000 R CNN
+F 2 "" V 8880 5900 50  0001 C CNN
+F 3 "~" H 8950 5900 50  0001 C CNN
+	1    8950 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 5700 8950 5700
+Wire Wire Line
+	8950 5700 8950 5750
+Wire Wire Line
+	8950 6050 8950 6100
+$Comp
+L power:GND #PWR?
+U 1 1 5CA03E43
+P 8950 6100
+F 0 "#PWR?" H 8950 5850 50  0001 C CNN
+F 1 "GND" H 8955 5927 50  0000 C CNN
+F 2 "" H 8950 6100 50  0001 C CNN
+F 3 "" H 8950 6100 50  0001 C CNN
+	1    8950 6100
+	1    0    0    -1  
+$EndComp
+Text Label 8600 5700 2    50   ~ 0
+ADC
+Wire Wire Line
+	8950 5700 9000 5700
+Connection ~ 8950 5700
+Text Notes 8450 5400 0    50   ~ 0
+voltage divider to keep signal\nwithin 3.3V ADC range
+Text Label 1400 1550 0    50   ~ 0
+DAC2
+Text Label 1400 1650 0    50   ~ 0
+DAC3
+Text Label 1400 1750 0    50   ~ 0
+COMP1
+Text Label 1400 1850 0    50   ~ 0
+COMP2
+Text Label 9000 5700 0    50   ~ 0
+gf_adc
+Text Label 8550 4550 2    50   ~ 0
+COMP1
+Text Label 8550 4650 2    50   ~ 0
+COMP2
+Text Label 8550 4050 2    50   ~ 0
+COMP_O1
+Text Label 8550 4150 2    50   ~ 0
+COMP_O2
+Text Label 9300 4050 0    50   ~ 0
+COMP_O3
+Text Label 9300 4150 0    50   ~ 0
+COMP_O4
+Text Label 8550 4350 2    50   ~ 0
+DAC2
+Text Label 9300 4650 0    50   ~ 0
+DAC3
+Text Label 9300 4450 0    50   ~ 0
+DAC4
+Text Label 8550 4450 2    50   ~ 0
+COMP1
+Text Label 9300 4550 0    50   ~ 0
+COMP1
+Text Label 9300 4350 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA6AC52
+P 1000 3200
+F 0 "U?" H 1050 3878 50  0000 C CNN
+F 1 "74HC4051" H 1050 3787 50  0000 C CNN
+F 2 "" H 1000 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 1000 2800 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 1000 3200 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 1000 3200 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 1000 3200 50  0001 C CNN "Description"
+	1    1000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2700 1050 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA6AC5A
+P 1050 2700
+F 0 "#PWR?" H 1050 2550 50  0001 C CNN
+F 1 "+5V" V 1065 2828 50  0000 L CNN
+F 2 "" H 1050 2700 50  0001 C CNN
+F 3 "" H 1050 2700 50  0001 C CNN
+	1    1050 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 3800 1050 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6AC61
+P 1050 3850
+F 0 "#PWR?" H 1050 3600 50  0001 C CNN
+F 1 "GND" H 1055 3677 50  0000 C CNN
+F 2 "" H 1050 3850 50  0001 C CNN
+F 3 "" H 1050 3850 50  0001 C CNN
+	1    1050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3800 1050 3850
+Connection ~ 1050 3800
+Wire Wire Line
+	1050 3800 1100 3800
+Wire Wire Line
+	700  2900 650  2900
+Text Label 650  2900 2    50   ~ 0
+A2
+$Comp
+L Device:R R?
+U 1 1 5CA6AC6C
+P 1450 2700
+F 0 "R?" H 1380 2654 50  0000 R CNN
+F 1 "R" H 1380 2745 50  0000 R CNN
+F 2 "" V 1380 2700 50  0001 C CNN
+F 3 "~" H 1450 2700 50  0001 C CNN
+	1    1450 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA6AC73
+P 1700 2700
+F 0 "R?" H 1630 2654 50  0000 R CNN
+F 1 "R" H 1630 2745 50  0000 R CNN
+F 2 "" V 1630 2700 50  0001 C CNN
+F 3 "~" H 1700 2700 50  0001 C CNN
+	1    1700 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 2900 1450 2900
+Wire Wire Line
+	1450 2900 1450 2850
+Wire Wire Line
+	1400 3000 1700 3000
+Wire Wire Line
+	1700 3000 1700 2850
+Wire Wire Line
+	1450 2550 1450 2500
+Wire Wire Line
+	1700 2550 1700 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6AC80
+P 1450 2500
+F 0 "#PWR?" H 1450 2250 50  0001 C CNN
+F 1 "GND" H 1455 2327 50  0000 C CNN
+F 2 "" H 1450 2500 50  0001 C CNN
+F 3 "" H 1450 2500 50  0001 C CNN
+	1    1450 2500
+	-1   0    0    1   
+$EndComp
+Text Label 1700 2500 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA6AC8A
+P 2450 3000
+AR Path="/5CA6AC8A" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA6AC8A" Ref="U?"  Part="1" 
+F 0 "U?" H 2450 3200 60  0000 C CNN
+F 1 "SHIFTER2" H 2450 2800 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 2450 3000 60  0001 C CNN
+F 3 "" H 2450 3000 60  0000 C CNN
+F 4 "NXP" H 2450 3000 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 2450 3000 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2450 3000 60  0001 C CNN "Description"
+	1    2450 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6AC91
+P 2850 3000
+AR Path="/5CA6AC91" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA6AC91" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 2750 50  0001 C CNN
+F 1 "GND" H 2850 2850 50  0000 C CNN
+F 2 "" H 2850 3000 60  0000 C CNN
+F 3 "" H 2850 3000 60  0000 C CNN
+	1    2850 3000
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 3000 2    40   ~ 0
+DIR2
+Text Label 2100 3100 2    40   ~ 0
+VCCA
+Wire Wire Line
+	1400 3100 1800 3100
+Wire Wire Line
+	1800 3100 1800 2900
+Wire Wire Line
+	1800 2900 2100 2900
+Text Label 2800 2900 0    50   ~ 0
+A2_shift
+Wire Wire Line
+	2800 3100 2850 3100
+Wire Wire Line
+	2800 3000 2850 3000
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA6AC9F
+P 2850 3100
+F 0 "#PWR?" H 2850 2950 50  0001 C CNN
+F 1 "+1V2" V 2865 3228 50  0000 L CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
+	0    1    1    0   
+$EndComp
+Text Label 1400 3200 0    50   ~ 0
+ADC
+Text Label 1400 3300 0    50   ~ 0
+DAC2
+Text Label 1400 3400 0    50   ~ 0
+DAC3
+Text Label 1400 3500 0    50   ~ 0
+COMP1
+Text Label 1400 3600 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA6B955
+P 1000 4950
+F 0 "U?" H 1050 5628 50  0000 C CNN
+F 1 "74HC4051" H 1050 5537 50  0000 C CNN
+F 2 "" H 1000 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 1000 4550 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 1000 4950 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 1000 4950 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 1000 4950 50  0001 C CNN "Description"
+	1    1000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4450 1050 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA6B95D
+P 1050 4450
+F 0 "#PWR?" H 1050 4300 50  0001 C CNN
+F 1 "+5V" V 1065 4578 50  0000 L CNN
+F 2 "" H 1050 4450 50  0001 C CNN
+F 3 "" H 1050 4450 50  0001 C CNN
+	1    1050 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 5550 1050 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B964
+P 1050 5600
+F 0 "#PWR?" H 1050 5350 50  0001 C CNN
+F 1 "GND" H 1055 5427 50  0000 C CNN
+F 2 "" H 1050 5600 50  0001 C CNN
+F 3 "" H 1050 5600 50  0001 C CNN
+	1    1050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5550 1050 5600
+Connection ~ 1050 5550
+Wire Wire Line
+	1050 5550 1100 5550
+Wire Wire Line
+	700  4650 650  4650
+Text Label 650  4650 2    50   ~ 0
+A3
+$Comp
+L Device:R R?
+U 1 1 5CA6B96F
+P 1450 4450
+F 0 "R?" H 1380 4404 50  0000 R CNN
+F 1 "R" H 1380 4495 50  0000 R CNN
+F 2 "" V 1380 4450 50  0001 C CNN
+F 3 "~" H 1450 4450 50  0001 C CNN
+	1    1450 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA6B976
+P 1700 4450
+F 0 "R?" H 1630 4404 50  0000 R CNN
+F 1 "R" H 1630 4495 50  0000 R CNN
+F 2 "" V 1630 4450 50  0001 C CNN
+F 3 "~" H 1700 4450 50  0001 C CNN
+	1    1700 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 4650 1450 4650
+Wire Wire Line
+	1450 4650 1450 4600
+Wire Wire Line
+	1400 4750 1700 4750
+Wire Wire Line
+	1700 4750 1700 4600
+Wire Wire Line
+	1450 4300 1450 4250
+Wire Wire Line
+	1700 4300 1700 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B983
+P 1450 4250
+F 0 "#PWR?" H 1450 4000 50  0001 C CNN
+F 1 "GND" H 1455 4077 50  0000 C CNN
+F 2 "" H 1450 4250 50  0001 C CNN
+F 3 "" H 1450 4250 50  0001 C CNN
+	1    1450 4250
+	-1   0    0    1   
+$EndComp
+Text Label 1700 4250 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA6B98D
+P 2450 4750
+AR Path="/5CA6B98D" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA6B98D" Ref="U?"  Part="1" 
+F 0 "U?" H 2450 4950 60  0000 C CNN
+F 1 "SHIFTER3" H 2450 4550 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 2450 4750 60  0001 C CNN
+F 3 "" H 2450 4750 60  0000 C CNN
+F 4 "NXP" H 2450 4750 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 2450 4750 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2450 4750 60  0001 C CNN "Description"
+	1    2450 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B994
+P 2850 4750
+AR Path="/5CA6B994" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA6B994" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 4500 50  0001 C CNN
+F 1 "GND" H 2850 4600 50  0000 C CNN
+F 2 "" H 2850 4750 60  0000 C CNN
+F 3 "" H 2850 4750 60  0000 C CNN
+	1    2850 4750
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 4750 2    40   ~ 0
+DIR3
+Text Label 2100 4850 2    40   ~ 0
+VCCA
+Wire Wire Line
+	1400 4850 1800 4850
+Wire Wire Line
+	1800 4850 1800 4650
+Wire Wire Line
+	1800 4650 2100 4650
+Text Label 2800 4650 0    50   ~ 0
+A3_shift
+Wire Wire Line
+	2800 4850 2850 4850
+Wire Wire Line
+	2800 4750 2850 4750
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA6B9A2
+P 2850 4850
+F 0 "#PWR?" H 2850 4700 50  0001 C CNN
+F 1 "+1V2" V 2865 4978 50  0000 L CNN
+F 2 "" H 2850 4850 50  0001 C CNN
+F 3 "" H 2850 4850 50  0001 C CNN
+	1    2850 4850
+	0    1    1    0   
+$EndComp
+Text Label 1400 4950 0    50   ~ 0
+ADC
+Text Label 1400 5050 0    50   ~ 0
+DAC2
+Text Label 1400 5150 0    50   ~ 0
+DAC3
+Text Label 1400 5250 0    50   ~ 0
+COMP1
+Text Label 1400 5350 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA6B9B0
+P 1000 6700
+F 0 "U?" H 1050 7378 50  0000 C CNN
+F 1 "74HC4051" H 1050 7287 50  0000 C CNN
+F 2 "" H 1000 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 1000 6300 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 1000 6700 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 1000 6700 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 1000 6700 50  0001 C CNN "Description"
+	1    1000 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6200 1050 6200
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA6B9B8
+P 1050 6200
+F 0 "#PWR?" H 1050 6050 50  0001 C CNN
+F 1 "+5V" V 1065 6328 50  0000 L CNN
+F 2 "" H 1050 6200 50  0001 C CNN
+F 3 "" H 1050 6200 50  0001 C CNN
+	1    1050 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 7300 1050 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B9BF
+P 1050 7350
+F 0 "#PWR?" H 1050 7100 50  0001 C CNN
+F 1 "GND" H 1055 7177 50  0000 C CNN
+F 2 "" H 1050 7350 50  0001 C CNN
+F 3 "" H 1050 7350 50  0001 C CNN
+	1    1050 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 7300 1050 7350
+Connection ~ 1050 7300
+Wire Wire Line
+	1050 7300 1100 7300
+Wire Wire Line
+	700  6400 650  6400
+Text Label 650  6400 2    50   ~ 0
+A4
+$Comp
+L Device:R R?
+U 1 1 5CA6B9CA
+P 1450 6200
+F 0 "R?" H 1380 6154 50  0000 R CNN
+F 1 "R" H 1380 6245 50  0000 R CNN
+F 2 "" V 1380 6200 50  0001 C CNN
+F 3 "~" H 1450 6200 50  0001 C CNN
+	1    1450 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA6B9D1
+P 1700 6200
+F 0 "R?" H 1630 6154 50  0000 R CNN
+F 1 "R" H 1630 6245 50  0000 R CNN
+F 2 "" V 1630 6200 50  0001 C CNN
+F 3 "~" H 1700 6200 50  0001 C CNN
+	1    1700 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 6400 1450 6400
+Wire Wire Line
+	1450 6400 1450 6350
+Wire Wire Line
+	1400 6500 1700 6500
+Wire Wire Line
+	1700 6500 1700 6350
+Wire Wire Line
+	1450 6050 1450 6000
+Wire Wire Line
+	1700 6050 1700 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B9DE
+P 1450 6000
+F 0 "#PWR?" H 1450 5750 50  0001 C CNN
+F 1 "GND" H 1455 5827 50  0000 C CNN
+F 2 "" H 1450 6000 50  0001 C CNN
+F 3 "" H 1450 6000 50  0001 C CNN
+	1    1450 6000
+	-1   0    0    1   
+$EndComp
+Text Label 1700 6000 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA6B9E8
+P 2450 6500
+AR Path="/5CA6B9E8" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA6B9E8" Ref="U?"  Part="1" 
+F 0 "U?" H 2450 6700 60  0000 C CNN
+F 1 "SHIFTER4" H 2450 6300 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 2450 6500 60  0001 C CNN
+F 3 "" H 2450 6500 60  0000 C CNN
+F 4 "NXP" H 2450 6500 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 2450 6500 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 2450 6500 60  0001 C CNN "Description"
+	1    2450 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6B9EF
+P 2850 6500
+AR Path="/5CA6B9EF" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA6B9EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 6250 50  0001 C CNN
+F 1 "GND" H 2850 6350 50  0000 C CNN
+F 2 "" H 2850 6500 60  0000 C CNN
+F 3 "" H 2850 6500 60  0000 C CNN
+	1    2850 6500
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 6500 2    40   ~ 0
+DIR4
+Text Label 2100 6600 2    40   ~ 0
+VCCA
+Wire Wire Line
+	1400 6600 1800 6600
+Wire Wire Line
+	1800 6600 1800 6400
+Wire Wire Line
+	1800 6400 2100 6400
+Text Label 2800 6400 0    50   ~ 0
+A4_shift
+Wire Wire Line
+	2800 6600 2850 6600
+Wire Wire Line
+	2800 6500 2850 6500
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA6B9FD
+P 2850 6600
+F 0 "#PWR?" H 2850 6450 50  0001 C CNN
+F 1 "+1V2" V 2865 6728 50  0000 L CNN
+F 2 "" H 2850 6600 50  0001 C CNN
+F 3 "" H 2850 6600 50  0001 C CNN
+	1    2850 6600
+	0    1    1    0   
+$EndComp
+Text Label 1400 6700 0    50   ~ 0
+ADC
+Text Label 1400 6800 0    50   ~ 0
+DAC2
+Text Label 1400 6900 0    50   ~ 0
+DAC3
+Text Label 1400 7000 0    50   ~ 0
+COMP1
+Text Label 1400 7100 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA70F90
+P 3700 1450
+F 0 "U?" H 3750 2128 50  0000 C CNN
+F 1 "74HC4051" H 3750 2037 50  0000 C CNN
+F 2 "" H 3700 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3700 1050 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 3700 1450 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 3700 1450 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 3700 1450 50  0001 C CNN "Description"
+	1    3700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 950  3750 950 
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA70F98
+P 3750 950
+F 0 "#PWR?" H 3750 800 50  0001 C CNN
+F 1 "+5V" V 3765 1078 50  0000 L CNN
+F 2 "" H 3750 950 50  0001 C CNN
+F 3 "" H 3750 950 50  0001 C CNN
+	1    3750 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 2050 3750 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5CA70F9F
+P 3750 2100
+F 0 "#PWR?" H 3750 1850 50  0001 C CNN
+F 1 "GND" H 3755 1927 50  0000 C CNN
+F 2 "" H 3750 2100 50  0001 C CNN
+F 3 "" H 3750 2100 50  0001 C CNN
+	1    3750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2050 3750 2100
+Connection ~ 3750 2050
+Wire Wire Line
+	3750 2050 3800 2050
+Wire Wire Line
+	3400 1150 3350 1150
+Text Label 3350 1150 2    50   ~ 0
+A5
+$Comp
+L Device:R R?
+U 1 1 5CA70FAA
+P 4150 950
+F 0 "R?" H 4080 904 50  0000 R CNN
+F 1 "R" H 4080 995 50  0000 R CNN
+F 2 "" V 4080 950 50  0001 C CNN
+F 3 "~" H 4150 950 50  0001 C CNN
+	1    4150 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA70FB1
+P 4400 950
+F 0 "R?" H 4330 904 50  0000 R CNN
+F 1 "R" H 4330 995 50  0000 R CNN
+F 2 "" V 4330 950 50  0001 C CNN
+F 3 "~" H 4400 950 50  0001 C CNN
+	1    4400 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 1150 4150 1150
+Wire Wire Line
+	4150 1150 4150 1100
+Wire Wire Line
+	4100 1250 4400 1250
+Wire Wire Line
+	4400 1250 4400 1100
+Wire Wire Line
+	4150 800  4150 750 
+Wire Wire Line
+	4400 800  4400 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5CA70FBE
+P 4150 750
+F 0 "#PWR?" H 4150 500 50  0001 C CNN
+F 1 "GND" H 4155 577 50  0000 C CNN
+F 2 "" H 4150 750 50  0001 C CNN
+F 3 "" H 4150 750 50  0001 C CNN
+	1    4150 750 
+	-1   0    0    1   
+$EndComp
+Text Label 4400 750  0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA70FC8
+P 5150 1250
+AR Path="/5CA70FC8" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA70FC8" Ref="U?"  Part="1" 
+F 0 "U?" H 5150 1450 60  0000 C CNN
+F 1 "SHIFTER5" H 5150 1050 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 5150 1250 60  0001 C CNN
+F 3 "" H 5150 1250 60  0000 C CNN
+F 4 "NXP" H 5150 1250 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 5150 1250 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 5150 1250 60  0001 C CNN "Description"
+	1    5150 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA70FCF
+P 5550 1250
+AR Path="/5CA70FCF" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA70FCF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 1000 50  0001 C CNN
+F 1 "GND" H 5550 1100 50  0000 C CNN
+F 2 "" H 5550 1250 60  0000 C CNN
+F 3 "" H 5550 1250 60  0000 C CNN
+	1    5550 1250
+	0    -1   -1   0   
+$EndComp
+Text Label 4800 1250 2    40   ~ 0
+DIR5
+Text Label 4800 1350 2    40   ~ 0
+VCCA
+Wire Wire Line
+	4100 1350 4500 1350
+Wire Wire Line
+	4500 1350 4500 1150
+Wire Wire Line
+	4500 1150 4800 1150
+Text Label 5500 1150 0    50   ~ 0
+A5_shift
+Wire Wire Line
+	5500 1350 5550 1350
+Wire Wire Line
+	5500 1250 5550 1250
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA70FDD
+P 5550 1350
+F 0 "#PWR?" H 5550 1200 50  0001 C CNN
+F 1 "+1V2" V 5565 1478 50  0000 L CNN
+F 2 "" H 5550 1350 50  0001 C CNN
+F 3 "" H 5550 1350 50  0001 C CNN
+	1    5550 1350
+	0    1    1    0   
+$EndComp
+Text Label 4100 1450 0    50   ~ 0
+ADC
+Text Label 4100 1550 0    50   ~ 0
+DAC2
+Text Label 4100 1650 0    50   ~ 0
+DAC3
+Text Label 4100 1750 0    50   ~ 0
+COMP1
+Text Label 4100 1850 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA70FEB
+P 3700 3200
+F 0 "U?" H 3750 3878 50  0000 C CNN
+F 1 "74HC4051" H 3750 3787 50  0000 C CNN
+F 2 "" H 3700 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3700 2800 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 3700 3200 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 3700 3200 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 3700 3200 50  0001 C CNN "Description"
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2700 3750 2700
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA70FF3
+P 3750 2700
+F 0 "#PWR?" H 3750 2550 50  0001 C CNN
+F 1 "+5V" V 3765 2828 50  0000 L CNN
+F 2 "" H 3750 2700 50  0001 C CNN
+F 3 "" H 3750 2700 50  0001 C CNN
+	1    3750 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3800 3750 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5CA70FFA
+P 3750 3850
+F 0 "#PWR?" H 3750 3600 50  0001 C CNN
+F 1 "GND" H 3755 3677 50  0000 C CNN
+F 2 "" H 3750 3850 50  0001 C CNN
+F 3 "" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3800 3750 3850
+Connection ~ 3750 3800
+Wire Wire Line
+	3750 3800 3800 3800
+Wire Wire Line
+	3400 2900 3350 2900
+Text Label 3350 2900 2    50   ~ 0
+A6
+$Comp
+L Device:R R?
+U 1 1 5CA71005
+P 4150 2700
+F 0 "R?" H 4080 2654 50  0000 R CNN
+F 1 "R" H 4080 2745 50  0000 R CNN
+F 2 "" V 4080 2700 50  0001 C CNN
+F 3 "~" H 4150 2700 50  0001 C CNN
+	1    4150 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA7100C
+P 4400 2700
+F 0 "R?" H 4330 2654 50  0000 R CNN
+F 1 "R" H 4330 2745 50  0000 R CNN
+F 2 "" V 4330 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2900 4150 2900
+Wire Wire Line
+	4150 2900 4150 2850
+Wire Wire Line
+	4100 3000 4400 3000
+Wire Wire Line
+	4400 3000 4400 2850
+Wire Wire Line
+	4150 2550 4150 2500
+Wire Wire Line
+	4400 2550 4400 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5CA71019
+P 4150 2500
+F 0 "#PWR?" H 4150 2250 50  0001 C CNN
+F 1 "GND" H 4155 2327 50  0000 C CNN
+F 2 "" H 4150 2500 50  0001 C CNN
+F 3 "" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+Text Label 4400 2500 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA71023
+P 5150 3000
+AR Path="/5CA71023" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA71023" Ref="U?"  Part="1" 
+F 0 "U?" H 5150 3200 60  0000 C CNN
+F 1 "SHIFTER6" H 5150 2800 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 5150 3000 60  0001 C CNN
+F 3 "" H 5150 3000 60  0000 C CNN
+F 4 "NXP" H 5150 3000 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 5150 3000 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 5150 3000 60  0001 C CNN "Description"
+	1    5150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA7102A
+P 5550 3000
+AR Path="/5CA7102A" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA7102A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 2750 50  0001 C CNN
+F 1 "GND" H 5550 2850 50  0000 C CNN
+F 2 "" H 5550 3000 60  0000 C CNN
+F 3 "" H 5550 3000 60  0000 C CNN
+	1    5550 3000
+	0    -1   -1   0   
+$EndComp
+Text Label 4800 3000 2    40   ~ 0
+DIR6
+Text Label 4800 3100 2    40   ~ 0
+VCCA
+Wire Wire Line
+	4100 3100 4500 3100
+Wire Wire Line
+	4500 3100 4500 2900
+Wire Wire Line
+	4500 2900 4800 2900
+Text Label 5500 2900 0    50   ~ 0
+A6_shift
+Wire Wire Line
+	5500 3100 5550 3100
+Wire Wire Line
+	5500 3000 5550 3000
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA71038
+P 5550 3100
+F 0 "#PWR?" H 5550 2950 50  0001 C CNN
+F 1 "+1V2" V 5565 3228 50  0000 L CNN
+F 2 "" H 5550 3100 50  0001 C CNN
+F 3 "" H 5550 3100 50  0001 C CNN
+	1    5550 3100
+	0    1    1    0   
+$EndComp
+Text Label 4100 3200 0    50   ~ 0
+ADC
+Text Label 4100 3300 0    50   ~ 0
+DAC2
+Text Label 4100 3400 0    50   ~ 0
+DAC3
+Text Label 4100 3500 0    50   ~ 0
+COMP1
+Text Label 4100 3600 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA71046
+P 3700 4950
+F 0 "U?" H 3750 5628 50  0000 C CNN
+F 1 "74HC4051" H 3750 5537 50  0000 C CNN
+F 2 "" H 3700 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3700 4550 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 3700 4950 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 3700 4950 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 3700 4950 50  0001 C CNN "Description"
+	1    3700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4450 3750 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA7104E
+P 3750 4450
+F 0 "#PWR?" H 3750 4300 50  0001 C CNN
+F 1 "+5V" V 3765 4578 50  0000 L CNN
+F 2 "" H 3750 4450 50  0001 C CNN
+F 3 "" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 5550 3750 5550
+$Comp
+L power:GND #PWR?
+U 1 1 5CA71055
+P 3750 5600
+F 0 "#PWR?" H 3750 5350 50  0001 C CNN
+F 1 "GND" H 3755 5427 50  0000 C CNN
+F 2 "" H 3750 5600 50  0001 C CNN
+F 3 "" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5550 3750 5600
+Connection ~ 3750 5550
+Wire Wire Line
+	3750 5550 3800 5550
+Wire Wire Line
+	3400 4650 3350 4650
+Text Label 3350 4650 2    50   ~ 0
+A7
+$Comp
+L Device:R R?
+U 1 1 5CA71060
+P 4150 4450
+F 0 "R?" H 4080 4404 50  0000 R CNN
+F 1 "R" H 4080 4495 50  0000 R CNN
+F 2 "" V 4080 4450 50  0001 C CNN
+F 3 "~" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA71067
+P 4400 4450
+F 0 "R?" H 4330 4404 50  0000 R CNN
+F 1 "R" H 4330 4495 50  0000 R CNN
+F 2 "" V 4330 4450 50  0001 C CNN
+F 3 "~" H 4400 4450 50  0001 C CNN
+	1    4400 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 4650 4150 4650
+Wire Wire Line
+	4150 4650 4150 4600
+Wire Wire Line
+	4100 4750 4400 4750
+Wire Wire Line
+	4400 4750 4400 4600
+Wire Wire Line
+	4150 4300 4150 4250
+Wire Wire Line
+	4400 4300 4400 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5CA71074
+P 4150 4250
+F 0 "#PWR?" H 4150 4000 50  0001 C CNN
+F 1 "GND" H 4155 4077 50  0000 C CNN
+F 2 "" H 4150 4250 50  0001 C CNN
+F 3 "" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	-1   0    0    1   
+$EndComp
+Text Label 4400 4250 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA7107E
+P 5150 4750
+AR Path="/5CA7107E" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA7107E" Ref="U?"  Part="1" 
+F 0 "U?" H 5150 4950 60  0000 C CNN
+F 1 "SHIFTER7" H 5150 4550 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 5150 4750 60  0001 C CNN
+F 3 "" H 5150 4750 60  0000 C CNN
+F 4 "NXP" H 5150 4750 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 5150 4750 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 5150 4750 60  0001 C CNN "Description"
+	1    5150 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA71085
+P 5550 4750
+AR Path="/5CA71085" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA71085" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 4500 50  0001 C CNN
+F 1 "GND" H 5550 4600 50  0000 C CNN
+F 2 "" H 5550 4750 60  0000 C CNN
+F 3 "" H 5550 4750 60  0000 C CNN
+	1    5550 4750
+	0    -1   -1   0   
+$EndComp
+Text Label 4800 4750 2    40   ~ 0
+DIR7
+Text Label 4800 4850 2    40   ~ 0
+VCCA
+Wire Wire Line
+	4100 4850 4500 4850
+Wire Wire Line
+	4500 4850 4500 4650
+Wire Wire Line
+	4500 4650 4800 4650
+Text Label 5500 4650 0    50   ~ 0
+A7_shift
+Wire Wire Line
+	5500 4850 5550 4850
+Wire Wire Line
+	5500 4750 5550 4750
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA71093
+P 5550 4850
+F 0 "#PWR?" H 5550 4700 50  0001 C CNN
+F 1 "+1V2" V 5565 4978 50  0000 L CNN
+F 2 "" H 5550 4850 50  0001 C CNN
+F 3 "" H 5550 4850 50  0001 C CNN
+	1    5550 4850
+	0    1    1    0   
+$EndComp
+Text Label 4100 4950 0    50   ~ 0
+ADC
+Text Label 4100 5050 0    50   ~ 0
+DAC2
+Text Label 4100 5150 0    50   ~ 0
+DAC3
+Text Label 4100 5250 0    50   ~ 0
+COMP1
+Text Label 4100 5350 0    50   ~ 0
+COMP2
+$Comp
+L 74xx:74HC4051 U?
+U 1 1 5CA710A1
+P 3700 6700
+F 0 "U?" H 3750 7378 50  0000 C CNN
+F 1 "74HC4051" H 3750 7287 50  0000 C CNN
+F 2 "" H 3700 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3700 6300 50  0001 C CNN
+F 4 "Nexperia USA Inc." H 3700 6700 50  0001 C CNN "Manufacturer"
+F 5 "74HC4051BQ,115 " H 3700 6700 50  0001 C CNN "Part Number"
+F 6 "IC MUX/DEMUX 8X1 16DHVQFN " H 3700 6700 50  0001 C CNN "Description"
+	1    3700 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6200 3750 6200
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA710A9
+P 3750 6200
+F 0 "#PWR?" H 3750 6050 50  0001 C CNN
+F 1 "+5V" V 3765 6328 50  0000 L CNN
+F 2 "" H 3750 6200 50  0001 C CNN
+F 3 "" H 3750 6200 50  0001 C CNN
+	1    3750 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 7300 3750 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5CA710B0
+P 3750 7350
+F 0 "#PWR?" H 3750 7100 50  0001 C CNN
+F 1 "GND" H 3755 7177 50  0000 C CNN
+F 2 "" H 3750 7350 50  0001 C CNN
+F 3 "" H 3750 7350 50  0001 C CNN
+	1    3750 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7300 3750 7350
+Connection ~ 3750 7300
+Wire Wire Line
+	3750 7300 3800 7300
+Wire Wire Line
+	3400 6400 3350 6400
+Text Label 3350 6400 2    50   ~ 0
+A8
+$Comp
+L Device:R R?
+U 1 1 5CA710BB
+P 4150 6200
+F 0 "R?" H 4080 6154 50  0000 R CNN
+F 1 "R" H 4080 6245 50  0000 R CNN
+F 2 "" V 4080 6200 50  0001 C CNN
+F 3 "~" H 4150 6200 50  0001 C CNN
+	1    4150 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA710C2
+P 4400 6200
+F 0 "R?" H 4330 6154 50  0000 R CNN
+F 1 "R" H 4330 6245 50  0000 R CNN
+F 2 "" V 4330 6200 50  0001 C CNN
+F 3 "~" H 4400 6200 50  0001 C CNN
+	1    4400 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 6400 4150 6400
+Wire Wire Line
+	4150 6400 4150 6350
+Wire Wire Line
+	4100 6500 4400 6500
+Wire Wire Line
+	4400 6500 4400 6350
+Wire Wire Line
+	4150 6050 4150 6000
+Wire Wire Line
+	4400 6050 4400 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5CA710CF
+P 4150 6000
+F 0 "#PWR?" H 4150 5750 50  0001 C CNN
+F 1 "GND" H 4155 5827 50  0000 C CNN
+F 2 "" H 4150 6000 50  0001 C CNN
+F 3 "" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	-1   0    0    1   
+$EndComp
+Text Label 4400 6000 0    50   ~ 0
+VCCA
+$Comp
+L gsg-symbols:74LVC1T45 U?
+U 1 1 5CA710D9
+P 5150 6500
+AR Path="/5CA710D9" Ref="U?"  Part="1" 
+AR Path="/5C7E37E4/5CA710D9" Ref="U?"  Part="1" 
+F 0 "U?" H 5150 6700 60  0000 C CNN
+F 1 "SHIFTER8" H 5150 6300 60  0000 C CNN
+F 2 "gsg-modules:SOT363" H 5150 6500 60  0001 C CNN
+F 3 "" H 5150 6500 60  0000 C CNN
+F 4 "NXP" H 5150 6500 60  0001 C CNN "Manufacturer"
+F 5 "74LVCH1T45GW,125" H 5150 6500 60  0001 C CNN "Part Number"
+F 6 "TXRX XLATING DUAL 3ST 6TSSOP" H 5150 6500 60  0001 C CNN "Description"
+	1    5150 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA710E0
+P 5550 6500
+AR Path="/5CA710E0" Ref="#PWR?"  Part="1" 
+AR Path="/5C7E37E4/5CA710E0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 6250 50  0001 C CNN
+F 1 "GND" H 5550 6350 50  0000 C CNN
+F 2 "" H 5550 6500 60  0000 C CNN
+F 3 "" H 5550 6500 60  0000 C CNN
+	1    5550 6500
+	0    -1   -1   0   
+$EndComp
+Text Label 4800 6500 2    40   ~ 0
+DIR8
+Text Label 4800 6600 2    40   ~ 0
+VCCA
+Wire Wire Line
+	4100 6600 4500 6600
+Wire Wire Line
+	4500 6600 4500 6400
+Wire Wire Line
+	4500 6400 4800 6400
+Text Label 5500 6400 0    50   ~ 0
+A8_shift
+Wire Wire Line
+	5500 6600 5550 6600
+Wire Wire Line
+	5500 6500 5550 6500
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5CA710EE
+P 5550 6600
+F 0 "#PWR?" H 5550 6450 50  0001 C CNN
+F 1 "+1V2" V 5565 6728 50  0000 L CNN
+F 2 "" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0001 C CNN
+	1    5550 6600
+	0    1    1    0   
+$EndComp
+Text Label 4100 6700 0    50   ~ 0
+ADC
+Text Label 4100 6800 0    50   ~ 0
+DAC2
+Text Label 4100 6900 0    50   ~ 0
+DAC3
+Text Label 4100 7000 0    50   ~ 0
+COMP1
+Text Label 4100 7100 0    50   ~ 0
+COMP2
+Text Notes 8650 3650 0    50   ~ 0
+comparator bank
 $EndSCHEMATC
