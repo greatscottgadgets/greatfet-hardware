@@ -1066,4 +1066,59 @@ Wire Wire Line
 	8350 2650 8350 2700
 Text Notes 12600 8850 0    50   ~ 0
 FPGA should be able to reroute all GreatFET pins
+$Comp
+L FPGA_Lattice:ICE40HX8K-BG121 U?
+U 1 1 5C916766
+P -3200 7950
+F 0 "U?" H -2820 7952 50  0000 L CNN
+F 1 "ICE40HX8K-BG121" H -2820 7861 50  0000 L CNN
+F 2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" H -3200 6500 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H -4050 8950 50  0001 C CNN
+	1    -3200 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX8K-BG121 U?
+U 2 1 5C916ABB
+P -1550 8050
+F 0 "U?" H -1170 8152 50  0000 L CNN
+F 1 "ICE40HX8K-BG121" H -1170 8061 50  0000 L CNN
+F 2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" H -1550 6600 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H -2400 9050 50  0001 C CNN
+	2    -1550 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX8K-BG121 U?
+U 5 1 5C916D12
+P -3000 13300
+F 0 "U?" H -3000 12514 50  0000 C CNN
+F 1 "ICE40HX8K-BG121" H -3000 12423 50  0000 C CNN
+F 2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" H -3000 11850 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H -3850 14300 50  0001 C CNN
+	5    -3000 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX8K-BG121 U?
+U 3 1 5C91BA00
+P -3250 10900
+F 0 "U?" H -3250 9576 50  0000 C CNN
+F 1 "ICE40HX8K-BG121" H -3250 9485 50  0000 C CNN
+F 2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" H -3250 9450 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H -4100 11900 50  0001 C CNN
+	3    -3250 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX8K-BG121 U?
+U 4 1 5C91BD33
+P -1700 11300
+F 0 "U?" H -1320 11427 50  0000 L CNN
+F 1 "ICE40HX8K-BG121" H -1320 11336 50  0000 L CNN
+F 2 "Package_BGA:BGA-121_9.0x9.0mm_Layout11x11_P0.8mm_Ball0.4mm_Pad0.35mm_NSMD" H -1700 9850 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H -2550 12300 50  0001 C CNN
+	4    -1700 11300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
