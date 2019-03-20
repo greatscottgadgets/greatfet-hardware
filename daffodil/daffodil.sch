@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:gsg-symbols
+EESchema Schematic File Version 4
 LIBS:daffodil-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -47,7 +17,7 @@ $EndDescr
 Text Label 15300 2300 0    40   ~ 0
 P2_8
 $Comp
-L CONN_02X20 J2
+L daffodil-rescue:CONN_02X20 J2
 U 1 1 55EAB4B7
 P 15750 2650
 F 0 "J2" H 15750 3700 50  0000 C CNN
@@ -62,7 +32,7 @@ F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 2650 60  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 55EACE84
 P 15300 1700
 F 0 "#PWR01" H 15300 1450 50  0001 C CNN
@@ -73,7 +43,7 @@ F 3 "" H 15300 1700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 55EAECD0
 P 15300 4300
 F 0 "#PWR02" H 15300 4050 50  0001 C CNN
@@ -84,7 +54,7 @@ F 3 "" H 15300 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR03
+L power:VCC #PWR03
 U 1 1 55EAF03E
 P 16200 4300
 F 0 "#PWR03" H 16200 4150 50  0001 C CNN
@@ -97,7 +67,7 @@ $EndComp
 Text Label 16200 1700 2    40   ~ 0
 VBUS
 $Comp
-L CONN_02X20 J1
+L daffodil-rescue:CONN_02X20 J1
 U 1 1 55FB1D52
 P 15750 5250
 F 0 "J1" H 15750 6300 50  0000 C CNN
@@ -300,7 +270,7 @@ P2_12
 Text Label 14950 7550 1    40   ~ 0
 P2_13
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 560E00A9
 P 14250 7550
 F 0 "#PWR04" H 14250 7300 50  0001 C CNN
@@ -311,7 +281,7 @@ F 3 "" H 14250 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
+L power:VCC #PWR05
 U 1 1 560E046D
 P 16150 7400
 F 0 "#PWR05" H 16150 7250 50  0001 C CNN
@@ -324,7 +294,7 @@ $EndComp
 Text Notes 14750 7750 1    40   ~ 0
 BOOT
 $Comp
-L CONN_01X20 J7
+L daffodil-rescue:CONN_01X20 J7
 U 1 1 560E713A
 P 15200 7000
 F 0 "J7" H 15200 8050 50  0000 C CNN
@@ -342,7 +312,7 @@ ADC0_2
 Text Label 14550 7550 1    40   ~ 0
 ADC0_5
 $Comp
-L CONN_01X01 MH3
+L daffodil-rescue:CONN_01X01 MH3
 U 1 1 5600EED5
 P 13650 850
 F 0 "MH3" H 13600 950 50  0000 C CNN
@@ -354,7 +324,7 @@ F 4 "DNP" H 13650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5600F9D3
 P 13650 1150
 F 0 "#PWR06" H 13650 900 50  0001 C CNN
@@ -365,7 +335,7 @@ F 3 "" H 13650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH4
+L daffodil-rescue:CONN_01X01 MH4
 U 1 1 560100F3
 P 14150 1000
 F 0 "MH4" H 14100 1100 50  0000 C CNN
@@ -377,7 +347,7 @@ F 4 "DNP" H 14150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 560100F9
 P 14150 1300
 F 0 "#PWR07" H 14150 1050 50  0001 C CNN
@@ -388,7 +358,7 @@ F 3 "" H 14150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH1
+L daffodil-rescue:CONN_01X01 MH1
 U 1 1 56010ADB
 P 12650 850
 F 0 "MH1" H 12600 950 50  0000 C CNN
@@ -400,7 +370,7 @@ F 4 "DNP" H 12650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 56010AE1
 P 12650 1150
 F 0 "#PWR08" H 12650 900 50  0001 C CNN
@@ -411,7 +381,7 @@ F 3 "" H 12650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 MH2
+L daffodil-rescue:CONN_01X01 MH2
 U 1 1 56010AE9
 P 13150 1000
 F 0 "MH2" H 13100 1100 50  0000 C CNN
@@ -423,7 +393,7 @@ F 4 "DNP" H 13150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 56010AEF
 P 13150 1300
 F 0 "#PWR09" H 13150 1050 50  0001 C CNN
@@ -440,7 +410,7 @@ RESET
 Text Label 15050 7550 1    40   ~ 0
 RTC_ALARM
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 56035FE9
 P 16050 7550
 F 0 "#PWR010" H 16050 7300 50  0001 C CNN
@@ -451,7 +421,7 @@ F 3 "" H 16050 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 560892BC
 P 8450 5500
 F 0 "#PWR012" H 8450 5250 50  0001 C CNN
@@ -462,7 +432,7 @@ F 3 "" H 8450 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR013
+L power:VCC #PWR013
 U 1 1 56089F65
 P 8250 5500
 F 0 "#PWR013" H 8250 5350 50  0001 C CNN
@@ -685,7 +655,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 4000 8450 4000
 Wire Wire Line
-	8450 4000 8450 5500
+	8450 4000 8450 4100
 Wire Wire Line
 	8350 4100 8450 4100
 Connection ~ 8450 4100
@@ -701,12 +671,6 @@ Connection ~ 8450 4400
 Wire Wire Line
 	8350 4500 8450 4500
 Connection ~ 8450 4500
-Wire Wire Line
-	8350 4600 8450 4600
-Connection ~ 8450 4600
-Wire Wire Line
-	8450 4700 8350 4700
-Connection ~ 8450 4700
 Wire Wire Line
 	8350 4800 8450 4800
 Connection ~ 8450 4800
@@ -729,19 +693,11 @@ Wire Wire Line
 	8450 5400 8350 5400
 Connection ~ 8450 5400
 Wire Wire Line
-	8250 5500 8250 4700
+	8250 5500 8250 5400
 Wire Wire Line
-	8250 4700 8150 4700
-Wire Wire Line
-	8250 3750 8250 4600
-Wire Wire Line
-	8250 4600 8150 4600
-Wire Wire Line
-	8150 4500 8250 4500
-Connection ~ 8250 4500
+	8250 3750 8250 4000
 Wire Wire Line
 	8250 4400 8150 4400
-Connection ~ 8250 4400
 Wire Wire Line
 	8150 4300 8250 4300
 Connection ~ 8250 4300
@@ -755,11 +711,7 @@ Wire Wire Line
 	8250 4000 8150 4000
 Connection ~ 8250 4000
 Wire Wire Line
-	8150 4800 8250 4800
-Connection ~ 8250 4800
-Wire Wire Line
 	8250 4900 8150 4900
-Connection ~ 8250 4900
 Wire Wire Line
 	8150 5000 8250 5000
 Connection ~ 8250 5000
@@ -776,7 +728,65 @@ Wire Wire Line
 	8150 5400 8250 5400
 Connection ~ 8250 5400
 $Comp
-L GREATFET-PROTO-AREA P1
+L daffodil-rescue:HEATSINK J3
+U 1 1 569FDCB2
+P 7900 7500
+F 0 "J3" H 7900 7700 50  0000 C CNN
+F 1 "BREADBOARD" H 7900 7450 50  0000 C CNN
+F 2 "" H 7900 7500 60  0000 C CNN
+F 3 "" H 7900 7500 60  0000 C CNN
+F 4 "SparkFun Electronics" H 7900 7500 60  0001 C CNN "Manufacturer"
+F 5 "PRT-12047" H 7900 7500 60  0001 C CNN "Part Number"
+F 6 "BREADBOARD SOLDERLESS" H 7900 7500 60  0001 C CNN "Description"
+	1    7900 7500
+	1    0    0    -1  
+$EndComp
+Text Label 15150 7550 1    40   ~ 0
+32KHZ
+Wire Wire Line
+	8450 4100 8450 4200
+Wire Wire Line
+	8450 4200 8450 4300
+Wire Wire Line
+	8450 4300 8450 4400
+Wire Wire Line
+	8450 4400 8450 4500
+Wire Wire Line
+	8450 4800 8450 4900
+Wire Wire Line
+	8450 4900 8450 5000
+Wire Wire Line
+	8450 5000 8450 5100
+Wire Wire Line
+	8450 5100 8450 5200
+Wire Wire Line
+	8450 5200 8450 5300
+Wire Wire Line
+	8450 5300 8450 5400
+Wire Wire Line
+	8450 5400 8450 5500
+Wire Wire Line
+	8250 4300 8250 4400
+Wire Wire Line
+	8250 4200 8250 4300
+Wire Wire Line
+	8250 4100 8250 4200
+Wire Wire Line
+	8250 4000 8250 4100
+Wire Wire Line
+	8250 5000 8250 4900
+Wire Wire Line
+	8250 5100 8250 5000
+Wire Wire Line
+	8250 5200 8250 5100
+Wire Wire Line
+	8250 5300 8250 5200
+Wire Wire Line
+	8250 5400 8250 5300
+Wire Wire Line
+	8450 4500 8450 4800
+$Comp
+L gsg-symbols:GREATFET-PROTO-AREA P1
 U 1 1 56085DCC
 P 8350 4700
 F 0 "P1" H 7900 5800 60  0000 C CNN
@@ -787,20 +797,4 @@ F 4 "DNP" H 8350 4700 60  0001 C CNN "Note"
 	1    8350 4700
 	1    0    0    -1  
 $EndComp
-$Comp
-L HEATSINK J3
-U 1 1 569FDCB2
-P 7900 7500
-F 0 "J3" H 7900 7700 50  0000 C CNN
-F 1 "BREADBOARD" H 7900 7450 50  0000 C CNN
-F 2 "" H 7900 7500 60  0000 C CNN
-F 3 "" H 7900 7500 60  0000 C CNN
-F 4 "Parallax" H 7900 7500 60  0001 C CNN "Manufacturer"
-F 5 "700-00012" H 7900 7500 60  0001 C CNN "Part Number"
-F 6 "BREADBOARD SOLDERLESS" H 7900 7500 60  0001 C CNN "Description"
-	1    7900 7500
-	1    0    0    -1  
-$EndComp
-Text Label 15150 7550 1    40   ~ 0
-32KHZ
 $EndSCHEMATC
