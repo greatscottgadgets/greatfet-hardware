@@ -17,18 +17,18 @@ $EndDescr
 Text Label 15300 2300 0    40   ~ 0
 P2_8
 $Comp
-L daffodil-rescue:CONN_02X20 J2
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 55EAB4B7
-P 15750 2650
-F 0 "J2" H 15750 3700 50  0000 C CNN
-F 1 "NEIGHBOR2" V 15750 2650 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 15750 1700 60  0001 C CNN
-F 3 "" H 15750 1700 60  0000 C CNN
-F 4 "Samtec" H 15750 2650 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 15750 2650 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15750 2650 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 2650 60  0001 C CNN "Note"
-	1    15750 2650
+P 15700 2600
+F 0 "J2" H 15750 3650 50  0000 C CNN
+F 1 "NEIGHBOR2" V 15750 2600 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 15700 1650 60  0001 C CNN
+F 3 "" H 15700 1650 60  0000 C CNN
+F 4 "Samtec" H 15700 2600 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15700 2600 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 2600 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 2600 60  0001 C CNN "Note"
+	1    15700 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -67,18 +67,18 @@ $EndComp
 Text Label 16200 1700 2    40   ~ 0
 VBUS
 $Comp
-L daffodil-rescue:CONN_02X20 J1
+L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 55FB1D52
-P 15750 5250
-F 0 "J1" H 15750 6300 50  0000 C CNN
-F 1 "NEIGHBOR1" V 15750 5250 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 15750 4300 60  0001 C CNN
-F 3 "" H 15750 4300 60  0000 C CNN
-F 4 "Samtec" H 15750 5250 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 15750 5250 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15750 5250 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15750 5250 60  0001 C CNN "Note"
-	1    15750 5250
+P 15700 5200
+F 0 "J1" H 15750 6250 50  0000 C CNN
+F 1 "NEIGHBOR1" V 15750 5150 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 15700 4250 60  0001 C CNN
+F 3 "" H 15700 4250 60  0000 C CNN
+F 4 "Samtec" H 15700 5200 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15700 5200 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 5200 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 5200 60  0001 C CNN "Note"
+	1    15700 5200
 	1    0    0    -1  
 $EndComp
 Text Label 16200 4400 2    40   ~ 0
@@ -294,17 +294,17 @@ $EndComp
 Text Notes 14750 7750 1    40   ~ 0
 BOOT
 $Comp
-L daffodil-rescue:CONN_01X20 J7
+L Connector_Generic:Conn_01x20 J7
 U 1 1 560E713A
-P 15200 7000
-F 0 "J7" H 15200 8050 50  0000 C CNN
-F 1 "BONUS_ROW" V 15300 7000 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x20" H 15200 7000 60  0001 C CNN
-F 3 "" H 15200 7000 60  0000 C CNN
-F 4 "Samtec" H 15200 7000 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-S" H 15200 7000 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15200 7000 60  0001 C CNN "Description"
-	1    15200 7000
+P 15150 7000
+F 0 "J7" H 15150 8050 50  0000 C CNN
+F 1 "BONUS_ROW" V 15250 7000 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20" H 15150 7000 60  0001 C CNN
+F 3 "" H 15150 7000 60  0000 C CNN
+F 4 "Samtec" H 15150 7000 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-S" H 15150 7000 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15150 7000 60  0001 C CNN "Description"
+	1    15150 7000
 	0    -1   -1   0   
 $EndComp
 Text Label 14650 7550 1    40   ~ 0
@@ -312,7 +312,7 @@ ADC0_2
 Text Label 14550 7550 1    40   ~ 0
 ADC0_5
 $Comp
-L daffodil-rescue:CONN_01X01 MH3
+L Connector_Generic:Conn_01x01 MH3
 U 1 1 5600EED5
 P 13650 850
 F 0 "MH3" H 13600 950 50  0000 C CNN
@@ -335,7 +335,7 @@ F 3 "" H 13650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L daffodil-rescue:CONN_01X01 MH4
+L Connector_Generic:Conn_01x01 MH4
 U 1 1 560100F3
 P 14150 1000
 F 0 "MH4" H 14100 1100 50  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 14150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L daffodil-rescue:CONN_01X01 MH1
+L Connector_Generic:Conn_01x01 MH1
 U 1 1 56010ADB
 P 12650 850
 F 0 "MH1" H 12600 950 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 12650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L daffodil-rescue:CONN_01X01 MH2
+L Connector_Generic:Conn_01x01 MH2
 U 1 1 56010AE9
 P 13150 1000
 F 0 "MH2" H 13100 1100 50  0000 C CNN
@@ -728,7 +728,7 @@ Wire Wire Line
 	8150 5400 8250 5400
 Connection ~ 8250 5400
 $Comp
-L daffodil-rescue:HEATSINK J3
+L Mechanical:Heatsink J3
 U 1 1 569FDCB2
 P 7900 7500
 F 0 "J3" H 7900 7700 50  0000 C CNN
