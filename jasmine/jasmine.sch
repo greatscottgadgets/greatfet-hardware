@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "GreatFET Neighbor Template"
 Date "2015-09-24"
 Rev ""
@@ -17,22 +17,22 @@ $EndDescr
 Text Label 5250 7700 1    40   ~ 0
 P2_8
 $Comp
-L jasmine-rescue:CONN_02X20 J2
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 55EAB4B7
-P 5600 7250
-F 0 "J2" H 5600 8300 50  0000 C CNN
-F 1 "NEIGHBOR2" V 5600 7250 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 5600 6300 60  0001 C CNN
-F 3 "" H 5600 6300 60  0000 C CNN
-F 4 "Samtec" H 5600 7250 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 5600 7250 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 5600 7250 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 5600 7250 60  0001 C CNN "Note"
-	1    5600 7250
+P 5550 7300
+F 0 "J2" H 5600 8350 50  0000 C CNN
+F 1 "NEIGHBOR2" V 5600 7300 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 5550 6350 60  0001 C CNN
+F 3 "" H 5550 6350 60  0000 C CNN
+F 4 "Samtec" H 5550 7300 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 5550 7300 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 5550 7300 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 5550 7300 60  0001 C CNN "Note"
+	1    5550 7300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR01
+L power:GND #PWR01
 U 1 1 55EACE84
 P 4650 7700
 F 0 "#PWR01" H 4650 7450 50  0001 C CNN
@@ -43,7 +43,7 @@ F 3 "" H 4650 7700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR02
+L power:GND #PWR02
 U 1 1 55EAECD0
 P 14900 3750
 F 0 "#PWR02" H 14900 3500 50  0001 C CNN
@@ -56,18 +56,18 @@ $EndComp
 Text Label 4650 6800 3    40   ~ 0
 +5V
 $Comp
-L jasmine-rescue:CONN_02X20 J1
+L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 55FB1D52
-P 15350 4700
-F 0 "J1" H 15350 5750 50  0000 C CNN
-F 1 "NEIGHBOR1" V 15350 4700 50  0000 C CNN
-F 2 "gsg-modules:HEADER-2x20" H 15350 3750 60  0001 C CNN
-F 3 "" H 15350 3750 60  0000 C CNN
-F 4 "Samtec" H 15350 4700 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-D" H 15350 4700 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15350 4700 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15350 4700 60  0001 C CNN "Note"
-	1    15350 4700
+P 15300 4650
+F 0 "J1" H 15350 5700 50  0000 C CNN
+F 1 "NEIGHBOR1" V 15350 4650 50  0000 C CNN
+F 2 "gsg-modules:HEADER-2x20" H 15300 3700 60  0001 C CNN
+F 3 "" H 15300 3700 60  0000 C CNN
+F 4 "Samtec" H 15300 4650 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15300 4650 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15300 4650 60  0001 C CNN "Description"
+F 7 "Alternate: https://www.adafruit.com/products/2223" H 15300 4650 60  0001 C CNN "Note"
+	1    15300 4650
 	1    0    0    -1  
 $EndComp
 Text Label 15800 3850 2    40   ~ 0
@@ -259,7 +259,7 @@ P2_12
 Text Label 14950 7550 1    40   ~ 0
 P2_13
 $Comp
-L jasmine-rescue:GND #PWR03
+L power:GND #PWR03
 U 1 1 560E00A9
 P 14250 7550
 F 0 "#PWR03" H 14250 7300 50  0001 C CNN
@@ -272,17 +272,17 @@ $EndComp
 Text Notes 14750 7750 1    40   ~ 0
 BOOT
 $Comp
-L jasmine-rescue:CONN_01X20 J7
+L Connector_Generic:Conn_01x20 J7
 U 1 1 560E713A
-P 15200 7000
-F 0 "J7" H 15200 8050 50  0000 C CNN
-F 1 "BONUS_ROW" V 15300 7000 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x20" H 15200 7000 60  0001 C CNN
-F 3 "" H 15200 7000 60  0000 C CNN
-F 4 "Samtec" H 15200 7000 60  0001 C CNN "Manufacturer"
-F 5 "SSQ-120-23-G-S" H 15200 7000 60  0001 C CNN "Part Number"
-F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15200 7000 60  0001 C CNN "Description"
-	1    15200 7000
+P 15150 7000
+F 0 "J7" H 15150 8050 50  0000 C CNN
+F 1 "BONUS_ROW" V 15250 7000 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x20" H 15150 7000 60  0001 C CNN
+F 3 "" H 15150 7000 60  0000 C CNN
+F 4 "Samtec" H 15150 7000 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-S" H 15150 7000 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15150 7000 60  0001 C CNN "Description"
+	1    15150 7000
 	0    -1   -1   0   
 $EndComp
 Text Label 14650 7550 1    40   ~ 0
@@ -290,7 +290,7 @@ ADC0_2
 Text Label 14550 7550 1    40   ~ 0
 ADC0_5
 $Comp
-L jasmine-rescue:CONN_01X01 MH3
+L Connector_Generic:Conn_01x01 MH3
 U 1 1 5600EED5
 P 13650 850
 F 0 "MH3" H 13600 950 50  0000 C CNN
@@ -302,7 +302,7 @@ F 4 "DNP" H 13650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR04
+L power:GND #PWR04
 U 1 1 5600F9D3
 P 13650 1150
 F 0 "#PWR04" H 13650 900 50  0001 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 13650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:CONN_01X01 MH4
+L Connector_Generic:Conn_01x01 MH4
 U 1 1 560100F3
 P 14150 1000
 F 0 "MH4" H 14100 1100 50  0000 C CNN
@@ -325,7 +325,7 @@ F 4 "DNP" H 14150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR05
+L power:GND #PWR05
 U 1 1 560100F9
 P 14150 1300
 F 0 "#PWR05" H 14150 1050 50  0001 C CNN
@@ -336,7 +336,7 @@ F 3 "" H 14150 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:CONN_01X01 MH1
+L Connector_Generic:Conn_01x01 MH1
 U 1 1 56010ADB
 P 12650 850
 F 0 "MH1" H 12600 950 50  0000 C CNN
@@ -348,7 +348,7 @@ F 4 "DNP" H 12650 850 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR06
+L power:GND #PWR06
 U 1 1 56010AE1
 P 12650 1150
 F 0 "#PWR06" H 12650 900 50  0001 C CNN
@@ -359,7 +359,7 @@ F 3 "" H 12650 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:CONN_01X01 MH2
+L Connector_Generic:Conn_01x01 MH2
 U 1 1 56010AE9
 P 13150 1000
 F 0 "MH2" H 13100 1100 50  0000 C CNN
@@ -371,7 +371,7 @@ F 4 "DNP" H 13150 1000 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR07
+L power:GND #PWR07
 U 1 1 56010AEF
 P 13150 1300
 F 0 "#PWR07" H 13150 1050 50  0001 C CNN
@@ -388,7 +388,7 @@ RESET
 Text Label 15050 7550 1    40   ~ 0
 RTC_ALARM
 $Comp
-L jasmine-rescue:GND #PWR08
+L power:GND #PWR08
 U 1 1 56035FE9
 P 16050 7550
 F 0 "#PWR08" H 16050 7300 50  0001 C CNN
@@ -399,7 +399,7 @@ F 3 "" H 16050 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:MCP73831T U1
+L gsg-symbols:MCP73831T U1
 U 1 1 59FBAD6C
 P 7700 4150
 F 0 "U1" H 7700 4350 60  0000 C CNN
@@ -413,7 +413,7 @@ F 6 "IC CONTROLLR LI-ION 4.2V SOT23-5" H 7700 4150 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR010
+L power:GND #PWR010
 U 1 1 59FBB035
 P 8200 3900
 F 0 "#PWR010" H 8200 3650 50  0001 C CNN
@@ -424,7 +424,7 @@ F 3 "" H 8200 3900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:USB-MICRO-B-SHIELDED J3
+L gsg-symbols:USB-MICRO-B-SHIELDED J3
 U 1 1 59FBB592
 P 4650 4050
 F 0 "J3" H 4800 4350 60  0000 C CNN
@@ -438,7 +438,7 @@ F 6 "CONN RCPT REV MICRO USB TYPE B" H 4650 4050 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR011
+L power:GND #PWR011
 U 1 1 59FBB782
 P 5000 3750
 F 0 "#PWR011" H 5000 3500 50  0001 C CNN
@@ -449,7 +449,7 @@ F 3 "" H 5000 3750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:C C1
+L Device:C C1
 U 1 1 59FBBDD8
 P 6800 3900
 F 0 "C1" H 6825 4000 50  0000 L CNN
@@ -463,7 +463,7 @@ F 6 "CAP CER 4.7UF 6.3V X5R 0603" H 6800 3900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR012
+L power:GND #PWR012
 U 1 1 59FBBE3D
 P 6800 3650
 F 0 "#PWR012" H 6800 3400 50  0001 C CNN
@@ -474,7 +474,7 @@ F 3 "" H 6800 3650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:R R1
+L Device:R R1
 U 1 1 59FBC056
 P 7150 3250
 F 0 "R1" V 7230 3250 50  0000 C CNN
@@ -488,7 +488,7 @@ F 6 "RES 330 OHM 1/10W 1% 0603 SMD" H 7150 3250 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:LED D3
+L Device:LED D3
 U 1 1 59FBC22B
 P 7150 3700
 F 0 "D3" H 7150 3800 50  0000 C CNN
@@ -502,7 +502,7 @@ F 6 "LED GREEN DIFFUSED 0603 SMD" H 7150 3700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:C C2
+L Device:C C2
 U 1 1 59FE2919
 P 8650 4550
 F 0 "C2" H 8675 4650 50  0000 L CNN
@@ -516,21 +516,21 @@ F 6 "CAP CER 4.7UF 6.3V X5R 0603" H 8650 4550 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:2PIN_BATT_CONN J4
+L Connector_Generic:Conn_01x02 J4
 U 1 1 59FE2C0E
-P 9050 5100
-F 0 "J4" H 9050 5250 50  0000 C CNN
-F 1 "LIPO_BATT_CONN" V 9150 5100 50  0000 C CNN
-F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9050 5100 50  0001 C CNN
-F 3 "" H 9050 5100 50  0000 C CNN
-F 4 "JST Sales America Inc." H 9050 5100 60  0001 C CNN "Manufacturer"
-F 5 "S2B-PH-SM4-TB(LF)(SN)" H 9050 5100 60  0001 C CNN "Part Number"
-F 6 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9050 5100 60  0001 C CNN "Description"
-	1    9050 5100
+P 9000 5100
+F 0 "J4" H 9000 5200 50  0000 C CNN
+F 1 "LIPO_BATT_CONN" V 9100 5050 50  0000 C CNN
+F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9000 5100 50  0001 C CNN
+F 3 "" H 9000 5100 50  0000 C CNN
+F 4 "JST Sales America Inc." H 9000 5100 60  0001 C CNN "Manufacturer"
+F 5 "S2B-PH-SM4-TB(LF)(SN)" H 9000 5100 60  0001 C CNN "Part Number"
+F 6 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9000 5100 60  0001 C CNN "Description"
+	1    9000 5100
 	0    -1   1    0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR013
+L power:GND #PWR013
 U 1 1 59FE2FC4
 P 8650 4800
 F 0 "#PWR013" H 8650 4550 50  0001 C CNN
@@ -541,7 +541,7 @@ F 3 "" H 8650 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR014
+L power:GND #PWR014
 U 1 1 59FE2FF4
 P 9000 4100
 F 0 "#PWR014" H 9000 3850 50  0001 C CNN
@@ -552,19 +552,19 @@ F 3 "" H 9000 4100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:2PIN_BATT_CONN P5
+L Connector_Generic:Conn_01x02 P5
 U 1 1 59FE3399
-P 10150 3900
-F 0 "P5" H 10150 4050 50  0000 C CNN
-F 1 "3.7_VDC" V 10250 3900 50  0000 C CNN
-F 2 "gsg-modules:HEADER-1x2" H 10150 3900 50  0001 C CNN
-F 3 "" H 10150 3900 50  0000 C CNN
-F 4 "DNP" H 10150 3750 50  0000 C CNN "Note"
-	1    10150 3900
+P 10100 3900
+F 0 "P5" H 10100 4000 50  0000 C CNN
+F 1 "3.7_VDC" V 10200 3850 50  0000 C CNN
+F 2 "gsg-modules:HEADER-1x2" H 10100 3900 50  0001 C CNN
+F 3 "" H 10100 3900 50  0000 C CNN
+F 4 "DNP" H 10100 3700 50  0000 C CNN "Note"
+	1    10100 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR015
+L power:GND #PWR015
 U 1 1 59FE354D
 P 10200 4350
 F 0 "#PWR015" H 10200 4100 50  0001 C CNN
@@ -575,7 +575,7 @@ F 3 "" H 10200 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR016
+L power:GND #PWR016
 U 1 1 59FF8F1D
 P 8500 1450
 F 0 "#PWR016" H 8500 1200 50  0001 C CNN
@@ -586,7 +586,7 @@ F 3 "" H 8500 1450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:D D1
+L Device:D D1
 U 1 1 5A00A731
 P 5500 5050
 F 0 "D1" H 5500 5150 50  0000 C CNN
@@ -600,7 +600,7 @@ F 6 "DIODE SCHOTTKY 30V 5A SOD128" H 5500 5050 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L jasmine-rescue:GND #PWR017
+L power:GND #PWR017
 U 1 1 5A00B530
 P 11900 8900
 F 0 "#PWR017" H 11900 8650 50  0001 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 11900 8900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R5
+L Device:R R5
 U 1 1 5A01D2FF
 P 11900 8650
 F 0 "R5" V 11980 8650 50  0000 C CNN
@@ -630,7 +630,7 @@ NoConn ~ 4900 3950
 NoConn ~ 4900 4050
 NoConn ~ 4900 4150
 $Comp
-L jasmine-rescue:D D2
+L Device:D D2
 U 1 1 5A0210B2
 P 6900 5950
 F 0 "D2" H 6900 6050 50  0000 C CNN
@@ -676,7 +676,7 @@ $EndComp
 NoConn ~ 4400 3600
 NoConn ~ 950  5700
 $Comp
-L jasmine-rescue:R R6
+L Device:R R6
 U 1 1 5A0B8DD0
 P 7050 7600
 F 0 "R6" V 7130 7600 50  0000 C CNN
@@ -690,7 +690,7 @@ F 6 "RES SMD 0.0OHM JUMPER 1/10W 0603" H 7050 7600 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L jasmine-rescue:TEST_2P W1
+L Connector:TestPoint_2Pole W1
 U 1 1 5A0B9184
 P 7050 8200
 F 0 "W1" H 7050 8260 50  0000 C CNN
@@ -702,7 +702,7 @@ F 4 "DNP" H 7050 8200 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:TEST_2P W2
+L Connector:TestPoint_2Pole W2
 U 1 1 5A0B9211
 P 7050 8000
 F 0 "W2" H 7050 8060 50  0000 C CNN
@@ -1046,17 +1046,17 @@ Wire Wire Line
 	6800 4250 7300 4250
 NoConn ~ 8450 5850
 $Comp
-L jasmine-rescue:2PIN_BATT_CONN J5
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5C453CE9
-P 9500 3450
-F 0 "J5" V 9465 3312 50  0000 R CNN
-F 1 "2PIN_BATT_CONN" V 9374 3312 50  0000 R CNN
-F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9500 3450 50  0001 C CNN
-F 3 "" H 9500 3450 50  0000 C CNN
-F 4 "S2B-PH-SM4-TB(LF)(SN)" H 9500 3450 50  0001 C CNN "Part Number"
-F 5 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9500 3450 50  0001 C CNN "Description"
-F 6 "DNP" V 9450 3650 50  0000 C TNN "Note"
-	1    9500 3450
+P 9550 3450
+F 0 "J5" V 9550 3250 50  0000 R CNN
+F 1 "2PIN_BATT_CONN" V 9650 3700 50  0000 R CNN
+F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9550 3450 50  0001 C CNN
+F 3 "" H 9550 3450 50  0000 C CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 9550 3450 50  0001 C CNN "Part Number"
+F 5 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9550 3450 50  0001 C CNN "Description"
+F 6 "DNP" V 9550 3600 50  0000 C TNN "Note"
+	1    9550 3450
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1071,7 +1071,7 @@ F 3 "" H 9550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R7
+L Device:R R7
 U 1 1 5C4BEB2A
 P 8200 5700
 F 0 "R7" V 8280 5700 50  0000 C CNN
@@ -1085,7 +1085,7 @@ F 6 "RES 330 OHM 1/10W 5% 0603 SMD" H 8200 5700 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:LED D4
+L Device:LED D4
 U 1 1 5C4BEB34
 P 8200 5250
 F 0 "D4" H 8200 5350 50  0000 C CNN
@@ -1222,7 +1222,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 4900 10050 4900
 $Comp
-L narcissus-rescue:74HC4051 U?
+L gsg-symbols:74HC4051 U?
 U 1 1 5C68B324
 P 12050 7500
 F 0 "U?" V 12103 7022 60  0000 R CNN
@@ -1244,7 +1244,7 @@ F 3 "" H 12500 8050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C6FE109
 P 11950 6550
 F 0 "R?" V 12030 6550 50  0000 C CNN
@@ -1258,7 +1258,7 @@ F 6 "RES 10K OHM 1% 1/8W 0603" H 11950 6550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C70962F
 P 11800 6550
 F 0 "R?" V 11880 6550 50  0000 C CNN
@@ -1272,7 +1272,7 @@ F 6 "RES 10K OHM 1% 1/8W 0603" H 11800 6550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C714B5B
 P 11650 6550
 F 0 "R?" V 11730 6550 50  0000 C CNN
@@ -1286,7 +1286,7 @@ F 6 "RES 10K OHM 1% 1/8W 0603" H 11650 6550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C720083
 P 12100 6550
 F 0 "R?" V 12180 6550 50  0000 C CNN
@@ -1300,7 +1300,7 @@ F 6 "RES 10K OHM 1% 1/8W 0603" H 12100 6550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C72B5B1
 P 12100 8150
 F 0 "R?" V 12180 8150 50  0000 C CNN
@@ -1471,7 +1471,7 @@ Wire Wire Line
 Text Label 9900 3450 3    50   ~ 0
 VBAT
 $Comp
-L narcissus-rescue:74HC4051 U?
+L gsg-symbols:74HC4051 U?
 U 1 1 5C7635A2
 P 8350 1900
 F 0 "U?" V 8403 1422 60  0000 R CNN
@@ -2022,7 +2022,7 @@ Connection ~ 8600 3350
 Text Label 9000 3350 2    40   ~ 0
 PROG
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CA35A43
 P 11800 8150
 F 0 "R?" V 11700 8150 50  0000 C CNN
@@ -2040,7 +2040,7 @@ Wire Wire Line
 Wire Wire Line
 	11800 8000 11800 7950
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CAA4E1C
 P 12150 8450
 F 0 "R?" V 12230 8450 50  0000 C CNN
@@ -2150,10 +2150,8 @@ Wire Wire Line
 Wire Wire Line
 	6950 2400 6850 2400
 Connection ~ 6950 2550
-Wire Wire Line
-	6950 2550 7150 2550
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CA628E4
 P 6700 2400
 F 0 "R?" V 6780 2400 50  0000 C CNN
@@ -2196,7 +2194,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 2700 7600 2800
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C7FBB86
 P 7600 2950
 F 0 "R?" V 7680 2950 50  0000 C CNN
@@ -2240,9 +2238,6 @@ Wire Wire Line
 	7950 2900 7950 3000
 Wire Wire Line
 	7950 3000 8400 3000
-Connection ~ 7150 2550
-Wire Wire Line
-	7150 2550 8100 2550
 Wire Wire Line
 	7300 2700 7600 2700
 Connection ~ 7600 2700
@@ -2268,7 +2263,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2000 7200 2000
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5C9F7056
 P 7050 2000
 F 0 "R?" V 7130 2000 50  0000 C CNN
@@ -2335,12 +2330,6 @@ F 3 "" H 4900 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4500 2300 4500 2350
-$Sheet
-S 1200 1350 1600 350 
-U 5C8274CE
-F0 "Energy_Harvester" 50
-F1 "file5C8274CD.sch" 50
-$EndSheet
 $Comp
 L Connector:TestPoint_2Pole T?
 U 1 1 5C8F8250
@@ -2536,7 +2525,7 @@ F 3 "" H 11450 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CDECA18
 P 11700 3750
 F 0 "R?" V 11780 3750 50  0000 C CNN
@@ -2552,7 +2541,7 @@ $EndComp
 Wire Wire Line
 	11900 3750 11850 3750
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CEAEE1B
 P 11800 3450
 F 0 "R?" V 11880 3450 50  0000 C CNN
@@ -2566,7 +2555,7 @@ F 6 "RES 10K OHM 1% 1/8W 0603" H 11800 3450 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L jasmine-rescue:R R?
+L Device:R R?
 U 1 1 5CF4B5B4
 P 11200 3850
 F 0 "R?" V 11280 3850 50  0000 C CNN
@@ -2619,4 +2608,9 @@ Text Notes 11700 2900 0    40   ~ 0
 Need to include a pads to I2C\npins for re-addressing (?)
 Text Notes 13150 8200 0    40   ~ 0
 Add switch for E/ADC pin.
+Connection ~ 7150 2550
+Wire Wire Line
+	7150 2550 8100 2550
+Wire Wire Line
+	6950 2550 7150 2550
 $EndSCHEMATC
