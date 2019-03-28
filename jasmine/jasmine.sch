@@ -5,8 +5,8 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "GreatFET Neighbor Template"
-Date "2015-09-24"
+Title "Jasmine"
+Date "2019-03-27"
 Rev ""
 Comp "Copyright 2015 Michael Ossmann"
 Comment1 "License: GPL v2"
@@ -608,20 +608,6 @@ F 1 "GND" H 11900 8750 50  0000 C CNN
 F 2 "" H 11900 8900 50  0000 C CNN
 F 3 "" H 11900 8900 50  0000 C CNN
 	1    11900 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5A01D2FF
-P 11900 8650
-F 0 "R5" V 11980 8650 50  0000 C CNN
-F 1 "10k" V 11900 8650 50  0000 C CNN
-F 2 "gsg-modules:0603" H 11830 8650 50  0001 C CNN
-F 3 "" H 11900 8650 50  0000 C CNN
-F 4 "Stackpole" H 11900 8650 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 11900 8650 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 11900 8650 60  0001 C CNN "Description"
-	1    11900 8650
 	1    0    0    -1  
 $EndComp
 Text Notes 10300 2050 0    60   ~ 0
@@ -1243,76 +1229,6 @@ F 3 "" H 12500 8050 50  0001 C CNN
 	1    12500 8050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5C6FE109
-P 11950 6550
-F 0 "R?" V 12030 6550 50  0000 C CNN
-F 1 "10k" V 11950 6550 50  0000 C CNN
-F 2 "gsg-modules:0603" H 11880 6550 50  0001 C CNN
-F 3 "" H 11950 6550 50  0000 C CNN
-F 4 "Stackpole" H 11950 6550 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 11950 6550 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 11950 6550 60  0001 C CNN "Description"
-	1    11950 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C70962F
-P 11800 6550
-F 0 "R?" V 11880 6550 50  0000 C CNN
-F 1 "10k" V 11800 6550 50  0000 C CNN
-F 2 "gsg-modules:0603" H 11730 6550 50  0001 C CNN
-F 3 "" H 11800 6550 50  0000 C CNN
-F 4 "Stackpole" H 11800 6550 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 11800 6550 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 11800 6550 60  0001 C CNN "Description"
-	1    11800 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C714B5B
-P 11650 6550
-F 0 "R?" V 11730 6550 50  0000 C CNN
-F 1 "10k" V 11650 6550 50  0000 C CNN
-F 2 "gsg-modules:0603" H 11580 6550 50  0001 C CNN
-F 3 "" H 11650 6550 50  0000 C CNN
-F 4 "Stackpole" H 11650 6550 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 11650 6550 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 11650 6550 60  0001 C CNN "Description"
-	1    11650 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C720083
-P 12100 6550
-F 0 "R?" V 12180 6550 50  0000 C CNN
-F 1 "10k" V 12100 6550 50  0000 C CNN
-F 2 "gsg-modules:0603" H 12030 6550 50  0001 C CNN
-F 3 "" H 12100 6550 50  0000 C CNN
-F 4 "Stackpole" H 12100 6550 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 12100 6550 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 12100 6550 60  0001 C CNN "Description"
-	1    12100 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C72B5B1
-P 12100 8150
-F 0 "R?" V 12180 8150 50  0000 C CNN
-F 1 "10k" V 12100 8150 50  0000 C CNN
-F 2 "gsg-modules:0603" H 12030 8150 50  0001 C CNN
-F 3 "" H 12100 8150 50  0000 C CNN
-F 4 "Stackpole" H 12100 8150 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 12100 8150 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 12100 8150 60  0001 C CNN "Description"
-	1    12100 8150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11650 6700 11650 6950
 Wire Wire Line
@@ -1363,8 +1279,6 @@ Wire Wire Line
 	12200 7950 12250 7950
 Wire Wire Line
 	12250 7950 12250 8200
-Wire Wire Line
-	12250 8200 13050 8200
 $Comp
 L gsg-symbols:SiT1533 X?
 U 1 1 5C836FE1
@@ -1569,7 +1483,7 @@ Wire Wire Line
 	12100 8300 12750 8300
 Text Label 12750 8300 2    40   ~ 0
 +5V
-Text Label 13050 8200 2    40   ~ 0
+Text Label 12950 8200 2    40   ~ 0
 MEASURE_E
 $Comp
 L Device:R R?
@@ -2021,35 +1935,19 @@ Wire Wire Line
 Connection ~ 8600 3350
 Text Label 9000 3350 2    40   ~ 0
 PROG
-$Comp
-L Device:R R?
-U 1 1 5CA35A43
-P 11800 8150
-F 0 "R?" V 11700 8150 50  0000 C CNN
-F 1 "10k" V 11800 8150 50  0000 C CNN
-F 2 "gsg-modules:0603" H 11730 8150 50  0001 C CNN
-F 3 "" H 11800 8150 50  0000 C CNN
-F 4 "Stackpole" H 11800 8150 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 11800 8150 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 11800 8150 60  0001 C CNN "Description"
-	1    11800 8150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11800 8300 11800 8350
-Wire Wire Line
-	11800 8000 11800 7950
 $Comp
 L Device:R R?
 U 1 1 5CAA4E1C
 P 12150 8450
 F 0 "R?" V 12230 8450 50  0000 C CNN
-F 1 "10k" V 12150 8450 50  0000 C CNN
+F 1 "100k" V 12150 8450 50  0000 C CNN
 F 2 "gsg-modules:0603" H 12080 8450 50  0001 C CNN
 F 3 "" H 12150 8450 50  0000 C CNN
 F 4 "Stackpole" H 12150 8450 60  0001 C CNN "Manufacturer"
-F 5 " RNCP0603FTD10K0 " H 12150 8450 60  0001 C CNN "Part Number"
-F 6 "RES 10K OHM 1% 1/8W 0603" H 12150 8450 60  0001 C CNN "Description"
+F 5 "RMCF0603FG100K" H 12150 8450 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 12150 8450 60  0001 C CNN "Description"
 	1    12150 8450
 	0    1    1    0   
 $EndComp
@@ -2317,56 +2215,6 @@ F 6 "Screw Terminal 3.5mm Pitch (2-Pin)" H 4500 2100 50  0001 C CNN "Description
 	1    4500 2100
 	0    1    -1   0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C87339B
-P 4900 2550
-F 0 "#PWR?" H 4900 2300 50  0001 C CNN
-F 1 "GND" H 4905 2377 50  0000 C CNN
-F 2 "" H 4900 2550 50  0001 C CNN
-F 3 "" H 4900 2550 50  0001 C CNN
-	1    4900 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4500 2300 4500 2350
-$Comp
-L Connector:TestPoint_2Pole T?
-U 1 1 5C8F8250
-P 4800 2350
-F 0 "T?" H 4800 2545 50  0000 C CNN
-F 1 "Jumper" H 4800 2454 50  0000 C CNN
-F 2 "" H 4800 2350 50  0001 C CNN
-F 3 "~" H 4800 2350 50  0001 C CNN
-	1    4800 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole T?
-U 1 1 5C8F834A
-P 3800 2350
-F 0 "T?" H 3800 2545 50  0000 C CNN
-F 1 "Jumper" H 3800 2454 50  0000 C CNN
-F 2 "" H 3800 2350 50  0001 C CNN
-F 3 "~" H 3800 2350 50  0001 C CNN
-	1    3800 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 2350 4600 2350
-Connection ~ 4500 2350
-Wire Wire Line
-	5000 2350 5350 2350
-Text Label 5350 2350 2    40   ~ 0
-PZ2
-Wire Wire Line
-	3600 2350 3250 2350
-Text Label 3250 2350 0    40   ~ 0
-PZ1
-Wire Wire Line
-	4000 2350 4400 2350
-Wire Wire Line
-	4400 2350 4400 2300
 Wire Wire Line
 	5350 4250 5350 3150
 Wire Wire Line
@@ -2374,45 +2222,6 @@ Wire Wire Line
 Connection ~ 5350 4250
 Wire Wire Line
 	5350 4250 5500 4250
-Connection ~ 4400 2350
-$Comp
-L Connector:TestPoint_2Pole T?
-U 1 1 5C9A5A19
-P 3800 2650
-F 0 "T?" H 3800 2845 50  0000 C CNN
-F 1 "Jumper" H 3800 2754 50  0000 C CNN
-F 2 "" H 3800 2650 50  0001 C CNN
-F 3 "~" H 3800 2650 50  0001 C CNN
-	1    3800 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2650 4400 2650
-Wire Wire Line
-	3600 2650 3250 2650
-Text Label 3250 2650 0    40   ~ 0
-VINa
-Connection ~ 4400 2650
-$Comp
-L Connector:TestPoint_2Pole T?
-U 1 1 5CA5DBB9
-P 3800 3150
-F 0 "T?" H 3800 3345 50  0000 C CNN
-F 1 "Jumper" H 3800 3254 50  0000 C CNN
-F 2 "" H 3800 3150 50  0001 C CNN
-F 3 "~" H 3800 3150 50  0001 C CNN
-	1    3800 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3150 4400 3150
-Connection ~ 4400 3150
-Wire Wire Line
-	3600 3150 3250 3150
-Text Label 3250 3150 0    40   ~ 0
-VOUTa
-Wire Wire Line
-	4400 2650 4400 2750
 Wire Wire Line
 	4400 3050 4400 3150
 $Comp
@@ -2429,26 +2238,6 @@ F 6 "RES 0 OHM JUMPER 1/10W 0603" H 4400 2900 50  0001 C CNN "Description"
 	1    4400 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5CBD5721
-P 4650 2550
-F 0 "R?" H 4720 2596 50  0000 L CNN
-F 1 "0" V 4650 2550 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4580 2550 50  0001 C CNN
-F 3 "" H 4650 2550 50  0001 C CNN
-F 4 "Stackpole" H 4650 2550 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0603ZT0R00" H 4650 2550 50  0001 C CNN "Part Number"
-F 6 "RES 0 OHM JUMPER 1/10W 0603" H 4650 2550 50  0001 C CNN "Description"
-	1    4650 2550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2350 4500 2550
-Wire Wire Line
-	4400 2350 4400 2650
-Wire Wire Line
-	4800 2550 4900 2550
 $Comp
 L power:VBUS #PWR?
 U 1 1 5CC6CDA0
@@ -2606,11 +2395,171 @@ Wire Wire Line
 	11450 3750 11450 3650
 Text Notes 11700 2900 0    40   ~ 0
 Need to include a pads to I2C\npins for re-addressing (?)
-Text Notes 13150 8200 0    40   ~ 0
-Add switch for E/ADC pin.
+Text Notes 13200 8850 0    40   ~ 0
+Add switch for E/ADC pin.\n(Beyond the I/O expander?)
 Connection ~ 7150 2550
 Wire Wire Line
 	7150 2550 8100 2550
 Wire Wire Line
 	6950 2550 7150 2550
+Wire Wire Line
+	12250 8200 12950 8200
+Wire Wire Line
+	12300 8450 13050 8450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CB0DE3A
+P 13050 8450
+F 0 "TP?" V 13004 8638 50  0000 L CNN
+F 1 "TestPoint" V 13095 8638 50  0000 L CNN
+F 2 "" H 13250 8450 50  0001 C CNN
+F 3 "~" H 13250 8450 50  0001 C CNN
+	1    13050 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CB367DF
+P 11900 8650
+F 0 "R?" V 11980 8650 50  0000 C CNN
+F 1 "100k" V 11900 8650 50  0000 C CNN
+F 2 "gsg-modules:0603" H 11830 8650 50  0001 C CNN
+F 3 "" H 11900 8650 50  0000 C CNN
+F 4 "Stackpole" H 11900 8650 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 11900 8650 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 11900 8650 60  0001 C CNN "Description"
+	1    11900 8650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CBAE139
+P 11800 8150
+F 0 "R?" V 11880 8150 50  0000 C CNN
+F 1 "100k" V 11800 8150 50  0000 C CNN
+F 2 "gsg-modules:0603" H 11730 8150 50  0001 C CNN
+F 3 "" H 11800 8150 50  0000 C CNN
+F 4 "Stackpole" H 11800 8150 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 11800 8150 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 11800 8150 60  0001 C CNN "Description"
+	1    11800 8150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11800 7950 11800 8000
+$Comp
+L Device:R R?
+U 1 1 5CC4D867
+P 12100 8150
+F 0 "R?" V 12180 8150 50  0000 C CNN
+F 1 "100k" V 12100 8150 50  0000 C CNN
+F 2 "gsg-modules:0603" H 12030 8150 50  0001 C CNN
+F 3 "" H 12100 8150 50  0000 C CNN
+F 4 "Stackpole" H 12100 8150 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 12100 8150 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 12100 8150 60  0001 C CNN "Description"
+	1    12100 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCC5252
+P 12100 6550
+F 0 "R?" V 12000 6550 50  0000 C CNN
+F 1 "100k" V 12100 6550 50  0000 C CNN
+F 2 "gsg-modules:0603" H 12030 6550 50  0001 C CNN
+F 3 "" H 12100 6550 50  0000 C CNN
+F 4 "Stackpole" H 12100 6550 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 12100 6550 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 12100 6550 60  0001 C CNN "Description"
+	1    12100 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CCECF79
+P 11800 6550
+F 0 "R?" V 11880 6550 50  0000 C CNN
+F 1 "100k" V 11800 6550 50  0000 C CNN
+F 2 "gsg-modules:0603" H 11730 6550 50  0001 C CNN
+F 3 "" H 11800 6550 50  0000 C CNN
+F 4 "Stackpole" H 11800 6550 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 11800 6550 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 11800 6550 60  0001 C CNN "Description"
+	1    11800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD14CA8
+P 11650 6550
+F 0 "R?" V 11730 6550 50  0000 C CNN
+F 1 "100k" V 11650 6550 50  0000 C CNN
+F 2 "gsg-modules:0603" H 11580 6550 50  0001 C CNN
+F 3 "" H 11650 6550 50  0000 C CNN
+F 4 "Stackpole" H 11650 6550 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 11650 6550 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 11650 6550 60  0001 C CNN "Description"
+	1    11650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CD3C9CF
+P 11950 6550
+F 0 "R?" V 12030 6550 50  0000 C CNN
+F 1 "100k" V 11950 6550 50  0000 C CNN
+F 2 "gsg-modules:0603" H 11880 6550 50  0001 C CNN
+F 3 "" H 11950 6550 50  0000 C CNN
+F 4 "Stackpole" H 11950 6550 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FG100K" H 11950 6550 60  0001 C CNN "Part Number"
+F 6 "RES 100K OHM 1% 1/10W 0603" H 11950 6550 60  0001 C CNN "Description"
+	1    11950 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2300 4400 2750
+Wire Wire Line
+	4500 2300 4500 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5CEEEF88
+P 4500 2550
+F 0 "#PWR?" H 4500 2300 50  0001 C CNN
+F 1 "GND" V 4505 2422 50  0000 R CNN
+F 2 "" H 4500 2550 50  0001 C CNN
+F 3 "" H 4500 2550 50  0001 C CNN
+	1    4500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEEF161
+P 4100 3150
+F 0 "R?" H 4170 3196 50  0000 L CNN
+F 1 "DNP" V 4100 3150 50  0000 C CNN
+F 2 "gsg-modules:0603" V 4030 3150 50  0001 C CNN
+F 3 "" H 4100 3150 50  0001 C CNN
+F 4 "DNP" H 4100 3150 50  0001 C CNN "Note"
+	1    4100 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF5DEBA
+P 3800 3150
+F 0 "#PWR?" H 3800 2900 50  0001 C CNN
+F 1 "GND" V 3805 3022 50  0000 R CNN
+F 2 "" H 3800 3150 50  0001 C CNN
+F 3 "" H 3800 3150 50  0001 C CNN
+	1    3800 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3150 4400 3150
+Connection ~ 4400 3150
+Wire Wire Line
+	3950 3150 3800 3150
+Text Notes 2850 2950 0    50   ~ 0
+Populate to make a voltage divider\nfor higher voltage input sources.
 $EndSCHEMATC
