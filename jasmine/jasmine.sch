@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:jasmine-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -518,15 +518,15 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 59FE2C0E
-P 9000 5100
-F 0 "J4" H 9000 5200 50  0000 C CNN
-F 1 "LIPO_BATT_CONN" V 9100 5050 50  0000 C CNN
-F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9000 5100 50  0001 C CNN
-F 3 "" H 9000 5100 50  0000 C CNN
-F 4 "JST Sales America Inc." H 9000 5100 60  0001 C CNN "Manufacturer"
-F 5 "S2B-PH-SM4-TB(LF)(SN)" H 9000 5100 60  0001 C CNN "Part Number"
-F 6 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9000 5100 60  0001 C CNN "Description"
-	1    9000 5100
+P 8950 5100
+F 0 "J4" H 8950 5200 50  0000 C CNN
+F 1 "LIPO_BATT_CONN" V 9050 5050 50  0000 C CNN
+F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 8950 5100 50  0001 C CNN
+F 3 "" H 8950 5100 50  0000 C CNN
+F 4 "JST Sales America Inc." H 8950 5100 60  0001 C CNN "Manufacturer"
+F 5 "S2B-PH-SM4-TB(LF)(SN)" H 8950 5100 60  0001 C CNN "Part Number"
+F 6 "CONN HEADER PH SIDE 2POS 2MM SMD" H 8950 5100 60  0001 C CNN "Description"
+	1    8950 5100
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -543,12 +543,12 @@ $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 59FE2FF4
-P 9000 4100
-F 0 "#PWR014" H 9000 3850 50  0001 C CNN
-F 1 "GND" H 9000 3950 50  0000 C CNN
-F 2 "" H 9000 4100 50  0000 C CNN
-F 3 "" H 9000 4100 50  0000 C CNN
-	1    9000 4100
+P 9050 4100
+F 0 "#PWR014" H 9050 3850 50  0001 C CNN
+F 1 "GND" H 9050 3950 50  0000 C CNN
+F 2 "" H 9050 4100 50  0000 C CNN
+F 3 "" H 9050 4100 50  0000 C CNN
+	1    9050 4100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -736,8 +736,6 @@ NoConn ~ 15800 4150
 NoConn ~ 15800 4050
 NoConn ~ 15800 3950
 NoConn ~ 15800 3850
-NoConn ~ 4750 6800
-NoConn ~ 4850 6800
 NoConn ~ 4950 6800
 NoConn ~ 5050 6800
 NoConn ~ 5150 6800
@@ -989,7 +987,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3400 7150 3550
 Wire Wire Line
-	7150 3850 7150 4050
+	7150 3850 7150 4000
 Wire Wire Line
 	7150 4050 7300 4050
 Wire Wire Line
@@ -998,8 +996,6 @@ Wire Wire Line
 	7150 3100 7150 2950
 Wire Wire Line
 	7150 2950 6500 2950
-Wire Wire Line
-	6500 2950 6500 3200
 Wire Wire Line
 	8100 4250 8650 4250
 Wire Wire Line
@@ -1013,7 +1009,7 @@ Wire Wire Line
 	8600 4150 8100 4150
 Connection ~ 5500 5950
 Wire Wire Line
-	4650 5950 4650 7000
+	4650 5950 4650 6450
 Wire Wire Line
 	4650 5950 5500 5950
 Wire Wire Line
@@ -1030,26 +1026,26 @@ NoConn ~ 8450 5850
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5C453CE9
-P 9550 3450
-F 0 "J5" V 9550 3250 50  0000 R CNN
-F 1 "2PIN_BATT_CONN" V 9650 3700 50  0000 R CNN
-F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9550 3450 50  0001 C CNN
-F 3 "" H 9550 3450 50  0000 C CNN
-F 4 "S2B-PH-SM4-TB(LF)(SN)" H 9550 3450 50  0001 C CNN "Part Number"
-F 5 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9550 3450 50  0001 C CNN "Description"
-F 6 "DNP" V 9550 3600 50  0000 C TNN "Note"
-	1    9550 3450
+P 9450 3450
+F 0 "J5" V 9450 3250 50  0000 R CNN
+F 1 "2PIN_BATT_CONN" V 9550 3700 50  0000 R CNN
+F 2 "gsg-modules:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" H 9450 3450 50  0001 C CNN
+F 3 "" H 9450 3450 50  0000 C CNN
+F 4 "S2B-PH-SM4-TB(LF)(SN)" H 9450 3450 50  0001 C CNN "Part Number"
+F 5 "CONN HEADER PH SIDE 2POS 2MM SMD" H 9450 3450 50  0001 C CNN "Description"
+F 6 "DNP" V 9450 3600 50  0000 C TNN "Note"
+	1    9450 3450
 	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5C45E105
-P 9550 3800
-F 0 "#PWR019" H 9550 3550 50  0001 C CNN
-F 1 "GND" H 9555 3627 50  0000 C CNN
-F 2 "" H 9550 3800 50  0001 C CNN
-F 3 "" H 9550 3800 50  0001 C CNN
-	1    9550 3800
+P 9350 3800
+F 0 "#PWR019" H 9350 3550 50  0001 C CNN
+F 1 "GND" H 9355 3627 50  0000 C CNN
+F 2 "" H 9350 3800 50  0001 C CNN
+F 3 "" H 9350 3800 50  0001 C CNN
+	1    9350 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1129,16 +1125,13 @@ Wire Wire Line
 Wire Wire Line
 	8650 4250 8800 4250
 Wire Wire Line
-	9000 4900 9000 4100
-Wire Wire Line
-	9100 4900 9100 4250
+	9050 4900 9050 4100
 Wire Wire Line
 	8550 5450 8550 5350
 Wire Wire Line
 	8550 5350 9250 5350
 Wire Wire Line
 	9250 5350 9250 4250
-Connection ~ 9100 4250
 Wire Wire Line
 	8650 5850 8650 6000
 Wire Wire Line
@@ -1176,27 +1169,9 @@ F 6 "Slide Switches Microminiature slide SP DT" H 8550 5650 50  0001 C CNN "Desc
 $EndComp
 Wire Wire Line
 	9450 4250 9750 4250
-$Comp
-L Device:R R8
-U 1 1 5C4D8A32
-P 9750 5250
-F 0 "R8" H 9820 5296 50  0000 L CNN
-F 1 "0" V 9750 5250 50  0000 C CNN
-F 2 "gsg-modules:0603" V 9680 5250 50  0001 C CNN
-F 3 "" H 9750 5250 50  0001 C CNN
-F 4 "Stackpole" H 9750 5250 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0603ZT0R00" H 9750 5250 50  0001 C CNN "Part Number"
-F 6 "RES 0 OHM JUMPER 1/10W 0603" H 9750 5250 50  0001 C CNN "Description"
-	1    9750 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 5100 9750 4250
 Connection ~ 9750 4250
 Wire Wire Line
 	9750 4250 9900 4250
-Wire Wire Line
-	9750 5400 9750 5700
 Wire Wire Line
 	10200 4100 10200 4350
 Wire Wire Line
@@ -1353,19 +1328,19 @@ Wire Wire Line
 Wire Wire Line
 	12100 6400 12100 6150
 Text Label 11650 6150 3    50   ~ 0
-VBUS_i
+VBUS
 Text Label 11800 6150 3    50   ~ 0
-VIN_i
+VIN
 Text Label 5700 3850 3    50   ~ 0
-VBUS_i
+VBUS
 Text Label 6200 3850 3    50   ~ 0
-VIN_i
+VIN
 Wire Wire Line
 	8800 4250 8800 3750
 Text Label 8800 3750 3    50   ~ 0
-BATT_i
+BATT
 Text Label 11950 6150 3    50   ~ 0
-BATT_i
+BATT
 NoConn ~ 15050 7550
 Wire Wire Line
 	15150 7550 15150 7200
@@ -1466,8 +1441,6 @@ F 6 "RES 0 OHM JUMPER 1/10W 0603" H 3950 8750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 8450 3950 8450
-Wire Wire Line
 	3950 8450 3950 8600
 Wire Wire Line
 	3950 8900 3950 9100
@@ -1477,12 +1450,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 9600 3950 9750
 Text Label 12100 6150 3    50   ~ 0
-LOAD_i
+LOAD
 Wire Wire Line
 	12100 8300 12750 8300
 Text Label 12750 8300 2    40   ~ 0
 +5V
-Text Label 12950 8200 2    40   ~ 0
+Text Label 13550 8200 2    40   ~ 0
 MEASURE_E
 $Comp
 L Device:R R18
@@ -1756,7 +1729,7 @@ Wire Wire Line
 	9450 3650 9450 4250
 Connection ~ 9450 4250
 Wire Wire Line
-	9550 3650 9550 3800
+	9350 3650 9350 3800
 Wire Wire Line
 	8150 900  8200 900 
 Wire Wire Line
@@ -1813,17 +1786,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 7600 6900 7600
 Wire Wire Line
-	7250 8150 7250 8200
-Wire Wire Line
-	7250 8150 10200 8150
-Wire Wire Line
 	7200 7600 7250 7600
 Wire Wire Line
 	7250 7600 7250 8000
-Wire Wire Line
-	7250 8000 7250 8150
 Connection ~ 7250 8000
-Connection ~ 7250 8150
 Wire Wire Line
 	5050 8000 5050 7500
 Wire Wire Line
@@ -1844,19 +1810,12 @@ Wire Wire Line
 Wire Wire Line
 	4900 5200 5500 5200
 Connection ~ 5500 5200
-Wire Wire Line
-	6500 3200 6150 3200
-Wire Wire Line
-	6150 3200 6150 2650
-Connection ~ 6500 3200
-Wire Wire Line
-	6500 3200 6500 4250
-Text Label 6150 2650 3    50   ~ 0
-STAT_i
+Text Label 7300 2800 3    50   ~ 0
+STAT
 Wire Wire Line
 	11800 8350 11400 8350
 Text Label 11400 8350 0    50   ~ 0
-STAT_i
+STAT
 Wire Wire Line
 	11600 8000 11700 8000
 Wire Wire Line
@@ -1864,12 +1823,12 @@ Wire Wire Line
 Wire Wire Line
 	11300 8000 10850 8000
 Text Label 10850 8000 0    50   ~ 0
-PROG_i
+PROG
 Wire Wire Line
 	8600 3350 9000 3350
 Connection ~ 8600 3350
 Text Label 9000 3350 2    40   ~ 0
-PROG_i
+PROG
 Wire Wire Line
 	11800 8300 11800 8350
 $Comp
@@ -2135,22 +2094,6 @@ Wire Wire Line
 Connection ~ 5350 4250
 Wire Wire Line
 	5350 4250 5500 4250
-Wire Wire Line
-	4400 3050 4400 3150
-$Comp
-L Device:R R4
-U 1 1 5CB3F2F6
-P 4400 2900
-F 0 "R4" H 4470 2946 50  0000 L CNN
-F 1 "0" V 4400 2900 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4330 2900 50  0001 C CNN
-F 3 "" H 4400 2900 50  0001 C CNN
-F 4 "Stackpole" H 4400 2900 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0603ZT0R00" H 4400 2900 50  0001 C CNN "Part Number"
-F 6 "RES 0 OHM JUMPER 1/10W 0603" H 4400 2900 50  0001 C CNN "Description"
-	1    4400 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VBUS #PWR0115
 U 1 1 5CC6CDA0
@@ -2307,11 +2250,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 3750 11450 3650
 Text Notes 11700 2900 0    40   ~ 0
-Need to include a pads to I2C\npins for re-addressing (?)
-Text Notes 13200 8850 0    40   ~ 0
-Add switch for E/ADC pin.\n(Beyond the I/O expander?)
-Wire Wire Line
-	12250 8200 12950 8200
+Extra pads are available for (limited)\nreconfiguration of I2C address.
 Wire Wire Line
 	12300 8450 13050 8450
 $Comp
@@ -2426,8 +2365,6 @@ F 6 "RES 100K OHM 1% 1/10W 0603" H 11950 6550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 2300 4400 2750
-Wire Wire Line
 	4500 2300 4500 2550
 $Comp
 L power:GND #PWR0120
@@ -2440,37 +2377,7 @@ F 3 "" H 4500 2550 50  0001 C CNN
 	1    4500 2550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 5CEEF161
-P 4100 3150
-F 0 "R3" H 4170 3196 50  0000 L CNN
-F 1 "DNP" V 4100 3150 50  0000 C CNN
-F 2 "gsg-modules:0603" V 4030 3150 50  0001 C CNN
-F 3 "" H 4100 3150 50  0001 C CNN
-F 4 "DNP" H 4100 3150 50  0001 C CNN "Note"
-	1    4100 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5CF5DEBA
-P 3800 3150
-F 0 "#PWR0121" H 3800 2900 50  0001 C CNN
-F 1 "GND" V 3805 3022 50  0000 R CNN
-F 2 "" H 3800 3150 50  0001 C CNN
-F 3 "" H 3800 3150 50  0001 C CNN
-	1    3800 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4250 3150 4400 3150
-Connection ~ 4400 3150
-Wire Wire Line
-	3950 3150 3800 3150
-Text Notes 2850 2950 0    50   ~ 0
-Populate to make a voltage divider\nfor higher voltage input sources.
-Text Notes 13150 8300 0    50   ~ 0
+Text Notes 12950 8800 0    50   ~ 0
 Test point is an open voltage divider.\nConnect to a current that you would\nlike to measure.
 $Comp
 L Device:R R25
@@ -2620,18 +2527,159 @@ F 7 "LED_2" H 6550 1850 50  0000 C CNN "Note"
 $EndComp
 Connection ~ 8800 4250
 Wire Wire Line
-	8800 4250 9100 4250
-Wire Wire Line
-	9100 4250 9200 4250
-Wire Wire Line
 	9200 4250 9200 3750
 Connection ~ 9200 4250
 Wire Wire Line
 	9200 4250 9250 4250
 Text Label 9200 3750 3    50   ~ 0
-LOAD_i
+LOAD
 Text Label 15800 3750 2    40   ~ 0
 VCC
 Wire Wire Line
 	15600 3750 15800 3750
+Wire Wire Line
+	4650 6450 4050 6450
+Connection ~ 4650 6450
+Wire Wire Line
+	4650 6450 4650 7000
+Text Label 4050 6450 0    50   ~ 0
++5V
+Wire Wire Line
+	13050 8150 13050 8200
+Wire Wire Line
+	13050 7850 13050 7750
+$Comp
+L power:VCC #PWR0121
+U 1 1 5CB9F17E
+P 13050 7750
+F 0 "#PWR0121" H 13050 7600 50  0001 C CNN
+F 1 "VCC" V 13068 7877 50  0000 L CNN
+F 2 "" H 13050 7750 50  0001 C CNN
+F 3 "" H 13050 7750 50  0001 C CNN
+	1    13050 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CB9F188
+P 13050 8000
+F 0 "R3" V 13130 8000 50  0000 C CNN
+F 1 "10k" V 13050 8000 50  0000 C CNN
+F 2 "gsg-modules:0603" H 12980 8000 50  0001 C CNN
+F 3 "" H 13050 8000 50  0000 C CNN
+F 4 "Stackpole" H 13050 8000 60  0001 C CNN "Manufacturer"
+F 5 " RNCP0603FTD10K0 " H 13050 8000 60  0001 C CNN "Part Number"
+F 6 "RES 10K OHM 1% 1/8W 0603" H 13050 8000 60  0001 C CNN "Description"
+	1    13050 8000
+	-1   0    0    1   
+$EndComp
+Connection ~ 13050 8200
+Wire Wire Line
+	13050 8200 13550 8200
+Wire Wire Line
+	12250 8200 13050 8200
+$Comp
+L gsg-symbols:74LVC1G3157 U5
+U 1 1 5CD747CA
+P 8750 8050
+F 0 "U5" H 8750 8375 50  0000 C CNN
+F 1 "74LVC1G3157" H 8750 8284 50  0000 C CNN
+F 2 "gsg-modules:SOT363" H 8750 8050 50  0001 C CNN
+F 3 "" H 8750 8050 50  0001 C CNN
+F 4 "Diodes Inc." H 8750 8050 50  0001 C CNN "Manufacturer"
+F 5 " 74LVC1G3157DW-7 " H 8750 8050 50  0001 C CNN "Part Number"
+	1    8750 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 8000 7250 8150
+Wire Wire Line
+	10200 8150 9050 8150
+Wire Wire Line
+	8450 8150 7250 8150
+Connection ~ 7250 8150
+Wire Wire Line
+	7250 8150 7250 8200
+NoConn ~ 8450 7950
+$Comp
+L power:GND #PWR0122
+U 1 1 5CE5EA1A
+P 8350 8050
+F 0 "#PWR0122" H 8350 7800 50  0001 C CNN
+F 1 "GND" V 8355 7922 50  0000 R CNN
+F 2 "" H 8350 8050 50  0001 C CNN
+F 3 "" H 8350 8050 50  0001 C CNN
+	1    8350 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0123
+U 1 1 5CE5ECE2
+P 9150 8050
+F 0 "#PWR0123" H 9150 7900 50  0001 C CNN
+F 1 "VCC" V 9167 8178 50  0000 L CNN
+F 2 "" H 9150 8050 50  0001 C CNN
+F 3 "" H 9150 8050 50  0001 C CNN
+	1    9150 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 8050 8350 8050
+Wire Wire Line
+	9050 8050 9150 8050
+Wire Wire Line
+	8800 4250 8950 4250
+Wire Wire Line
+	8950 4900 8950 4250
+Connection ~ 8950 4250
+Wire Wire Line
+	8950 4250 9200 4250
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5CC06B6D
+P 10200 8150
+F 0 "TP6" V 10154 8338 50  0000 L CNN
+F 1 "TestPoint" V 10245 8338 50  0000 L CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 10400 8150 50  0001 C CNN
+F 3 "~" H 10400 8150 50  0001 C CNN
+	1    10200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5CC7DEA7
+P 3950 8450
+F 0 "TP5" V 3904 8638 50  0000 L CNN
+F 1 "TestPoint" V 3995 8638 50  0000 L CNN
+F 2 "gsg-modules:TESTPOINT-50MIL" H 4150 8450 50  0001 C CNN
+F 3 "~" H 4150 8450 50  0001 C CNN
+	1    3950 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 8150
+NoConn ~ 4750 6800
+Connection ~ 3950 8450
+Wire Wire Line
+	3700 8450 3950 8450
+Wire Wire Line
+	4400 2300 4400 3150
+Wire Wire Line
+	6500 2950 6500 4250
+Wire Wire Line
+	7300 4000 7150 4000
+Wire Wire Line
+	7300 2800 7300 4000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 4050
+Wire Wire Line
+	9050 7950 9500 7950
+Text Label 9500 7950 2    50   ~ 0
+P4_5
+Text Notes 8350 8600 0    40   ~ 0
+Switch for ADC protection.\nIf another neighbor needs to use the ADC\n(on the same pin), use this switch to "cut"\nthe trace between the header and the\nresistors on the voltage divider.
+Text Notes 3700 1950 0    50   ~ 0
+Input voltage SHOULD NOT\nEXCEED 6V. If the input voltage\nexceeds 6V, you will damage\nthe MCP73831T.
+Wire Wire Line
+	9750 4250 9750 5700
 $EndSCHEMATC
