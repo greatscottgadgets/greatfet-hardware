@@ -1125,7 +1125,7 @@
   (gr_line (start 177.8508 94.0054) (end 177.8508 95.123) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.9016 92.3544) (end 177.8508 94.0054) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 177.9524 90.5002) (end 177.9016 92.3544) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "18 March 2019" (at 174.34 87.53 90) (layer F.SilkS) (tstamp 560474D3)
+  (gr_text "21 April 2019" (at 174.34 87.53 90) (layer F.SilkS) (tstamp 560474D3)
     (effects (font (size 1.5 1) (thickness 0.2)))
   )
   (gr_text 3 (at 178.0286 111.633 98.9) (layer In2.Cu)
