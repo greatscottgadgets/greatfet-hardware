@@ -771,7 +771,7 @@
   )
 
   (module gsg-modules:GREATFET-PROTO-AREA (layer F.Cu) (tedit 5C9024CE) (tstamp 5C905971)
-    (at 124.46 96.51)
+    (at 124.46 96.52)
     (path /56085DCC)
     (fp_text reference P1 (at -15.24 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
